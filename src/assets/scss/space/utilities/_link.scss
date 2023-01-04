@@ -1,0 +1,55 @@
+/*------------------------------------
+  Link
+------------------------------------*/
+
+.link {
+  font-weight: $link-font-weight;
+}
+
+@each $color, $value in $theme-colors {
+  .link-#{$color} {
+    @if $link-shade-percentage != 0 {
+      &:hover,
+      &:focus {
+        opacity: $link-hover-opacity;
+      }
+    }
+  }
+}
+
+// Size
+.link-sm {
+  font-size: $link-sm-font-size;
+}
+
+// Bordered
+.link-bordered {
+  border-bottom: $link-bordered-border-width solid $link-bordered-border-color;
+
+  @each $color, $value in $theme-colors {
+    &.link-#{$color} {
+      border-bottom-color: $value;
+    }
+  }
+}
+
+// Collapse
+.link-collapse[aria-expanded="false"] {
+  .link-collapse-default {
+    display: inline-block;
+  }
+
+  .link-collapse-active {
+    display: none;
+  }
+}
+
+.link-collapse[aria-expanded="true"] {
+  .link-collapse-default {
+    display: none;
+  }
+
+  .link-collapse-active {
+    display: inline-block;
+  }
+}

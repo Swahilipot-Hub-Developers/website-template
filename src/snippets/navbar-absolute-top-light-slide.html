@@ -1,0 +1,683 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <!-- Required Meta Tags Always Come First -->
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+  <!-- Title -->
+  <title>Absolute Top Light Slide - Snippets | Space - Multipurpose Responsive Template</title>
+
+  <!-- Favicon -->
+  <link rel="shortcut icon" href="@@autopath/favicon.ico">
+
+  <!-- Font -->
+  <link href="@@vars.themeFont" rel="stylesheet">
+
+  <!-- CSS Implementing Plugins -->
+  <!-- bundlecss:vendor [@@autopath] -->
+  <link rel="stylesheet" href="@@autopath/node_modules/bootstrap-icons/font/bootstrap-icons.css">
+  <link rel="stylesheet" href="@@autopath/assets/vendor/hs-mega-menu/dist/hs-mega-menu.min.css">
+
+  <!-- CSS Space Template -->
+  <!-- bundlecss:theme [@@autopath] @@vars.version -->
+  <link rel="stylesheet" href="@@autopath/assets/css/theme.css">
+  <link rel="stylesheet" href="@@autopath/assets/css/snippets.css">
+</head>
+
+<body>
+  <!-- ========== HEADER ========== -->
+  @@include("@@autopath/partials/navbar/main-absolute-top-light-slide.html", {
+    "category": "",
+    "link": ""
+  })
+  <!-- ========== END HEADER ========== -->
+
+  <!-- ========== MAIN CONTENT ========== -->
+  <main id="content" role="main">
+    <!-- Hero Section -->
+    <div class="bg-primary-dark">
+      <div class="container text-center content-space-3">
+        <h1 class="display-4 text-warning">Absolute Top Light Slide</h1>
+      </div>
+    </div>
+    <!-- End Hero Section -->
+
+    <div class="container content-space-2">
+      <!-- Card -->
+      <div class="card">
+        <!-- Header -->
+        <div class="card-header">
+          <!-- Nav -->
+          <ul class="nav nav-segment" id="navTab1" role="tablist">
+            <li class="nav-item">
+              <a class="nav-link active" id="nav-htmlTab1" href="#nav-html1" data-bs-toggle="pill" data-bs-target="#nav-html1" role="tab" aria-controls="nav-html1" aria-selected="false">HTML</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" id="nav-cssTab1" href="#nav-css1" data-bs-toggle="pill" data-bs-target="#nav-css1" role="tab" aria-controls="nav-css1" aria-selected="false">CSS</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" id="nav-jsTab1" href="#nav-js1" data-bs-toggle="pill" data-bs-target="#nav-js1" role="tab" aria-controls="nav-js1" aria-selected="false">JS</a>
+            </li>
+          </ul>
+          <!-- End Nav -->
+        </div>
+        <!-- End Header -->
+
+        <!-- Tab Content -->
+        <div class="tab-content" id="navTabContent1">
+          <div class="tab-pane fade show active" id="nav-html1" role="tabpanel" aria-labelledby="nav-htmlTab1">
+            <pre>
+              <code class="language-markup" data-lang="html">
+                &lt;!-- ========== HEADER ========== --&gt;
+                &lt;header id="header" class="navbar navbar-expand-lg navbar-end navbar-absolute-top navbar-show-hide navbar-dark"
+                        data-hs-header-options='{
+                          "fixMoment": 500,
+                          "fixEffect": "slide"
+                        }'&gt;
+                  &lt;div class="container"&gt;
+                    &lt;nav class="js-mega-menu navbar-nav-wrap"&gt;
+                      &lt;!-- Default Logo --&gt;
+                      &lt;a class="navbar-brand" href="#" aria-label="Space"&gt;
+                        &lt;img class="navbar-brand-logo" src="./assets/svg/logos/logo.svg" alt="Image Description"&gt;
+                      &lt;/a&gt;
+                      &lt;!-- End Default Logo --&gt;
+
+                      &lt;!-- Toggler --&gt;
+                      &lt;button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation"&gt;
+                        &lt;span class="navbar-toggler-default"&gt;
+                          &lt;i class="bi-list"&gt;&lt;/i&gt;
+                        &lt;/span&gt;
+                        &lt;span class="navbar-toggler-toggled"&gt;
+                          &lt;i class="bi-x"&gt;&lt;/i&gt;
+                        &lt;/span&gt;
+                      &lt;/button&gt;
+                      &lt;!-- End Toggler --&gt;
+
+                      &lt;!-- Collapse --&gt;
+                      &lt;div class="collapse navbar-collapse" id="navbarNavDropdown"&gt;
+                        &lt;div class="navbar-absolute-top-scroller"&gt;
+                          &lt;ul class="navbar-nav"&gt;
+                            &lt;!-- Landings --&gt;
+                            &lt;li class="hs-has-mega-menu nav-item"
+                                data-hs-mega-menu-item-options='{
+                                  "desktop": {
+                                    "maxWidth": "30rem"
+                                  }
+                                }'&gt;
+                              &lt;a id="landingsMegaMenu" class="hs-mega-menu-invoker nav-link dropdown-toggle" aria-current="page" href="#" role="button" aria-expanded="false"&gt;Landings&lt;/a&gt;
+
+                              &lt;!-- Mega Menu --&gt;
+                              &lt;div class="hs-mega-menu hs-position-right-fix dropdown-menu" aria-labelledby="landingsMegaMenu" style="min-width: 30rem;"&gt;
+                                &lt;!-- Main Content --&gt;
+                                &lt;div class="navbar-dropdown-menu-inner"&gt;
+                                  &lt;div class="row"&gt;
+                                    &lt;div class="col-sm mb-3 mb-sm-0"&gt;
+                                      &lt;span class="dropdown-header"&gt;Classic&lt;/span&gt;
+                                      &lt;a class="dropdown-item" href="#"&gt;Corporate&lt;/a&gt;
+                                      &lt;a class="dropdown-item" href="#"&gt;Agency&lt;/a&gt;
+                                      &lt;a class="dropdown-item" href="#"&gt;Consulting&lt;/a&gt;
+                                      &lt;a class="dropdown-item" href="#"&gt;Services&lt;/a&gt;
+                                      &lt;a class="dropdown-item" href="#"&gt;Business&lt;/a&gt;
+                                    &lt;/div&gt;
+
+                                    &lt;div class="col-sm"&gt;
+                                      &lt;span class="dropdown-header"&gt;Apps&lt;/span&gt;
+                                      &lt;a class="dropdown-item" href="#"&gt;Growth&lt;/a&gt;
+                                      &lt;a class="dropdown-item" href="#"&gt;SaaS&lt;/a&gt;
+                                      &lt;a class="dropdown-item" href="#"&gt;Wallet&lt;/a&gt;
+                                      &lt;a class="dropdown-item" href="#"&gt;API&lt;/a&gt;
+                                    &lt;/div&gt;
+                                  &lt;/div&gt;
+                                  &lt;!-- End Row --&gt;
+                                &lt;/div&gt;
+                                &lt;!-- End Main Content --&gt;
+                              &lt;/div&gt;
+                              &lt;!-- End Mega Menu --&gt;
+                            &lt;/li&gt;
+                            &lt;!-- End Landings --&gt;
+
+                            &lt;!-- Pages --&gt;
+                            &lt;li class="hs-has-mega-menu nav-item"&gt;
+                              &lt;a id="pagesMegaMenu" class="hs-mega-menu-invoker nav-link dropdown-toggle" href="#" role="button" aria-expanded="false"&gt;Pages&lt;/a&gt;
+
+                              &lt;!-- Mega Menu --&gt;
+                              &lt;div class="hs-mega-menu hs-position-right dropdown-menu w-100" aria-labelledby="pagesMegaMenu" style="min-width: 42rem;"&gt;
+                                &lt;!-- Main Content --&gt;
+                                &lt;div class="navbar-dropdown-menu-inner"&gt;
+                                  &lt;div class="row"&gt;
+                                    &lt;div class="col-sm-6 col-md"&gt;
+                                      &lt;span class="dropdown-header"&gt;Company&lt;/span&gt;
+                                      &lt;a class="dropdown-item" href="#"&gt;About&lt;/a&gt;
+                                      &lt;a class="dropdown-item" href="#"&gt;Services&lt;/a&gt;
+                                      &lt;a class="dropdown-item" href="#"&gt;Customer Stories&lt;/a&gt;
+                                      &lt;a class="dropdown-item" href="#"&gt;Single Customer Story&lt;/a&gt;
+                                      &lt;a class="dropdown-item" href="#"&gt;Help Center&lt;/a&gt;
+                                      &lt;a class="dropdown-item" href="#"&gt;Help Center Categories&lt;/a&gt;
+                                      &lt;a class="dropdown-item" href="#"&gt;Single Help Center&lt;/a&gt;
+                                    &lt;/div&gt;
+
+                                    &lt;div class="col-sm-6 col-md mb-3 mb-md-0"&gt;
+                                      &lt;span class="dropdown-header invisible"&gt;Company&lt;/span&gt;
+                                      &lt;a class="dropdown-item" href="#"&gt;Careers&lt;/a&gt;
+                                      &lt;a class="dropdown-item" href="#"&gt;Careers Single&lt;/a&gt;
+                                      &lt;a class="dropdown-item" href="#"&gt;Hire Us&lt;/a&gt;
+                                      &lt;a class="dropdown-item" href="#"&gt;Contacts&lt;/a&gt;
+                                      &lt;a class="dropdown-item" href="#"&gt;Log In&lt;/a&gt;
+                                      &lt;a class="dropdown-item" href="#"&gt;Sign Up&lt;/a&gt;
+                                      &lt;a class="dropdown-item" href="#"&gt;Forgot Password&lt;/a&gt;
+                                    &lt;/div&gt;
+
+                                    &lt;div class="col-sm-6 col-md mb-3 mb-md-0"&gt;
+                                      &lt;span class="dropdown-header"&gt;Portfolio&lt;/span&gt;
+                                      &lt;a class="dropdown-item" href="#"&gt;Modern&lt;/a&gt;
+                                      &lt;a class="dropdown-item" href="#"&gt;Classic&lt;/a&gt;
+                                      &lt;a class="dropdown-item" href="#"&gt;Case Study&lt;/a&gt;
+                                    &lt;/div&gt;
+
+                                    &lt;div class="col-sm-6 col-md"&gt;
+                                      &lt;span class="dropdown-header"&gt;Specialty pages&lt;/span&gt;
+                                      &lt;a class="dropdown-item" href="#"&gt;Pricing&lt;/a&gt;
+                                      &lt;a class="dropdown-item" href="#"&gt;Coming Soon&lt;/a&gt;
+                                      &lt;a class="dropdown-item" href="#"&gt;Error 404&lt;/a&gt;
+                                      &lt;a class="dropdown-item" href="#"&gt;Terms &amp; Conditions&lt;/a&gt;
+                                      &lt;a class="dropdown-item" href="#"&gt;Privacy &amp; Policy&lt;/a&gt;
+                                    &lt;/div&gt;
+                                  &lt;/div&gt;
+                                  &lt;!-- End Row --&gt;
+                                &lt;/div&gt;
+                                &lt;!-- End Main Content --&gt;
+                              &lt;/div&gt;
+                              &lt;!-- End Mega Menu --&gt;
+                            &lt;/li&gt;
+                            &lt;!-- End Pages --&gt;
+
+                            &lt;!-- Blog --&gt;
+                            &lt;li class="hs-has-sub-menu nav-item"&gt;
+                              &lt;a id="blogMegaMenu" class="hs-mega-menu-invoker nav-link dropdown-toggle" href="#" role="button" aria-expanded="false"&gt;Blog&lt;/a&gt;
+
+                              &lt;!-- Mega Menu --&gt;
+                              &lt;div class="hs-sub-menu dropdown-menu" aria-labelledby="blogMegaMenu" style="min-width: 12rem;"&gt;
+                                &lt;a class="dropdown-item" href="#"&gt;Classic&lt;/a&gt;
+                                &lt;a class="dropdown-item" href="#"&gt;Author Profile&lt;/a&gt;
+                                &lt;a class="dropdown-item" href="#"&gt;Single Article&lt;/a&gt;
+                              &lt;/div&gt;
+                              &lt;!-- End Mega Menu --&gt;
+                            &lt;/li&gt;
+                            &lt;!-- End Blog --&gt;
+
+                            &lt;!-- Docs --&gt;
+                            &lt;li class="hs-has-mega-menu nav-item"
+                                data-hs-mega-menu-item-options='{
+                                  "desktop": {
+                                    "maxWidth": "20rem"
+                                  }
+                                }'&gt;
+                              &lt;a id="docsMegaMenu" class="hs-mega-menu-invoker nav-link dropdown-toggle" href="#" role="button" aria-expanded="false"&gt;Docs&lt;/a&gt;
+
+                              &lt;!-- Mega Menu --&gt;
+                              &lt;div class="hs-mega-menu hs-position-right dropdown-menu" aria-labelledby="docsMegaMenu" style="min-width: 20rem;"&gt;
+                                &lt;!-- Link --&gt;
+                                &lt;a class="navbar-dropdown-menu-media-link" href="#"&gt;
+                                  &lt;div class="d-flex"&gt;
+                                    &lt;div class="flex-shrink-0"&gt;
+                                      &lt;span class="svg-icon svg-icon-sm text-primary"&gt;
+                                        [@@]include("../../assets/vendor/duotone-icons/gen/gen005.svg")
+                                      &lt;/span&gt;
+                                    &lt;/div&gt;
+
+                                    &lt;div class="flex-grow-1 ms-3"&gt;
+                                      &lt;span class="navbar-dropdown-menu-media-title"&gt;Documentation &lt;span class="badge bg-primary rounded-pill ms-1"&gt;v1.0&lt;/span&gt;&lt;/span&gt;
+                                      &lt;p class="navbar-dropdown-menu-media-desc"&gt;Development guides for building projects with Space&lt;/p&gt;
+                                    &lt;/div&gt;
+                                  &lt;/div&gt;
+                                &lt;/a&gt;
+                                &lt;!-- End Link --&gt;
+
+                                &lt;div class="dropdown-divider"&gt;&lt;/div&gt;
+
+                                &lt;!-- Link --&gt;
+                                &lt;a class="navbar-dropdown-menu-media-link" href="#"&gt;
+                                  &lt;div class="d-flex"&gt;
+                                    &lt;div class="flex-shrink-0"&gt;
+                                      &lt;span class="svg-icon svg-icon-sm text-primary"&gt;
+                                        [@@]include("../../assets/vendor/duotone-icons/cod/cod010.svg")
+                                      &lt;/span&gt;
+                                    &lt;/div&gt;
+
+                                    &lt;div class="flex-grow-1 ms-3"&gt;
+                                      &lt;span class="navbar-dropdown-menu-media-title"&gt;Snippets&lt;/span&gt;
+                                      &lt;p class="navbar-dropdown-menu-media-desc"&gt;Move quickly with copy-to-clipboard feature&lt;/p&gt;
+                                    &lt;/div&gt;
+                                  &lt;/div&gt;
+                                &lt;/a&gt;
+                                &lt;!-- End Link --&gt;
+                              &lt;/div&gt;
+                              &lt;!-- End Mega Menu --&gt;
+                            &lt;/li&gt;
+                            &lt;!-- End Docs --&gt;
+
+                            &lt;li class="nav-divider"&gt;&lt;/li&gt;
+
+                            &lt;!-- Log in --&gt;
+                            &lt;li class="nav-item"&gt;
+                              &lt;a class="js-animation-link btn btn-ghost-secondary btn-no-focus me-2 me-lg-0" href="javascript:;" role="button" data-bs-toggle="modal" data-bs-target="#signupModal"
+                                 data-hs-show-animation-options='{
+                                         "targetSelector": "#signupModalFormLogin",
+                                         "groupName": "idForm"
+                                       }'&gt;Log in&lt;/a&gt;
+
+                              &lt;a class="js-animation-link d-lg-none btn btn-primary" href="javascript:;" role="button" data-bs-toggle="modal" data-bs-target="#signupModal"
+                                 data-hs-show-animation-options='{
+                                         "targetSelector": "#signupModalFormSignup",
+                                         "groupName": "idForm"
+                                       }'&gt;
+                                &lt;i class="bi-person-circle me-1"&gt;&lt;/i&gt; Sign up
+                              &lt;/a&gt;
+                            &lt;/li&gt;
+                            &lt;!-- End Log in --&gt;
+
+                            &lt;!-- Sign up --&gt;
+                            &lt;li class="nav-item"&gt;
+                              &lt;a class="js-animation-link d-none d-lg-inline-block btn btn-primary" href="javascript:;" role="button" data-bs-toggle="modal" data-bs-target="#signupModal"
+                                 data-hs-show-animation-options='{
+                                         "targetSelector": "#signupModalFormSignup",
+                                         "groupName": "idForm"
+                                       }'&gt;
+                                &lt;i class="bi-person-circle me-1"&gt;&lt;/i&gt; Sign up
+                              &lt;/a&gt;
+                            &lt;/li&gt;
+                            &lt;!-- End Sign up --&gt;
+                          &lt;/ul&gt;
+                        &lt;/div&gt;
+                      &lt;/div&gt;
+                      &lt;!-- End Collapse --&gt;
+                    &lt;/nav&gt;
+                  &lt;/div&gt;
+                &lt;/header&gt;
+                &lt;!-- ========== END HEADER ========== --&gt;
+
+                &lt;!-- ========== SECONDARY CONTENTS ========== --&gt;
+                &lt;div class="modal fade" id="signupModal" tabindex="-1" role="dialog" aria-hidden="true"&gt;
+                  &lt;div class="modal-dialog modal-dialog-centered" role="document"&gt;
+                    &lt;div class="modal-content"&gt;
+                      &lt;!-- Header --&gt;
+                      &lt;div class="modal-close"&gt;
+                        &lt;button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"&gt;&lt;/button&gt;
+                      &lt;/div&gt;
+                      &lt;!-- End Header --&gt;
+
+                      &lt;!-- Body --&gt;
+                      &lt;div class="modal-body p-sm-5"&gt;
+                        &lt;!-- Log in --&gt;
+                        &lt;div id="loginModalForm"&gt;
+                          &lt;!-- Heading --&gt;
+                          &lt;div class="text-center mb-7"&gt;
+                            &lt;h4&gt;Log in&lt;/h4&gt;
+                            &lt;p&gt;Don't have an account yet?
+                              &lt;a class="js-animation-link" href="javascript:;" role="button"
+                                 data-hs-show-animation-options='{
+                                       "targetSelector": "#signupModalForm",
+                                       "groupName": "idForm"
+                                     }'&gt;Sign up here&lt;/a&gt;
+                            &lt;/p&gt;
+                          &lt;/div&gt;
+                          &lt;!-- End Heading --&gt;
+
+                          &lt;div class="d-grid gap-2"&gt;
+                            &lt;a class="btn btn-white btn-lg" href="#"&gt;
+                                &lt;span class="d-flex justify-content-center align-items-center"&gt;
+                                  &lt;img class="avatar avatar-xss me-2" src="./assets/svg/brands/google-icon.svg" alt="Image Description"&gt;
+                                  Log in with Google
+                                &lt;/span&gt;
+                            &lt;/a&gt;
+
+                            &lt;a class="js-animation-link btn btn-primary btn-lg" href="#"
+                               data-hs-show-animation-options='{
+                                     "targetSelector": "#loginWithEmailModalForm",
+                                     "groupName": "idForm"
+                                   }'&gt;Log in with Email&lt;/a&gt;
+                          &lt;/div&gt;
+                        &lt;/div&gt;
+                        &lt;!-- End Log in --&gt;
+
+                        &lt;!-- Log in with Modal --&gt;
+                        &lt;div id="loginWithEmailModalForm" style="display: none; opacity: 0;"&gt;
+                          &lt;!-- Heading --&gt;
+                          &lt;div class="text-center mb-7"&gt;
+                            &lt;h4&gt;Log in&lt;/h4&gt;
+                            &lt;p&gt;Don't have an account yet?
+                              &lt;a class="js-animation-link" href="javascript:;" role="button"
+                                 data-hs-show-animation-options='{
+                                       "targetSelector": "#signupModalForm",
+                                       "groupName": "idForm"
+                                     }'&gt;Sign up here&lt;/a&gt;
+                            &lt;/p&gt;
+                          &lt;/div&gt;
+                          &lt;!-- End Heading --&gt;
+
+                          &lt;form class="js-validate needs-validation" novalidate&gt;
+                            &lt;!-- Form --&gt;
+                            &lt;div class="mb-3"&gt;
+                              &lt;label class="form-label" for="loginModalFormEmail"&gt;Your email&lt;/label&gt;
+                              &lt;input type="email" class="form-control form-control-lg" name="email" id="loginModalFormEmail" placeholder="email@site.com" aria-label="email@site.com" required&gt;
+                              &lt;span class="invalid-feedback"&gt;Please enter a valid email address.&lt;/span&gt;
+                            &lt;/div&gt;
+                            &lt;!-- End Form --&gt;
+
+                            &lt;!-- Form --&gt;
+                            &lt;div class="mb-3"&gt;
+                              &lt;div class="d-flex justify-content-between align-items-center"&gt;
+                                &lt;label class="form-label" for="loginModalFormPassword"&gt;Password&lt;/label&gt;
+
+                                &lt;a class="js-animation-link form-label-link" href="javascript:;"
+                                   data-hs-show-animation-options='{
+                                     "targetSelector": "#forgotPasswordModalForm",
+                                     "groupName": "idForm"
+                                   }'&gt;Forgot Password?&lt;/a&gt;
+                              &lt;/div&gt;
+
+                              &lt;input type="password" class="form-control form-control-lg" name="password" id="loginModalFormPassword" placeholder="8+ characters required" aria-label="8+ characters required" required minlength="8"&gt;
+                              &lt;span class="invalid-feedback"&gt;Please enter a valid password.&lt;/span&gt;
+                            &lt;/div&gt;
+                            &lt;!-- End Form --&gt;
+
+                            &lt;div class="d-grid mb-3"&gt;
+                              &lt;button type="submit" class="btn btn-primary btn-lg"&gt;Log in&lt;/button&gt;
+                            &lt;/div&gt;
+                          &lt;/form&gt;
+                        &lt;/div&gt;
+                        &lt;!-- End Log in with Modal --&gt;
+
+                        &lt;!-- Sign up --&gt;
+                        &lt;div id="signupModalForm" style="display: none; opacity: 0;"&gt;
+                          &lt;!-- Heading --&gt;
+                          &lt;div class="text-center mb-7"&gt;
+                            &lt;h4&gt;Sign up&lt;/h4&gt;
+                            &lt;p&gt;Already have an account?
+                              &lt;a class="js-animation-link" href="javascript:;" role="button"
+                                 data-hs-show-animation-options='{
+                                       "targetSelector": "#loginModalForm",
+                                       "groupName": "idForm"
+                                     }'&gt;Log in here&lt;/a&gt;
+                            &lt;/p&gt;
+                          &lt;/div&gt;
+                          &lt;!-- End Heading --&gt;
+
+                          &lt;div class="d-grid gap-3"&gt;
+                            &lt;a class="btn btn-white btn-lg" href="#"&gt;
+                                &lt;span class="d-flex justify-content-center align-items-center"&gt;
+                                  &lt;img class="avatar avatar-xss me-2" src="./assets/svg/brands/google-icon.svg" alt="Image Description"&gt;
+                                  Sign up with Google
+                                &lt;/span&gt;
+                            &lt;/a&gt;
+
+                            &lt;a class="js-animation-link btn btn-primary btn-lg" href="#"
+                               data-hs-show-animation-options='{
+                                     "targetSelector": "#signupWithEmailModalForm",
+                                     "groupName": "idForm"
+                                   }'&gt;Sign up with Email&lt;/a&gt;
+
+                            &lt;div class="text-center"&gt;
+                              &lt;p class="small mb-0"&gt;By continuing you agree to our &lt;a href="#"&gt;Terms and Conditions&lt;/a&gt;&lt;/p&gt;
+                            &lt;/div&gt;
+                          &lt;/div&gt;
+                        &lt;/div&gt;
+                        &lt;!-- End Sign up --&gt;
+
+                        &lt;!-- Sign up with Modal --&gt;
+                        &lt;div id="signupWithEmailModalForm" style="display: none; opacity: 0;"&gt;
+                          &lt;!-- Heading --&gt;
+                          &lt;div class="text-center mb-7"&gt;
+                            &lt;h4&gt;Sign up&lt;/h4&gt;
+                            &lt;p&gt;Already have an account?
+                              &lt;a class="js-animation-link" href="javascript:;" role="button"
+                                 data-hs-show-animation-options='{
+                                       "targetSelector": "#loginModalForm",
+                                       "groupName": "idForm"
+                                     }'&gt;Log in here&lt;/a&gt;
+                            &lt;/p&gt;
+                          &lt;/div&gt;
+                          &lt;!-- End Heading --&gt;
+
+                          &lt;form class="js-validate need-validate" novalidate&gt;
+                            &lt;!-- Form --&gt;
+                            &lt;div class="mb-3"&gt;
+                              &lt;label class="form-label" for="signupModalFormEmail"&gt;Your email&lt;/label&gt;
+                              &lt;input type="email" class="form-control form-control-lg" name="email" id="signupModalFormEmail" placeholder="email@site.com" aria-label="email@site.com" required&gt;
+                              &lt;span class="invalid-feedback"&gt;Please enter a valid email address.&lt;/span&gt;
+                            &lt;/div&gt;
+                            &lt;!-- End Form --&gt;
+
+                            &lt;!-- Form --&gt;
+                            &lt;div class="mb-3"&gt;
+                              &lt;label class="form-label" for="signupModalFormPassword"&gt;Password&lt;/label&gt;
+                              &lt;input type="password" class="form-control form-control-lg" name="password" id="signupModalFormPassword" placeholder="8+ characters required" aria-label="8+ characters required" required&gt;
+                              &lt;span class="invalid-feedback"&gt;Your password is invalid. Please try again.&lt;/span&gt;
+                            &lt;/div&gt;
+                            &lt;!-- End Form --&gt;
+
+                            &lt;!-- Form --&gt;
+                            &lt;div class="mb-3"&gt;
+                              &lt;label class="form-label" for="signupModalFormConfirmPassword"&gt;Confirm password&lt;/label&gt;
+                              &lt;input type="password" class="form-control form-control-lg" name="confirmPassword" id="signupModalFormConfirmPassword" placeholder="8+ characters required" aria-label="8+ characters required" data-hs-validation-equal-field="#signupModalFormPassword" required&gt;
+                              &lt;span class="invalid-feedback"&gt;Password does not match the confirm password.&lt;/span&gt;
+                            &lt;/div&gt;
+                            &lt;!-- End Form --&gt;
+
+                            &lt;div class="d-grid mb-3"&gt;
+                              &lt;button type="submit" class="btn btn-primary btn-lg"&gt;Sign up&lt;/button&gt;
+                            &lt;/div&gt;
+
+                            &lt;div class="text-center"&gt;
+                              &lt;p class="small mb-0"&gt;By continuing you agree to our &lt;a href="#"&gt;Terms and Conditions&lt;/a&gt;&lt;/p&gt;
+                            &lt;/div&gt;
+                          &lt;/form&gt;
+                        &lt;/div&gt;
+                        &lt;!-- End Sign up with Modal --&gt;
+
+                        &lt;!-- Forgot Password --&gt;
+                        &lt;div id="forgotPasswordModalForm" style="display: none; opacity: 0;"&gt;
+                          &lt;!-- Heading --&gt;
+                          &lt;div class="text-center mb-7"&gt;
+                            &lt;h4&gt;Forgot password?&lt;/h4&gt;
+                            &lt;p&gt;Enter the email address you used when you joined and we'll send you instructions to reset your password.&lt;/p&gt;
+                          &lt;/div&gt;
+                          &lt;!-- En dHeading --&gt;
+
+                          &lt;form class="js-validate need-validate" novalidate&gt;
+                            &lt;div class="mb-3"&gt;
+                              &lt;!-- Form --&gt;
+                              &lt;div class="d-flex justify-content-between align-items-center"&gt;
+                                &lt;label class="form-label" for="resetPasswordSrEmailModalForm" tabindex="0"&gt;Your email&lt;/label&gt;
+
+                                &lt;a class="js-animation-link form-label-link" href="javascript:;"
+                                   data-hs-show-animation-options='{
+                                       "targetSelector": "#loginModalForm",
+                                       "groupName": "idForm"
+                                     }'&gt;
+                                  &lt;i class="bi-chevron-left small me-1"&gt;&lt;/i&gt; Back to Log in
+                                &lt;/a&gt;
+                              &lt;/div&gt;
+                              &lt;!-- End Form --&gt;
+
+                              &lt;!-- Form --&gt;
+                              &lt;div class="mb-3"&gt;
+                                &lt;input type="email" class="form-control form-control-lg" name="email" id="resetPasswordSrEmailModalForm" tabindex="1" placeholder="Enter your email address" aria-label="Enter your email address" required data-msg="Please enter a valid email address."&gt;
+                              &lt;/div&gt;
+                              &lt;!-- End Form --&gt;
+
+                              &lt;div class="d-grid"&gt;
+                                &lt;button type="submit" class="btn btn-primary btn-lg"&gt;Submit&lt;/button&gt;
+                              &lt;/div&gt;
+                            &lt;/div&gt;
+                          &lt;/form&gt;
+                        &lt;/div&gt;
+                        &lt;!-- End Forgot Password --&gt;
+                      &lt;/div&gt;
+                      &lt;!-- End Body --&gt;
+
+                      &lt;!-- Footer --&gt;
+                      &lt;div class="modal-footer d-block text-center py-sm-5"&gt;
+                        &lt;small class="text-cap mb-4"&gt;Trusted by the world's best teams&lt;/small&gt;
+
+                        &lt;div class="w-85 mx-auto"&gt;
+                          &lt;div class="row justify-content-between"&gt;
+                            &lt;div class="col"&gt;
+                              &lt;img class="img-fluid" src="./assets/svg/brands/gitlab-gray.svg" alt="Logo"&gt;
+                            &lt;/div&gt;
+                            &lt;!-- End Col --&gt;
+
+                            &lt;div class="col"&gt;
+                              &lt;img class="img-fluid" src="./assets/svg/brands/fitbit-gray.svg" alt="Logo"&gt;
+                            &lt;/div&gt;
+                            &lt;!-- End Col --&gt;
+
+                            &lt;div class="col"&gt;
+                              &lt;img class="img-fluid" src="./assets/svg/brands/flow-xo-gray.svg" alt="Logo"&gt;
+                            &lt;/div&gt;
+                            &lt;!-- End Col --&gt;
+
+                            &lt;div class="col"&gt;
+                              &lt;img class="img-fluid" src="./assets/svg/brands/layar-gray.svg" alt="Logo"&gt;
+                            &lt;/div&gt;
+                            &lt;!-- End Col --&gt;
+                          &lt;/div&gt;
+                        &lt;/div&gt;
+                        &lt;!-- End Row --&gt;
+                      &lt;/div&gt;
+                      &lt;!-- End Footer --&gt;
+                    &lt;/div&gt;
+                  &lt;/div&gt;
+                &lt;/div&gt;
+                &lt;!-- ========== END SECONDARY CONTENTS ========== --&gt;
+              </code>
+            </pre>
+          </div>
+
+          <div class="tab-pane fade" id="nav-css1" role="tabpanel" aria-labelledby="nav-cssTab1">
+            <pre>
+              <code class="language-markup" data-lang="html">
+                &lt;!-- CSS Implementing Plugins --&gt;
+                &lt;link rel="stylesheet" href="@@autopath/assets/vendor/hs-mega-menu/dist/hs-mega-menu.min.css"&gt;
+              </code>
+            </pre>
+          </div>
+
+          <div class="tab-pane fade" id="nav-js1" role="tabpanel" aria-labelledby="nav-jsTab1">
+            <pre>
+              <code class="language-markup" data-lang="html">
+                &lt;!-- JS Implementing Plugins --&gt;
+                &lt;script src="@@autopath/assets/vendor/hs-mega-menu/dist/hs-mega-menu.min.js"&gt;&lt;/script&gt;
+                &lt;script src="@@autopath/assets/vendor/hs-show-animation/dist/hs-show-animation.min.js"&gt;&lt;/script&gt;
+                &lt;script src="@@autopath/assets/vendor/hs-header/dist/hs-header.min.js"&gt;&lt;/script&gt;
+
+                &lt;!-- JS Space --&gt;
+                &lt;script src="@@autopath/assets/js/hs.bs-validation.js"&gt;&lt;/script&gt;
+
+                &lt;!-- JS Plugins Init. --&gt;
+                &lt;script&gt;
+                  (function() {
+                    // INITIALIZATION OF MEGA MENU
+                    // =======================================================
+                    const megaMenu = new HSMegaMenu('.js-mega-menu', {
+                      desktop: {
+                        position: 'left'
+                      }
+                    })
+
+
+                    // INITIALIZATION OF SHOW ANIMATIONS
+                    // =======================================================
+                    new HSShowAnimation('.js-animation-link')
+
+
+                    // INITIALIZATION OF BOOTSTRAP VALIDATION
+                    // =======================================================
+                    HSBsValidation.init('.js-validate', {
+                      onSubmit: data => {
+                        data.event.preventDefault()
+                        alert('Submited')
+                      }
+                    })
+
+
+                    // INITIALIZATION OF HEADER
+                    // =======================================================
+                    new HSHeader('#header').init()
+                  })()
+                &lt;/script&gt;
+              </code>
+            </pre>
+          </div>
+        </div>
+        <!-- End Tab Content -->
+      </div>
+      <!-- End Card -->
+    </div>
+  </main>
+  <!-- ========== END MAIN CONTENT ========== -->
+
+  <!-- ========== SECONDARY CONTENTS ========== -->
+  <!-- Sign Up -->
+  @@include("@@autopath/partials/modal/signup.html")
+
+  <!-- Go To -->
+  @@include("@@autopath/partials/layouts-components/go-to.html")
+  <!-- ========== END SECONDARY CONTENTS ========== -->
+
+  <!-- JS Global Compulsory @@deleteLine:build -->
+  <script src="@@autopath/node_modules/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
+
+  <!-- JS Implementing Plugins -->
+  <!-- bundlejs:vendor [@@autopath] -->
+  <script src="@@autopath/assets/vendor/hs-go-to/dist/hs-go-to.min.js"></script>
+  <script src="@@autopath/assets/vendor/prism/prism.js"></script>
+  <script src="@@autopath/assets/vendor/hs-show-animation/dist/hs-show-animation.min.js"></script>
+  <script src="@@autopath/assets/vendor/hs-mega-menu/dist/hs-mega-menu.min.js"></script>
+  <script src="@@autopath/assets/vendor/hs-header/dist/hs-header.min.js"></script>
+
+  <!-- JS Space -->
+  <!-- bundlejs:theme [@@autopath] -->
+  <script src="@@autopath/assets/js/hs.core.js"></script>
+  <script src="@@autopath/assets/js/hs.bs-validation.js"></script>
+
+  <!-- JS Plugins Init. -->
+  <script>
+    (function() {
+      // INITIALIZATION OF GO TO
+      // =======================================================
+      new HSGoTo('.js-go-to')
+
+
+      // INITIALIZATION OF MEGA MENU
+      // =======================================================
+      const megaMenu = new HSMegaMenu('.js-mega-menu', {
+        desktop: {
+          position: 'left'
+        }
+      })
+
+
+      // INITIALIZATION OF SHOW ANIMATIONS
+      // =======================================================
+      new HSShowAnimation('.js-animation-link')
+
+
+      // INITIALIZATION OF BOOTSTRAP VALIDATION
+      // =======================================================
+      HSBsValidation.init('.js-validate', {
+        onSubmit: data => {
+          data.event.preventDefault()
+          alert('Submited')
+        }
+      })
+
+
+      // INITIALIZATION OF HEADER
+      // =======================================================
+      new HSHeader('#header').init()
+    })()
+  </script>
+</body>
+</html>

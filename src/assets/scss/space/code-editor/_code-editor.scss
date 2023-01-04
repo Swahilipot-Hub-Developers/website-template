@@ -1,0 +1,83 @@
+/*------------------------------------
+  Code Editor
+------------------------------------*/
+
+.code-editor {
+  position: relative;
+  display: flex;
+  height: 100%;
+  z-index: 2;
+  color: $code-editor-color;
+  font-family: $font-family-code;
+  background-color: $code-editor-bg-color;
+  box-shadow: $code-editor-box-shadow;
+  @include border-radius($code-editor-border-radius);
+}
+
+.code-editor-container {
+  display: flex;
+  height: 100%;
+  min-width: $code-editor-min-width;
+}
+
+.code-editor-line-numbers {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  min-width: $code-editor-line-numbers-min-width;
+  text-align: right;
+  background-color: $code-editor-line-numbers-bg-color;
+  color: $code-editor-line-numbers-color;
+  padding: $code-editor-line-numbers-padding-y $code-editor-line-numbers-padding-x;
+}
+
+.code-editor-line-numbers-item {
+  padding: 0 $code-editor-line-numbers-item-padding-x;
+}
+
+.code-editor-typing-area {
+  position: relative;
+  width: $code-editor-typing-area-width;
+  padding: $code-editor-typing-area-padding-y $code-editor-typing-area-padding-x;
+
+  &:not(:first-child)::before {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: $code-editor-typing-area-divider-width;
+    height: 100%;
+    background-color: $code-editor-typing-area-divider-bg-color;
+    content: '';
+  }
+}
+
+// Small Devices
+@include media-breakpoint-down(sm) {
+  .code-editor {
+    width: auto !important;
+  }
+
+  .code-editor-container {
+    overflow: hidden;
+    min-width: auto;
+  }
+
+  .code-editor-typing-area {
+    overflow-x: auto;
+    flex-wrap: nowrap;
+    white-space: nowrap;
+    scroll-behavior: smooth;
+
+    &:nth-child(n + 3) {
+      display: none;
+    }
+
+    &::-webkit-scrollbar {
+      width: $scrollbar-width;
+    }
+
+    &::-webkit-scrollbar-thumb {
+      background-color: $scrollbar-bg-color;
+    }
+  }
+}

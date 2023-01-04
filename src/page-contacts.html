@@ -1,0 +1,394 @@
+<!DOCTYPE html>
+<html lang="@@languageDirection.lang" dir="@@if(languageDirection.isRTL){rtl}">
+  <head>
+    <!-- Required Meta Tags Always Come First -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Title -->
+    <title>Contacts | Space - Multipurpose Responsive Template</title>
+
+    <!-- Favicon -->
+    <link rel="shortcut icon" href="@@autopath/favicon.ico">
+
+    <!-- Font -->
+    <link href="@@vars.themeFont" rel="stylesheet">
+
+    <!-- CSS Implementing Plugins -->
+    <!-- bundlecss:vendor [@@autopath] -->
+    <link rel="stylesheet" href="@@autopath/node_modules/bootstrap-icons/font/bootstrap-icons.css">
+    <link rel="stylesheet" href="@@autopath/assets/vendor/hs-mega-menu/dist/hs-mega-menu.min.css">
+
+    <!-- CSS Space Template -->
+    <!-- bundlecss:theme [@@autopath] @@vars.version -->
+    <link rel="stylesheet" href="@@autopath/assets/css/theme.css">
+  </head>
+
+  <body>
+    <!-- ========== HEADER ========== -->
+    @@include("@@autopath/partials/navbar/main.html", {
+      "category": "pages",
+      "link": "page-contacts.html"
+    })
+    <!-- ========== END HEADER ========== -->
+
+    <!-- ========== MAIN CONTENT ========== -->
+    <main id="content" role="main">
+      <!-- Hero -->
+      <div class="shape-container bg-soft-warning">
+        <div class="position-relative zi-2">
+          <div class="container content-space-1 content-space-md-3">
+            <!-- Heading -->
+            <div class="w-lg-50 mb-5 mb-sm-10">
+              <h1 class="display-3 text-primary">Let's <span class="text-warning">talk</span></h1>
+              <p class="lead">Got a question? Want to learn more about us? Get in touch.</p>
+            </div>
+            <!-- End Heading -->
+
+            <div class="row">
+              <div class="col-md-4 mb-5 mb-md-0">
+                <div class="me-md-6">
+                  <span class="svg-icon text-primary mb-3">
+                    @@include("@@autopath/assets/vendor/duotone-icons/com/com006.svg")
+                  </span>
+
+                  <h5>Sales</h5>
+                  <p>Make your move to connected payments with the help of our advisors.</p>
+                  <a href="#">Get in touch <i class="bi-chevron-right small ms-1"></i></a>
+                </div>
+              </div>
+              <!-- End Col -->
+
+              <div class="col-md-4 mb-5 mb-md-0">
+                <div class="me-md-6">
+                  <span class="svg-icon text-primary mb-3">
+                    @@include("@@autopath/assets/vendor/duotone-icons/com/com007.svg")
+                  </span>
+
+                  <h5>Merchant support</h5>
+                  <p>Got a technical issue or need strategic advice? Our support team is here to help.</p>
+                  <a href="#">Get help <i class="bi-chevron-right small ms-1"></i></a>
+                </div>
+              </div>
+              <!-- End Col -->
+
+              <div class="col-md-4">
+                <div class="me-md-6">
+                  <span class="svg-icon text-primary mb-3">
+                    @@include("@@autopath/assets/vendor/duotone-icons/fin/fin006.svg")
+                  </span>
+
+                  <h5>Partnerships</h5>
+                  <p>Let's team up to boost productivity and accelerate business growth</p>
+                  <a href="#">Become a partner <i class="bi-chevron-right small ms-1"></i></a>
+                </div>
+              </div>
+              <!-- End Col -->
+            </div>
+            <!-- End Row -->
+          </div>
+        </div>
+
+        <!-- Shape -->
+        <div class="shape shape-bottom zi-1">
+          <svg width="3000" height="600" viewBox="0 0 3000 600" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <path d="M0 600H3000V0L0 600Z" fill="#fff"/>
+          </svg>
+        </div>
+        <!-- End Shape -->
+      </div>
+      <!-- End Hero -->
+
+      <!-- Contact Form -->
+      <div class="container content-space-1 content-space-b-md-3">
+        <!-- Heading -->
+        <div class="w-lg-65 mb-7">
+          <h3>Contact sales</h3>
+          <p>Discuss your connected payment needs with one of our global advisors.</p>
+        </div>
+        <!-- End Heading -->
+
+        <div class="row justify-content-md-between">
+          <div class="col-md-6 mb-7 mb-md-0">
+            <!-- Card -->
+            <div class="card card-lg">
+              <!-- Card Body -->
+              <div class="card-body">
+                <form>
+                  <div class="row">
+                    <div class="col-sm-6 mb-4 mb-sm-0">
+                      <!-- Form -->
+                      <div class="mb-4">
+                        <label class="form-label" for="contactsFormFirstName">First name</label>
+                        <input type="text" class="form-control" name="contactsFormNameFirstName" id="contactsFormFirstName" placeholder="Jacob" aria-label="Jacob">
+                      </div>
+                      <!-- End Form -->
+                    </div>
+                    <!-- End Col -->
+
+                    <div class="col-sm-6">
+                      <!-- Form -->
+                      <div class="mb-4">
+                        <label class="form-label" for="contactsFormLasttName">Last name</label>
+                        <input type="text" class="form-control" name="contactsFormNameLastName" id="contactsFormLasttName" placeholder="Williams" aria-label="Williams">
+                      </div>
+                      <!-- End Form -->
+                    </div>
+                    <!-- End Col -->
+                  </div>
+                  <!-- End Row -->
+
+                  <!-- Form -->
+                  <div class="mb-4">
+                    <label class="form-label" for="contactsFormJobTitle">Job title</label>
+                    <input type="text" class="form-control" name="contactsFormNameJobTitle" id="contactsFormJobTitle" placeholder="E-commerce platform" aria-label="E-commerce platform">
+                  </div>
+                  <!-- End Form -->
+
+                  <div class="row">
+                    <div class="col-sm-6 mb-4 mb-sm-0">
+                      <!-- Form -->
+                      <div class="mb-4">
+                        <label class="form-label" for="contactsFormCompany">Company</label>
+                        <input type="text" class="form-control" name="contactsFormNameCompany" id="contactsFormCompany" placeholder="Htmlstream" aria-label="Htmlstream">
+                      </div>
+                      <!-- End Form -->
+                    </div>
+                    <!-- End Col -->
+
+                    <div class="col-sm-6">
+                      <!-- Form -->
+                      <div class="mb-4">
+                        <label class="form-label" for="contactsFormCompanyWebsite">Company website</label>
+                        <input type="text" class="form-control" name="contactsFormNameCompanyWebsite" id="contactsFormCompanyWebsite" placeholder="htmlstream.com" aria-label="htmlstream.com">
+                      </div>
+                      <!-- End Form -->
+                    </div>
+                    <!-- End Col -->
+                  </div>
+                  <!-- End Row -->
+
+                  <!-- Form -->
+                  <div class="mb-4">
+                    <label class="form-label" for="contactsFormWorkEmail">Work email</label>
+                    <input type="text" class="form-control" name="contactsFormNameWorkEmail" id="contactsFormWorkEmail" placeholder="email@site.com" aria-label="email@site.com">
+                  </div>
+                  <!-- End Form -->
+
+                  <!-- Form -->
+                  <div class="mb-4">
+                    <label class="form-label" for="contactsFormDetails">Details</label>
+                    <textarea class="form-control" name="contactsFormNameDetails" id="contactsFormDetails" placeholder="Tell us about your payment sales" aria-label="Tell us about your payment sales" rows="4"></textarea>
+                  </div>
+                  <!-- End Form -->
+
+                  <div class="d-grid">
+                    <button type="submit" class="btn btn-primary btn-lg">Send inquiry</button>
+                  </div>
+                </form>
+              </div>
+              <!-- End Card Body -->
+            </div>
+            <!-- End Card -->
+          </div>
+          <!-- End Col -->
+
+          <div class="col-md-6 col-lg-5">
+            <div class="mb-4">
+              <h6>Contact sales by phone or location</h6>
+            </div>
+
+            <ul class="list-unstyled list-py-1">
+              <li>
+                <div class="d-flex align-items-center">
+                  <div class="flex-shrink-0 text-center" style="width: 1.5rem;">
+                    <img class="avatar avatar-xss avatar-circle" src="@@autopath/node_modules/flag-icon-css/flags/1x1/gb.svg" alt="Image description"/>
+                  </div>
+                  <div class="flex-grow-1 ms-2">
+                    <span>London, UK (HQ)</span>
+                  </div>
+                </div>
+              </li>
+
+              <li>
+                <div class="d-flex align-items-center">
+                  <div class="flex-shrink-0 text-center" style="width: 1.5rem;">
+                    <span class="svg-icon svg-icon-xs text-muted mt-0">
+                      @@include("@@autopath/assets/vendor/duotone-icons/gen/gen018.svg")
+                    </span>
+                  </div>
+                  <div class="flex-grow-1 ms-2">
+                    <span>153 Williamson Plaza, Maggieberg, SE56 FF12</span>
+                  </div>
+                </div>
+              </li>
+
+              <li>
+                <div class="d-flex align-items-center">
+                  <div class="flex-shrink-0 text-center" style="width: 1.5rem;">
+                    <span class="svg-icon svg-icon-xs text-muted mt-0">
+                      @@include("@@autopath/assets/vendor/duotone-icons/elc/elc002.svg")
+                    </span>
+                  </div>
+                  <div class="flex-grow-1 ms-2">
+                    <span>062 1099222</span>
+                  </div>
+                </div>
+              </li>
+            </ul>
+
+            <hr class="my-5">
+
+            <ul class="list-unstyled list-py-1">
+              <li>
+                <div class="d-flex align-items-center">
+                  <div class="flex-shrink-0 text-center" style="width: 1.5rem;">
+                    <img class="avatar avatar-xss avatar-circle" src="@@autopath/node_modules/flag-icon-css/flags/1x1/us.svg" alt="Image description"/>
+                  </div>
+                  <div class="flex-grow-1 ms-2">
+                    <span>San Francisco, US</span>
+                  </div>
+                </div>
+              </li>
+
+              <li>
+                <div class="d-flex align-items-center">
+                  <div class="flex-shrink-0 text-center" style="width: 1.5rem;">
+                    <span class="svg-icon svg-icon-xs text-muted mt-0">
+                      @@include("@@autopath/assets/vendor/duotone-icons/gen/gen018.svg")
+                    </span>
+                  </div>
+                  <div class="flex-grow-1 ms-2">
+                    <span>517  Michigan Avenue, California, 94080</span>
+                  </div>
+                </div>
+              </li>
+
+              <li>
+                <div class="d-flex align-items-center">
+                  <div class="flex-shrink-0 text-center" style="width: 1.5rem;">
+                    <span class="svg-icon svg-icon-xs text-muted mt-0">
+                      @@include("@@autopath/assets/vendor/duotone-icons/elc/elc002.svg")
+                    </span>
+                  </div>
+                  <div class="flex-grow-1 ms-2">
+                    <span>724-597-6746</span>
+                  </div>
+                </div>
+              </li>
+            </ul>
+
+            <hr class="my-5">
+
+            <ul class="list-unstyled list-py-1">
+              <li>
+                <div class="d-flex align-items-center">
+                  <div class="flex-shrink-0 text-center" style="width: 1.5rem;">
+                    <img class="avatar avatar-xss avatar-circle" src="@@autopath/node_modules/flag-icon-css/flags/1x1/de.svg" alt="Image description"/>
+                  </div>
+                  <div class="flex-grow-1 ms-2">
+                    <span>Berlin, Germany</span>
+                  </div>
+                </div>
+              </li>
+
+              <li>
+                <div class="d-flex align-items-center">
+                  <div class="flex-shrink-0 text-center" style="width: 1.5rem;">
+                    <span class="svg-icon svg-icon-xs text-muted mt-0">
+                      @@include("@@autopath/assets/vendor/duotone-icons/gen/gen018.svg")
+                    </span>
+                  </div>
+                  <div class="flex-grow-1 ms-2">
+                    <span>Feldstrasse 62, Drackenstedt, Sachsen-Anhalt</span>
+                  </div>
+                </div>
+              </li>
+
+              <li>
+                <div class="d-flex align-items-center">
+                  <div class="flex-shrink-0 text-center" style="width: 1.5rem;">
+                    <span class="svg-icon svg-icon-xs text-muted mt-0">
+                      @@include("@@autopath/assets/vendor/duotone-icons/elc/elc002.svg")
+                    </span>
+                  </div>
+                  <div class="flex-grow-1 ms-2">
+                    <span>039293 40 53</span>
+                  </div>
+                </div>
+              </li>
+            </ul>
+
+            <div class="mt-5">
+              <h6>Contact sales by email</h6>
+              <p>If you wish to write us an email instead please use <a href="mailto:example@site.com">example@site.com</a></p>
+            </div>
+          </div>
+          <!-- End Col -->
+        </div>
+        <!-- End Row -->
+      </div>
+      <!-- End Contact Form -->
+    </main>
+    <!-- ========== END MAIN CONTENT ========== -->
+
+    <!-- ========== FOOTER ========== -->
+    @@include("@@autopath/partials/footer/main.html")
+    <!-- ========== END FOOTER ========== -->
+
+    <!-- ========== SECONDARY CONTENTS ========== -->
+    <!-- Sign Up -->
+    @@include("@@autopath/partials/modal/signup.html")
+
+    <!-- Go To -->
+    @@include("@@autopath/partials/layouts-components/go-to.html")
+    <!-- ========== END SECONDARY CONTENTS ========== -->
+
+    <!-- JS Global Compulsory @@deleteLine:build -->
+    <script src="@@autopath/node_modules/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
+
+    <!-- JS Implementing Plugins -->
+    <!-- bundlejs:vendor [@@autopath] -->
+    <script src="@@autopath/assets/vendor/hs-mega-menu/dist/hs-mega-menu.min.js"></script>
+    <script src="@@autopath/assets/vendor/hs-show-animation/dist/hs-show-animation.min.js"></script>
+    <script src="@@autopath/assets/vendor/hs-go-to/dist/hs-go-to.min.js"></script>
+
+    <!-- JS Space -->
+    <!-- bundlejs:theme [@@autopath] -->
+    <script src="@@autopath/assets/js/hs.core.js"></script>
+    <script src="@@autopath/assets/js/hs.bs-validation.js"></script>
+
+    <!-- JS Plugins Init. -->
+    <script>
+      (function() {
+        // INITIALIZATION OF MEGA MENU
+        // =======================================================
+        const megaMenu = new HSMegaMenu('.js-mega-menu', {
+          desktop: {
+            position: 'left'
+          }
+        })
+
+
+        // INITIALIZATION OF SHOW ANIMATIONS
+        // =======================================================
+        new HSShowAnimation('.js-animation-link')
+
+
+        // INITIALIZATION OF BOOTSTRAP VALIDATION
+        // =======================================================
+        HSBsValidation.init('.js-validate', {
+          onSubmit: data => {
+            data.event.preventDefault()
+            alert('Submited')
+          }
+        })
+
+
+        // INITIALIZATION OF GO TO
+        // =======================================================
+        new HSGoTo('.js-go-to')
+      })()
+    </script>
+  </body>
+</html>

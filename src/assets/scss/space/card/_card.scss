@@ -1,0 +1,233 @@
+/*------------------------------------
+  Card
+------------------------------------*/
+
+.card {
+  border-width: 0;
+  box-shadow: $card-box-shadow;
+}
+
+.card-header,
+.card-footer {
+  border-width: $card-cap-border-width;
+}
+
+.card-title {
+  margin-bottom: 0;
+
+  &:not(:last-child) {
+    margin-bottom: $card-title-margin-y;
+  }
+}
+
+.card-header-title {
+  margin-bottom: 0;
+
+  &:not(:last-child) {
+    margin-bottom: $card-title-spacer-y;
+  }
+}
+
+.card-link {
+  font-weight: $card-link-font-weight;
+}
+
+// Bordered
+.card-bordered {
+  border-width: $card-border-width;
+}
+
+// Transition
+.card-transition {
+  transition: $card-transition;
+
+  &:hover,
+  &:focus {
+    transform: translateY($card-transition-translateY) !important; // !important need to override the aos.js animation properties
+  }
+}
+
+// Group
+.card-group {
+  .card {
+    box-shadow: none;
+
+    + .card {
+      border-left: $card-border-width solid $card-border-color;
+    }
+  }
+}
+
+// Sizes
+.card-xs {
+  > .card-header,
+  > .card-footer {
+    padding-right: $card-spacer-x-xs;
+    padding-left: $card-spacer-x-xs;
+  }
+
+  > .card-body,
+  > .collapse .card-body {
+    padding: $card-spacer-y-xs $card-spacer-x-xs;
+  }
+
+  .card-table {
+    > tbody > tr:first-child > td {
+      padding-top: $card-spacer-y-xs;
+    }
+
+    > tbody > tr:last-child > td {
+      padding-bottom: $card-spacer-y-xs;
+    }
+
+    > :not(caption) > * > * {
+      padding-right: $card-spacer-x-xs;
+      padding-left: $card-spacer-x-xs;
+    }
+  }
+}
+
+.card-sm {
+  > .card-header,
+  > .card-footer {
+    padding-right: $card-spacer-x-sm;
+    padding-left: $card-spacer-x-sm;
+  }
+
+  > .card-body,
+  > .card-img-overlay,
+  > .collapse .card-body {
+    padding: $card-spacer-y-sm $card-spacer-x-sm;
+  }
+
+  .card-table {
+    > tbody > tr:first-child > td {
+      padding-top: $card-spacer-y-sm;
+    }
+
+    > tbody > tr:last-child > td {
+      padding-bottom: $card-spacer-y-sm;
+    }
+
+    > :not(caption) > * > * {
+      padding-right: $card-spacer-x-sm;
+      padding-left: $card-spacer-x-sm;
+    }
+  }
+}
+
+.card-lg {
+  > .card-header,
+  > .card-footer {
+    padding-right: $card-spacer-x-lg;
+    padding-left: $card-spacer-x-lg;
+  }
+
+  > .card-body,
+  > .card-img-overlay,
+  > .collapse .card-body {
+    padding: $card-spacer-y-lg $card-spacer-x-lg;
+  }
+
+  .card-table {
+    > tbody > tr:first-child > td {
+      padding-top: $card-spacer-y-lg;
+    }
+
+    > tbody > tr:last-child > td {
+      padding-bottom: $card-spacer-y-lg;
+    }
+
+    > :not(caption) > * > * {
+      padding-right: $card-spacer-x-lg;
+      padding-left: $card-spacer-x-lg;
+    }
+  }
+}
+
+// Pinned
+.card-pinned {
+  position: relative;
+  display: block;
+}
+
+.card-pinned-top-start {
+  position: absolute;
+  top: $card-pinned-top-offset;
+  left: $card-pinned-left-offset;
+}
+
+.card-pinned-top-end {
+  position: absolute;
+  top: $card-pinned-top-offset;
+  right: $card-pinned-right-offset;
+}
+
+.card-pinned-bottom-start {
+  position: absolute;
+  bottom: $card-pinned-bottom-offset;
+  left: $card-pinned-left-offset;
+}
+
+.card-pinned-bottom-end {
+  position: absolute;
+  bottom: $card-pinned-bottom-offset;
+  right: $card-pinned-right-offset;
+}
+
+// Flush
+.card-flush {
+  box-shadow: none;
+
+  .card-header,
+  .card-footer,
+  .card-body,
+  .collapse .card-body {
+    padding-right: 0;
+    padding-left: 0;
+  }
+
+  > .card-img-top {
+    @include border-bottom-radius($card-border-radius);
+  }
+
+  &.card-stretched-vertical {
+    .card-body .card-footer {
+      padding-bottom: 0;
+    }
+  }
+}
+
+// Table
+.card {
+  .table {
+    margin-bottom: 0;
+  }
+
+  table > tbody > tr:first-child > td {
+    padding-top: $card-spacer-y;
+  }
+
+  table > tbody > tr:last-child > td {
+    padding-bottom: $card-spacer-y;
+  }
+
+  table > :not(caption) > * > * {
+    padding-right: $card-spacer-x;
+    padding-left: $card-spacer-x;
+  }
+
+  .thead-light th:first-child {
+    @include border-top-start-radius($card-border-radius);
+  }
+
+  .thead-light th:last-child {
+    @include border-top-end-radius($card-border-radius);
+  }
+}
+
+// Alert
+.card-alert {
+  @include border-radius(0);
+  margin-bottom: 0;
+}

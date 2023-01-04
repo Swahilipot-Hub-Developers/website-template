@@ -1,0 +1,72 @@
+<header id="header" class="navbar navbar-expand-lg navbar-end navbar-absolute-top navbar-light navbar-show-hide"
+        data-hs-header-options='{
+          "fixMoment": 500,
+          "fixEffect": "slide"
+        }'>
+  <div class="container">
+    <nav class="js-mega-menu navbar-nav-wrap">
+      <!-- Default Logo -->
+      <a class="navbar-brand" href="@@autopath/index.html" aria-label="Space">
+        <img class="navbar-brand-logo" src="@@autopath/assets/svg/logos/logo.svg" alt="Image Description">
+      </a>
+      <!-- End Default Logo -->
+
+      <!-- Toggler -->
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-default">
+          <i class="bi-list"></i>
+        </span>
+        <span class="navbar-toggler-toggled">
+          <i class="bi-x"></i>
+        </span>
+      </button>
+      <!-- End Toggler -->
+      
+      <!-- Collapse -->
+      <div class="collapse navbar-collapse" id="navbarNavDropdown">
+        <div class="navbar-absolute-top-scroller">
+          <ul class="navbar-nav">
+            @@include("../navbar/navbar-nav-menu.html", {
+            "category": "@@category",
+            "subcategory": "@@subcategory",
+            "link": "@@link"
+          })
+
+            <li class="nav-divider"></li>
+
+            <!-- Log in -->
+            <li class="nav-item">
+              <a class="js-animation-link btn btn-ghost-secondary btn-no-focus me-2 me-lg-0" href="javascript:;" role="button" data-bs-toggle="modal" data-bs-target="#signupModal"
+                 data-hs-show-animation-options='{
+                         "targetSelector": "#signupModalFormLogin",
+                         "groupName": "idForm"
+                       }'>Log in</a>
+
+              <a class="js-animation-link d-lg-none btn btn-primary" href="javascript:;" role="button" data-bs-toggle="modal" data-bs-target="#signupModal"
+                 data-hs-show-animation-options='{
+                         "targetSelector": "#signupModalFormSignup",
+                         "groupName": "idForm"
+                       }'>
+                <i class="bi-person-circle me-1"></i> Sign up
+              </a>
+            </li>
+            <!-- End Log in -->
+
+            <!-- Sign up -->
+            <li class="nav-item">
+              <a class="js-animation-link d-none d-lg-inline-block btn btn-primary" href="javascript:;" role="button" data-bs-toggle="modal" data-bs-target="#signupModal"
+                 data-hs-show-animation-options='{
+                         "targetSelector": "#signupModalFormSignup",
+                         "groupName": "idForm"
+                       }'>
+                <i class="bi-person-circle me-1"></i> Sign up
+              </a>
+            </li>
+            <!-- End Sign up -->
+          </ul>
+        </div>
+      </div>
+      <!-- End Collapse -->
+    </nav>
+  </div>
+</header>

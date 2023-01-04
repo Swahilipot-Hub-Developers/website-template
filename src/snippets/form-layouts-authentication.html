@@ -1,0 +1,823 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <!-- Required Meta Tags Always Come First -->
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+  <!-- Title -->
+  <title>Authentication Form Layouts - Snippets | Space - Multipurpose Responsive Template</title>
+
+  <!-- Favicon -->
+  <link rel="shortcut icon" href="@@autopath/favicon.ico">
+
+  <!-- Font -->
+  <link href="@@vars.themeFont" rel="stylesheet">
+
+  <!-- CSS Implementing Plugins -->
+  <!-- bundlecss:vendor [@@autopath] -->
+  <link rel="stylesheet" href="@@autopath/node_modules/bootstrap-icons/font/bootstrap-icons.css">
+
+  <!-- CSS Space Template -->
+  <!-- bundlecss:theme [@@autopath] @@vars.version -->
+  <link rel="stylesheet" href="@@autopath/assets/css/theme.css">
+  <link rel="stylesheet" href="@@autopath/assets/css/snippets.css">
+</head>
+
+<body class="navbar-sidebar-aside-lg">
+  <!-- ========== HEADER ========== -->
+  @@include("@@autopath/partials/docs/snippets-navbar.html")
+  <!-- ========== END HEADER ========== -->
+
+  <!-- ========== MAIN CONTENT ========== -->
+  <main id="content" role="main">
+    <!-- Navbar -->
+    @@include("@@autopath/partials/docs/snippets-sidebar.html", {
+      "category": "form-layouts",
+      "link": "form-layouts-authentication.html"
+    })
+    <!-- End Navbar -->
+
+    <!-- Content -->
+    <div class="navbar-sidebar-aside-content content-space-1 content-space-md-2 px-lg-5 px-xl-10">
+      <!-- Page Header -->
+      <div class="docs-page-header">
+        <div class="row align-items-center">
+          <div class="col-sm">
+            <h1 class="docs-page-header-title">Authentication Form Layouts</h1>
+          </div>
+        </div>
+      </div>
+      <!-- End Page Header -->
+
+      <!-- Heading -->
+      <h2 id="component-1" class="hs-docs-heading">
+        Component #1 <a class="anchorjs-link" href="#component-1" aria-label="Anchor" data-anchorjs-icon="#"></a>
+      </h2>
+      <!-- End Heading -->
+
+      <!-- Card -->
+      <div class="card">
+        <!-- Header -->
+        <div class="card-header">
+          <!-- Nav -->
+          <ul class="nav nav-segment" id="navTab1" role="tablist">
+            <li class="nav-item">
+              <a class="nav-link active" id="nav-resultTab1" href="#nav-result1" data-bs-toggle="pill" data-bs-target="#nav-result1" role="tab" aria-controls="nav-result1" aria-selected="true">Preview</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" id="nav-htmlTab1" href="#nav-html1" data-bs-toggle="pill" data-bs-target="#nav-html1" role="tab" aria-controls="nav-html1" aria-selected="false">HTML</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" id="nav-jsTab1" href="#nav-js1" data-bs-toggle="pill" data-bs-target="#nav-js1" role="tab" aria-controls="nav-js1" aria-selected="false">JS</a>
+            </li>
+          </ul>
+          <!-- End Nav -->
+        </div>
+        <!-- End Header -->
+
+        <!-- Tab Content -->
+        <div class="tab-content" id="navTabContent1">
+          <div class="tab-pane fade show active" id="nav-result1" role="tabpanel" aria-labelledby="nav-resultTab1">
+            <!-- Content -->
+            <div class="bg-soft-success">
+              <div class="container content-space-1 content-space-t-md-3">
+                <div class="mx-auto" style="max-width: 30rem;">
+                  <!-- Card -->
+                  <div class="card card-lg zi-2">
+                    <!-- Header -->
+                    <div class="card-header text-center">
+                      <h4 class="card-title">Log in</h4>
+                      <p class="card-text">Don't have an account yet? <a class="link" href="@@autopath/page-signup.html">Sign up here</a></p>
+                    </div>
+                    <!-- End Header -->
+
+                    <!-- Card Body -->
+                    <div class="card-body">
+                      <form class="js-validate need-validate" novalidate>
+                        <div class="d-grid">
+                          <a class="btn btn-white btn-lg" href="#">
+                            <span class="d-flex justify-content-center align-items-center">
+                              <img class="avatar avatar-xss me-2" src="@@autopath/assets/svg/brands/google-icon.svg" alt="Image Description">
+                              Log in with Google
+                            </span>
+                          </a>
+                        </div>
+
+                        <span class="divider-center my-4">OR</span>
+
+                        <!-- Form -->
+                        <div class="mb-4">
+                          <label class="form-label" for="loginFormEmail">Your email</label>
+                          <input type="email" class="form-control" name="loginFormEmailName" id="loginFormEmail" placeholder="email@site.com" aria-label="email@site.com" required>
+                          <span class="invalid-feedback">Please enter a valid email address.</span>
+                        </div>
+                        <!-- End Form -->
+
+                        <!-- Form -->
+                        <div class="mb-4">
+                          <div class="d-flex justify-content-between align-items-center">
+                            <label class="form-label" for="loginFormPassword">Password</label>
+                            <a class="form-label-link" href="@@autopath/page-reset-password.html">Forgot Password?</a>
+                          </div>
+
+                          <div class="input-group input-group-merge">
+                            <input type="password" class="js-toggle-password form-control" name="loginFormPasswordName" id="loginFormPassword" placeholder="8+ characters required" aria-label="8+ characters required" required
+                                   data-hs-toggle-password-options='{
+                                     "target": "#loginFormChangePassTarget",
+                                     "defaultClass": "bi-eye-slash",
+                                     "showClass": "bi-eye",
+                                     "classChangeTarget": "#changePassIcon"
+                                   }'>
+                            <a id="loginFormChangePassTarget" class="input-group-append input-group-text" href="javascript:;">
+                              <i id="changePassIcon" class="bi-eye"></i>
+                            </a>
+                          </div>
+                          <span class="invalid-feedback">Your password is invalid. Please try again.</span>
+                        </div>
+                        <!-- End Form -->
+
+                        <!-- Checkbox -->
+                        <div class="form-check mb-4">
+                          <input type="checkbox" class="form-check-input" id="loginFormRememberMeCheck" name="loginFormRememberMeCheck">
+                          <label class="form-check-label" for="loginFormRememberMeCheck"> Remember me</label>
+                        </div>
+                        <!-- End Checkbox -->
+
+                        <div class="d-grid mb-4">
+                          <button type="submit" class="btn btn-primary btn-lg">Log in</button>
+                        </div>
+                      </form>
+                    </div>
+                    <!-- End Card Body -->
+                  </div>
+                  <!-- End Card -->
+                </div>
+              </div>
+            </div>
+            <!-- End Content -->
+
+            <!-- Shape -->
+            <div class="shape-container">
+              <div class="shape shape-bottom zi-1">
+                <svg viewBox="0 0 3000 1000" fill="none" xmlns="http://www.w3.org/2000/svg">
+                  <path d="M0 1000V583.723L3000 0V1000H0Z" fill="#fff"/>
+                </svg>
+              </div>
+            </div>
+            <!-- End Shape -->
+          </div>
+
+          <div class="tab-pane fade" id="nav-html1" role="tabpanel" aria-labelledby="nav-htmlTab1">
+            <pre>
+              <code class="language-markup" data-lang="html">
+                &lt;!-- Content --&gt;
+                &lt;div class="bg-soft-success"&gt;
+                  &lt;div class="container content-space-1 content-space-t-md-3"&gt;
+                    &lt;div class="mx-auto" style="max-width: 30rem;"&gt;
+                      &lt;!-- Card --&gt;
+                      &lt;div class="card card-lg zi-2"&gt;
+                        &lt;!-- Header --&gt;
+                        &lt;div class="card-header text-center"&gt;
+                          &lt;h4 class="card-title"&gt;Log in&lt;/h4&gt;
+                          &lt;p class="card-text"&gt;Don't have an account yet? &lt;a class="link" href="@@autopath/page-signup.html"&gt;Sign up here&lt;/a&gt;&lt;/p&gt;
+                        &lt;/div&gt;
+                        &lt;!-- End Header --&gt;
+
+                        &lt;!-- Card Body --&gt;
+                        &lt;div class="card-body"&gt;
+                          &lt;form class="js-validate need-validate" novalidate&gt;
+                            &lt;div class="d-grid"&gt;
+                              &lt;a class="btn btn-white btn-lg" href="#"&gt;
+                                &lt;span class="d-flex justify-content-center align-items-center"&gt;
+                                  &lt;img class="avatar avatar-xss me-2" src="@@autopath/assets/svg/brands/google-icon.svg" alt="Image Description"&gt;
+                                  Log in with Google
+                                &lt;/span&gt;
+                              &lt;/a&gt;
+                            &lt;/div&gt;
+
+                            &lt;span class="divider-center my-4"&gt;OR&lt;/span&gt;
+
+                            &lt;!-- Form --&gt;
+                            &lt;div class="mb-4"&gt;
+                              &lt;label class="form-label" for="loginFormEmail"&gt;Your email&lt;/label&gt;
+                              &lt;input type="email" class="form-control" name="loginFormEmailName" id="loginFormEmail" placeholder="email@site.com" aria-label="email@site.com" required&gt;
+                              &lt;span class="invalid-feedback"&gt;Please enter a valid email address.&lt;/span&gt;
+                            &lt;/div&gt;
+                            &lt;!-- End Form --&gt;
+
+                            &lt;!-- Form --&gt;
+                            &lt;div class="mb-4"&gt;
+                              &lt;div class="d-flex justify-content-between align-items-center"&gt;
+                                &lt;label class="form-label" for="loginFormPassword"&gt;Password&lt;/label&gt;
+                                &lt;a class="form-label-link" href="@@autopath/page-reset-password.html"&gt;Forgot Password?&lt;/a&gt;
+                              &lt;/div&gt;
+
+                              &lt;div class="input-group input-group-merge"&gt;
+                                &lt;input type="password" class="js-toggle-password form-control" name="loginFormPasswordName" id="loginFormPassword" placeholder="8+ characters required" aria-label="8+ characters required" required
+                                       data-hs-toggle-password-options='{
+                                         "target": "#loginFormChangePassTarget",
+                                         "defaultClass": "bi-eye-slash",
+                                         "showClass": "bi-eye",
+                                         "classChangeTarget": "#changePassIcon"
+                                       }'&gt;
+                                &lt;a id="loginFormChangePassTarget" class="input-group-append input-group-text" href="javascript:;"&gt;
+                                  &lt;i id="changePassIcon" class="bi-eye"&gt;&lt;/i&gt;
+                                &lt;/a&gt;
+                              &lt;/div&gt;
+                              &lt;span class="invalid-feedback"&gt;Your password is invalid. Please try again.&lt;/span&gt;
+                            &lt;/div&gt;
+                            &lt;!-- End Form --&gt;
+
+                            &lt;!-- Checkbox --&gt;
+                            &lt;div class="form-check mb-4"&gt;
+                              &lt;input type="checkbox" class="form-check-input" id="loginFormRememberMeCheck" name="loginFormRememberMeCheck"&gt;
+                              &lt;label class="form-check-label" for="loginFormRememberMeCheck"&gt; Remember me&lt;/label&gt;
+                            &lt;/div&gt;
+                            &lt;!-- End Checkbox --&gt;
+
+                            &lt;div class="d-grid mb-4"&gt;
+                              &lt;button type="submit" class="btn btn-primary btn-lg"&gt;Log in&lt;/button&gt;
+                            &lt;/div&gt;
+                          &lt;/form&gt;
+                        &lt;/div&gt;
+                        &lt;!-- End Card Body --&gt;
+                      &lt;/div&gt;
+                      &lt;!-- End Card --&gt;
+                    &lt;/div&gt;
+                  &lt;/div&gt;
+                &lt;/div&gt;
+                &lt;!-- End Content --&gt;
+
+                &lt;!-- Shape --&gt;
+                &lt;div class="shape-container"&gt;
+                  &lt;div class="shape shape-bottom zi-1"&gt;
+                    &lt;svg viewBox="0 0 3000 1000" fill="none" xmlns="http://www.w3.org/2000/svg"&gt;
+                      &lt;path d="M0 1000V583.723L3000 0V1000H0Z" fill="#fff"/&gt;
+                    &lt;/svg&gt;
+                  &lt;/div&gt;
+                &lt;/div&gt;
+                &lt;!-- End Shape --&gt;
+              </code>
+            </pre>
+          </div>
+
+          <div class="tab-pane fade" id="nav-js1" role="tabpanel" aria-labelledby="nav-jsTab1">
+            <pre>
+              <code class="language-markup" data-lang="html">
+                &lt;!-- JS Implementing Plugins --&gt;
+                &lt;!-- bundlejs:vendor [@@autopath] --&gt;
+                &lt;script src="@@autopath/assets/vendor/hs-toggle-password/dist/js/hs-toggle-password.js"&gt;&lt;/script&gt;
+
+                &lt;!-- JS Plugins Init. --&gt;
+                &lt;script&gt;
+                  (function() {
+                    // INITIALIZATION OF TOGGLE PASSWORD
+                    // =======================================================
+                    new HSTogglePassword('.js-toggle-password')
+                  })()
+                &lt;/script&gt;
+              </code>
+            </pre>
+          </div>
+        </div>
+        <!-- End Tab Content -->
+      </div>
+      <!-- End Card -->
+
+      <!-- Heading -->
+      <h2 id="component-2" class="hs-docs-heading">
+        Component #2 <a class="anchorjs-link" href="#component-2" aria-label="Anchor" data-anchorjs-icon="#"></a>
+      </h2>
+      <!-- End Heading -->
+
+      <!-- Card -->
+      <div class="card">
+        <!-- Header -->
+        <div class="card-header">
+          <!-- Nav -->
+          <ul class="nav nav-segment" id="navTab2" role="tablist">
+            <li class="nav-item">
+              <a class="nav-link active" id="nav-resultTab2" href="#nav-result2" data-bs-toggle="pill" data-bs-target="#nav-result2" role="tab" aria-controls="nav-result2" aria-selected="true">Preview</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" id="nav-htmlTab2" href="#nav-html2" data-bs-toggle="pill" data-bs-target="#nav-html2" role="tab" aria-controls="nav-html2" aria-selected="false">HTML</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" id="nav-jsTab2" href="#nav-js2" data-bs-toggle="pill" data-bs-target="#nav-js2" role="tab" aria-controls="nav-js2" aria-selected="false">JS</a>
+            </li>
+          </ul>
+          <!-- End Nav -->
+        </div>
+        <!-- End Header -->
+
+        <!-- Tab Content -->
+        <div class="tab-content" id="navTabContent2">
+          <div class="tab-pane fade show active" id="nav-result2" role="tabpanel" aria-labelledby="nav-resultTab2">
+            <!-- Content -->
+            <div class="bg-soft-success">
+              <div class="container content-space-1 content-space-t-md-3">
+                <div class="mx-auto" style="max-width: 30rem;">
+                  <!-- Card -->
+                  <div class="card card-lg zi-2">
+                    <!-- Header -->
+                    <div class="card-header text-center">
+                      <h4 class="card-title">Create your account</h4>
+                      <p class="card-text">Already have an account? <a class="link" href="@@autopath/page-login.html">Log in here</a></p>
+                    </div>
+                    <!-- End Header -->
+
+                    <!-- Card Body -->
+                    <div class="card-body">
+                      <form class="js-validate need-validate" novalidate>
+                        <div class="d-grid">
+                          <a class="btn btn-white btn-lg" href="#">
+                            <span class="d-flex justify-content-center align-items-center">
+                              <img class="avatar avatar-xss me-2" src="@@autopath/assets/svg/brands/google-icon.svg" alt="Image Description">
+                              Sign up with Google
+                            </span>
+                          </a>
+                        </div>
+
+                        <span class="divider-center my-4">OR</span>
+
+                        <div class="row">
+                          <div class="col-sm-6 mb-4 mb-sm-0">
+                            <!-- Form -->
+                            <div class="mb-4">
+                              <label class="form-label" for="signupFormFirstName">First name</label>
+                              <input type="text" class="form-control" name="signupFormFirstName" id="signupFormFirstName" placeholder="Jacob" aria-label="Jacob" required>
+                              <span class="invalid-feedback">Please enter your first name.</span>
+                            </div>
+                            <!-- End Form -->
+                          </div>
+
+                          <div class="col-sm-6">
+                            <!-- Form -->
+                            <div class="mb-4">
+                              <label class="form-label" for="signupFormLasttName">Last name</label>
+                              <input type="text" class="form-control" name="signupFormLastName" id="signupFormLasttName" placeholder="Williams" aria-label="Williams" required>
+                              <span class="invalid-feedback">Please enter your last name.</span>
+                            </div>
+                            <!-- End Form -->
+                          </div>
+                        </div>
+                        <!-- End Form -->
+
+                        <!-- Form -->
+                        <div class="mb-4">
+                          <label class="form-label" for="signupFormEmail">Your email</label>
+                          <input type="email" class="form-control" name="signupFormEmailName" id="signupFormEmail" placeholder="email@site.com" aria-label="email@site.com" required>
+                          <span class="invalid-feedback">Please enter a valid email address.</span>
+                        </div>
+                        <!-- End Form -->
+
+                        <!-- Form -->
+                        <div class="mb-4">
+                          <label class="form-label" for="signupFormPassword">Password</label>
+
+                          <div class="input-group input-group-merge">
+                            <input type="password" class="js-toggle-password form-control" name="signupFormPassword" id="signupFormPassword" placeholder="8+ characters required" aria-label="8+ characters required" required
+                                   data-hs-toggle-password-options='{
+                                     "target": [".js-toggle-password-target-1", ".js-toggle-password-target-2"],
+                                     "defaultClass": "bi-eye-slash",
+                                     "showClass": "bi-eye",
+                                     "classChangeTarget": ".js-toggle-passowrd-show-icon-1"
+                                   }'>
+                            <a class="js-toggle-password-target-1 input-group-append input-group-text" href="javascript:;">
+                              <i class="js-toggle-passowrd-show-icon-1 bi-eye"></i>
+                            </a>
+                          </div>
+                          <span class="invalid-feedback">Your password is invalid. Please try again.</span>
+                        </div>
+                        <!-- End Form -->
+
+                        <!-- Form -->
+                        <div class="mb-4">
+                          <label class="form-label" for="signupFormConfirmPassword">Confirm password</label>
+
+                          <div class="input-group input-group-merge">
+                            <input type="password" class="js-toggle-password form-control" name="signupFormPassword" id="signupFormConfirmPassword" placeholder="8+ characters required" aria-label="8+ characters required" data-hs-validation-equal-field="#signupFormPassword" required
+                                   data-hs-toggle-password-options='{
+                                     "target": [".js-toggle-password-target-1", ".js-toggle-password-target-2"],
+                                     "defaultClass": "bi-eye-slash",
+                                     "showClass": "bi-eye",
+                                     "classChangeTarget": ".js-toggle-passowrd-show-icon-2"
+                                   }'>
+                            <a class="js-toggle-password-target-2 input-group-append input-group-text" href="javascript:;">
+                              <i class="js-toggle-passowrd-show-icon-2 bi-eye"></i>
+                            </a>
+                          </div>
+                          <span class="invalid-feedback">Password does not match the confirm password.</span>
+                        </div>
+                        <!-- End Form -->
+
+                        <!-- Checkbox -->
+                        <div class="form-check mb-4">
+                          <input type="checkbox" class="form-check-input" id="signupFormTermsCheck" name="signupFormTermsCheck" required>
+                          <label class="form-check-label" for="signupFormTermsCheck"> I accept the <a href=@@autopath/page-terms.html>Terms and Conditions</a></label>
+                          <span class="invalid-feedback">Please accept our Terms and Conditions.</span>
+                        </div>
+                        <!-- End Checkbox -->
+
+                        <div class="d-grid mb-4">
+                          <button type="submit" class="btn btn-primary btn-lg">Sign up</button>
+                        </div>
+
+                        <div class="text-center">
+                          <a class="btn btn-link" href="@@autopath/page-login.html">or Start your 30-day trial <i class="bi-chevron-right small ms-1"></i></a>
+                        </div>
+                      </form>
+                    </div>
+                    <!-- End Card Body -->
+                  </div>
+                  <!-- End Card -->
+                </div>
+              </div>
+            </div>
+            <!-- End Content -->
+
+            <!-- Shape -->
+            <div class="shape-container">
+              <div class="shape shape-bottom zi-1">
+                <svg viewBox="0 0 3000 1000" fill="none" xmlns="http://www.w3.org/2000/svg">
+                  <path d="M0 1000V583.723L3000 0V1000H0Z" fill="#fff"/>
+                </svg>
+              </div>
+            </div>
+            <!-- End Shape -->
+          </div>
+
+          <div class="tab-pane fade" id="nav-html2" role="tabpanel" aria-labelledby="nav-htmlTab2">
+            <pre>
+              <code class="language-markup" data-lang="html">
+                &lt;!-- Content --&gt;
+                &lt;div class="bg-soft-success"&gt;
+                  &lt;div class="container content-space-1 content-space-t-md-3"&gt;
+                    &lt;div class="mx-auto" style="max-width: 30rem;"&gt;
+                      &lt;!-- Card --&gt;
+                      &lt;div class="card card-lg zi-2"&gt;
+                        &lt;!-- Header --&gt;
+                        &lt;div class="card-header text-center"&gt;
+                          &lt;h4 class="card-title"&gt;Create your account&lt;/h4&gt;
+                          &lt;p class="card-text"&gt;Already have an account? &lt;a class="link" href="@@autopath/page-login.html"&gt;Log in here&lt;/a&gt;&lt;/p&gt;
+                        &lt;/div&gt;
+                        &lt;!-- End Header --&gt;
+
+                        &lt;!-- Card Body --&gt;
+                        &lt;div class="card-body"&gt;
+                          &lt;form class="js-validate need-validate" novalidate&gt;
+                            &lt;div class="d-grid"&gt;
+                              &lt;a class="btn btn-white btn-lg" href="#"&gt;
+                                &lt;span class="d-flex justify-content-center align-items-center"&gt;
+                                  &lt;img class="avatar avatar-xss me-2" src="@@autopath/assets/svg/brands/google-icon.svg" alt="Image Description"&gt;
+                                  Sign up with Google
+                                &lt;/span&gt;
+                              &lt;/a&gt;
+                            &lt;/div&gt;
+
+                            &lt;span class="divider-center my-4"&gt;OR&lt;/span&gt;
+
+                            &lt;div class="row"&gt;
+                              &lt;div class="col-sm-6 mb-4 mb-sm-0"&gt;
+                                &lt;!-- Form --&gt;
+                                &lt;div class="mb-4"&gt;
+                                  &lt;label class="form-label" for="signupFormFirstName"&gt;First name&lt;/label&gt;
+                                  &lt;input type="text" class="form-control" name="signupFormFirstName" id="signupFormFirstName" placeholder="Jacob" aria-label="Jacob" required&gt;
+                                  &lt;span class="invalid-feedback"&gt;Please enter your first name.&lt;/span&gt;
+                                &lt;/div&gt;
+                                &lt;!-- End Form --&gt;
+                              &lt;/div&gt;
+
+                              &lt;div class="col-sm-6"&gt;
+                                &lt;!-- Form --&gt;
+                                &lt;div class="mb-4"&gt;
+                                  &lt;label class="form-label" for="signupFormLasttName"&gt;Last name&lt;/label&gt;
+                                  &lt;input type="text" class="form-control" name="signupFormLastName" id="signupFormLasttName" placeholder="Williams" aria-label="Williams" required&gt;
+                                  &lt;span class="invalid-feedback"&gt;Please enter your last name.&lt;/span&gt;
+                                &lt;/div&gt;
+                                &lt;!-- End Form --&gt;
+                              &lt;/div&gt;
+                            &lt;/div&gt;
+                            &lt;!-- End Form --&gt;
+
+                            &lt;!-- Form --&gt;
+                            &lt;div class="mb-4"&gt;
+                              &lt;label class="form-label" for="signupFormEmail"&gt;Your email&lt;/label&gt;
+                              &lt;input type="email" class="form-control" name="signupFormEmailName" id="signupFormEmail" placeholder="email@site.com" aria-label="email@site.com" required&gt;
+                              &lt;span class="invalid-feedback"&gt;Please enter a valid email address.&lt;/span&gt;
+                            &lt;/div&gt;
+                            &lt;!-- End Form --&gt;
+
+                            &lt;!-- Form --&gt;
+                            &lt;div class="mb-4"&gt;
+                              &lt;label class="form-label" for="signupFormPassword"&gt;Password&lt;/label&gt;
+
+                              &lt;div class="input-group input-group-merge"&gt;
+                                &lt;input type="password" class="js-toggle-password form-control" name="signupFormPassword" id="signupFormPassword" placeholder="8+ characters required" aria-label="8+ characters required" required
+                                       data-hs-toggle-password-options='{
+                                         "target": [".js-toggle-password-target-1", ".js-toggle-password-target-2"],
+                                         "defaultClass": "bi-eye-slash",
+                                         "showClass": "bi-eye",
+                                         "classChangeTarget": ".js-toggle-passowrd-show-icon-1"
+                                       }'&gt;
+                                &lt;a class="js-toggle-password-target-1 input-group-append input-group-text" href="javascript:;"&gt;
+                                  &lt;i class="js-toggle-passowrd-show-icon-1 bi-eye"&gt;&lt;/i&gt;
+                                &lt;/a&gt;
+                              &lt;/div&gt;
+                              &lt;span class="invalid-feedback"&gt;Your password is invalid. Please try again.&lt;/span&gt;
+                            &lt;/div&gt;
+                            &lt;!-- End Form --&gt;
+
+                            &lt;!-- Form --&gt;
+                            &lt;div class="mb-4"&gt;
+                              &lt;label class="form-label" for="signupFormConfirmPassword"&gt;Confirm password&lt;/label&gt;
+
+                              &lt;div class="input-group input-group-merge"&gt;
+                                &lt;input type="password" class="js-toggle-password form-control" name="signupFormPassword" id="signupFormConfirmPassword" placeholder="8+ characters required" aria-label="8+ characters required" data-hs-validation-equal-field="#signupFormPassword" required
+                                       data-hs-toggle-password-options='{
+                                         "target": [".js-toggle-password-target-1", ".js-toggle-password-target-2"],
+                                         "defaultClass": "bi-eye-slash",
+                                         "showClass": "bi-eye",
+                                         "classChangeTarget": ".js-toggle-passowrd-show-icon-2"
+                                       }'&gt;
+                                &lt;a class="js-toggle-password-target-2 input-group-append input-group-text" href="javascript:;"&gt;
+                                  &lt;i class="js-toggle-passowrd-show-icon-2 bi-eye"&gt;&lt;/i&gt;
+                                &lt;/a&gt;
+                              &lt;/div&gt;
+                              &lt;span class="invalid-feedback"&gt;Password does not match the confirm password.&lt;/span&gt;
+                            &lt;/div&gt;
+                            &lt;!-- End Form --&gt;
+
+                            &lt;!-- Checkbox --&gt;
+                            &lt;div class="form-check mb-4"&gt;
+                              &lt;input type="checkbox" class="form-check-input" id="signupFormTermsCheck" name="signupFormTermsCheck" required&gt;
+                              &lt;label class="form-check-label" for="signupFormTermsCheck"&gt; I accept the &lt;a href=@@autopath/page-terms.html&gt;Terms and Conditions&lt;/a&gt;&lt;/label&gt;
+                              &lt;span class="invalid-feedback"&gt;Please accept our Terms and Conditions.&lt;/span&gt;
+                            &lt;/div&gt;
+                            &lt;!-- End Checkbox --&gt;
+
+                            &lt;div class="d-grid mb-4"&gt;
+                              &lt;button type="submit" class="btn btn-primary btn-lg"&gt;Sign up&lt;/button&gt;
+                            &lt;/div&gt;
+
+                            &lt;div class="text-center"&gt;
+                              &lt;a class="btn btn-link" href="@@autopath/page-login.html"&gt;or Start your 30-day trial &lt;i class="bi-chevron-right small ms-1"&gt;&lt;/i&gt;&lt;/a&gt;
+                            &lt;/div&gt;
+                          &lt;/form&gt;
+                        &lt;/div&gt;
+                        &lt;!-- End Card Body --&gt;
+                      &lt;/div&gt;
+                      &lt;!-- End Card --&gt;
+                    &lt;/div&gt;
+                  &lt;/div&gt;
+                &lt;/div&gt;
+                &lt;!-- End Content --&gt;
+
+                &lt;!-- Shape --&gt;
+                &lt;div class="shape-container"&gt;
+                  &lt;div class="shape shape-bottom zi-1"&gt;
+                    &lt;svg viewBox="0 0 3000 1000" fill="none" xmlns="http://www.w3.org/2000/svg"&gt;
+                      &lt;path d="M0 1000V583.723L3000 0V1000H0Z" fill="#fff"/&gt;
+                    &lt;/svg&gt;
+                  &lt;/div&gt;
+                &lt;/div&gt;
+                &lt;!-- End Shape --&gt;
+              </code>
+            </pre>
+          </div>
+
+          <div class="tab-pane fade" id="nav-js2" role="tabpanel" aria-labelledby="nav-jsTab2">
+            <pre>
+              <code class="language-markup" data-lang="html">
+                &lt;!-- JS Implementing Plugins --&gt;
+                &lt;!-- bundlejs:vendor [@@autopath] --&gt;
+                &lt;script src="@@autopath/assets/vendor/hs-toggle-password/dist/js/hs-toggle-password.js"&gt;&lt;/script&gt;
+
+                &lt;!-- JS Plugins Init. --&gt;
+                &lt;script&gt;
+                  (function() {
+                    // INITIALIZATION OF TOGGLE PASSWORD
+                    // =======================================================
+                    new HSTogglePassword('.js-toggle-password')
+                  })()
+                &lt;/script&gt;
+              </code>
+            </pre>
+          </div>
+        </div>
+        <!-- End Tab Content -->
+      </div>
+      <!-- End Card -->
+
+      <!-- Heading -->
+      <h2 id="component-3" class="hs-docs-heading">
+        Component #3 <a class="anchorjs-link" href="#component-3" aria-label="Anchor" data-anchorjs-icon="#"></a>
+      </h2>
+      <!-- End Heading -->
+
+      <!-- Card -->
+      <div class="card">
+        <!-- Header -->
+        <div class="card-header">
+          <!-- Nav -->
+          <ul class="nav nav-segment" id="navTab3" role="tablist">
+            <li class="nav-item">
+              <a class="nav-link active" id="nav-resultTab3" href="#nav-result3" data-bs-toggle="pill" data-bs-target="#nav-result3" role="tab" aria-controls="nav-result3" aria-selected="true">Preview</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" id="nav-htmlTab3" href="#nav-html3" data-bs-toggle="pill" data-bs-target="#nav-html3" role="tab" aria-controls="nav-html3" aria-selected="false">HTML</a>
+            </li>
+          </ul>
+          <!-- End Nav -->
+        </div>
+        <!-- End Header -->
+
+        <!-- Tab Content -->
+        <div class="tab-content" id="navTabContent3">
+          <div class="tab-pane fade show active" id="nav-result3" role="tabpanel" aria-labelledby="nav-resultTab3">
+            <!-- Content -->
+            <div class="bg-soft-success">
+              <div class="container content-space-1 content-space-t-md-3">
+                <div class="mx-auto" style="max-width: 30rem;">
+                  <!-- Card -->
+                  <div class="card card-lg zi-2">
+                    <!-- Header -->
+                    <div class="card-header text-center">
+                      <h4 class="card-title">Forgot password?</h4>
+                      <p class="card-text">Enter the email address you used when you joined and we'll send you instructions to reset your password.</p>
+                    </div>
+                    <!-- End Header -->
+
+                    <!-- Card Body -->
+                    <div class="card-body">
+                      <form class="js-validate need-validate" novalidate>
+                        <!-- Form -->
+                        <div class="mb-4">
+                          <label class="form-label" for="forgotPasswordFormEmail">Your email</label>
+                          <input type="email" class="form-control" name="forgotPasswordEmailName" id="forgotPasswordFormEmail" placeholder="Enter your emaill address" aria-label="Enter your emaill address" required>
+                          <span class="invalid-feedback">Please enter a valid email address.</span>
+                        </div>
+                        <!-- End Form -->
+
+                        <div class="d-grid mb-4">
+                          <button type="submit" class="btn btn-primary btn-lg">Submit</button>
+                        </div>
+
+                        <div class="text-center">
+                          <a class="btn btn-link" href="@@autopath/page-login.html">
+                            <i class="bi-chevron-left small me-1"></i> Back to log in
+                          </a>
+                        </div>
+                      </form>
+                    </div>
+                    <!-- End Card Body -->
+                  </div>
+                  <!-- End Card -->
+                </div>
+              </div>
+            </div>
+            <!-- End Content -->
+
+            <!-- Shape -->
+            <div class="shape-container">
+              <div class="shape shape-bottom zi-1">
+                <svg viewBox="0 0 3000 600" fill="none" xmlns="http://www.w3.org/2000/svg">
+                  <path d="M0 600V350.234L3000 0V600H0Z" fill="#fff"/>
+                </svg>
+              </div>
+            </div>
+            <!-- End Shape -->
+          </div>
+
+          <div class="tab-pane fade" id="nav-html3" role="tabpanel" aria-labelledby="nav-htmlTab3">
+            <pre>
+              <code class="language-markup" data-lang="html">
+                &lt;!-- Content --&gt;
+                &lt;div class="bg-soft-success"&gt;
+                  &lt;div class="container content-space-1 content-space-t-md-3"&gt;
+                    &lt;div class="mx-auto" style="max-width: 30rem;"&gt;
+                      &lt;!-- Card --&gt;
+                      &lt;div class="card card-lg zi-2"&gt;
+                        &lt;!-- Header --&gt;
+                        &lt;div class="card-header text-center"&gt;
+                          &lt;h4 class="card-title"&gt;Forgot password?&lt;/h4&gt;
+                          &lt;p class="card-text"&gt;Enter the email address you used when you joined and we'll send you instructions to reset your password.&lt;/p&gt;
+                        &lt;/div&gt;
+                        &lt;!-- End Header --&gt;
+
+                        &lt;!-- Card Body --&gt;
+                        &lt;div class="card-body"&gt;
+                          &lt;form class="js-validate need-validate" novalidate&gt;
+                            &lt;!-- Form --&gt;
+                            &lt;div class="mb-4"&gt;
+                              &lt;label class="form-label" for="forgotPasswordFormEmail"&gt;Your email&lt;/label&gt;
+                              &lt;input type="email" class="form-control" name="forgotPasswordEmailName" id="forgotPasswordFormEmail" placeholder="Enter your emaill address" aria-label="Enter your emaill address" required&gt;
+                              &lt;span class="invalid-feedback"&gt;Please enter a valid email address.&lt;/span&gt;
+                            &lt;/div&gt;
+                            &lt;!-- End Form --&gt;
+
+                            &lt;div class="d-grid mb-4"&gt;
+                              &lt;button type="submit" class="btn btn-primary btn-lg"&gt;Submit&lt;/button&gt;
+                            &lt;/div&gt;
+
+                            &lt;div class="text-center"&gt;
+                              &lt;a class="btn btn-link" href="@@autopath/page-login.html"&gt;
+                                &lt;i class="bi-chevron-left small me-1"&gt;&lt;/i&gt; Back to log in
+                              &lt;/a&gt;
+                            &lt;/div&gt;
+                          &lt;/form&gt;
+                        &lt;/div&gt;
+                        &lt;!-- End Card Body --&gt;
+                      &lt;/div&gt;
+                      &lt;!-- End Card --&gt;
+                    &lt;/div&gt;
+                  &lt;/div&gt;
+                &lt;/div&gt;
+                &lt;!-- End Content --&gt;
+
+                &lt;!-- Shape --&gt;
+                &lt;div class="shape-container"&gt;
+                  &lt;div class="shape shape-bottom zi-1"&gt;
+                    &lt;svg viewBox="0 0 3000 600" fill="none" xmlns="http://www.w3.org/2000/svg"&gt;
+                      &lt;path d="M0 600V350.234L3000 0V600H0Z" fill="#fff"/&gt;
+                    &lt;/svg&gt;
+                  &lt;/div&gt;
+                &lt;/div&gt;
+                &lt;!-- End Shape --&gt;
+              </code>
+            </pre>
+          </div>
+        </div>
+        <!-- End Tab Content -->
+      </div>
+      <!-- End Card -->
+    </div>
+    <!-- End Content -->
+  </main>
+  <!-- ========== END MAIN CONTENT ========== -->
+
+  <!-- ========== SECONDARY CONTENTS ========== -->
+  <!-- Go To -->
+  @@include("@@autopath/partials/layouts-components/go-to.html")
+  <!-- ========== END SECONDARY CONTENTS ========== -->
+
+  <!-- JS Global Compulsory @@deleteLine:build -->
+  <script src="@@autopath/node_modules/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
+
+  <!-- JS Implementing Plugins -->
+  <!-- bundlejs:vendor [@@autopath] -->
+  <script src="@@autopath/assets/vendor/hs-header/dist/hs-header.min.js"></script>
+  <script src="@@autopath/assets/vendor/hs-nav-scroller/dist/hs-nav-scroller.min.js"></script>
+  <script src="@@autopath/node_modules/list.js/dist/list.min.js"></script>
+  <script src="@@autopath/assets/vendor/hs-go-to/dist/hs-go-to.min.js"></script>
+  <script src="@@autopath/assets/vendor/prism/prism.js"></script>
+  <script src="@@autopath/assets/vendor/hs-toggle-password/dist/js/hs-toggle-password.js"></script>
+
+  <!-- JS Space -->
+  <!-- bundlejs:theme [@@autopath] -->
+  <script src="@@autopath/assets/js/hs.core.js"></script>
+  <script src="@@autopath/assets/js/hs.list.js"></script>
+
+  <!-- JS Plugins Init. -->
+  <script>
+    (function() {
+      // INITIALIZATION OF HEADER
+      // =======================================================
+      new HSHeader('#header').init()
+
+
+      // INITIALIZATION OF NAV SCROLLER
+      // =======================================================
+      new HsNavScroller('.js-nav-scroller', {
+        delay: 400,
+        offset: 140
+      })
+
+
+      // INITIALIZATION OF LISTJS COMPONENT
+      // =======================================================
+      const snippetsSearch = HSCore.components.HSList.init('#snippetsSearch');
+
+
+      // GET JSON FILE RESULTS
+      // =======================================================
+      fetch('@@autopath/assets/json/snippets-search.json')
+      .then(response => response.json())
+      .then(data => {
+        snippetsSearch.getItem(0).add(data)
+      })
+
+
+      // INITIALIZATION OF GO TO
+      // =======================================================
+      new HSGoTo('.js-go-to')
+
+
+      // INITIALIZATION OF TOGGLE PASSWORD
+      // =======================================================
+      new HSTogglePassword('.js-toggle-password')
+    })()
+  </script>
+</body>
+</html>

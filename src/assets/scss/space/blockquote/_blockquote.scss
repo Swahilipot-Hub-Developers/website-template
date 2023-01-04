@@ -1,0 +1,31 @@
+/*------------------------------------
+  Blockquote
+------------------------------------*/
+
+.blockquote {
+  color: $blockquote-color;
+}
+
+.blockquote-footer {
+  font-weight: $blockquote-footer-font-weight;
+  line-height: normal;
+  margin-top: $blockquote-footer-margin-y;
+  margin-bottom: 0;
+
+  &::before {
+    content: '';
+  }
+}
+
+.blockquote-footer-source {
+  display: block;
+  color: $blockquote-footer-source-color;
+  font-size: $blockquote-footer-source-font-size;
+  font-weight: $blockquote-footer-source-font-weight;
+  margin-top: $blockquote-footer-source-margin-y;
+}
+
+// Size
+.blockquote-sm {
+  font-size: $blockquote-sm-font-size;
+}

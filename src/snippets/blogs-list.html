@@ -1,0 +1,384 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <!-- Required Meta Tags Always Come First -->
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+  <!-- Title -->
+  <title>Blogs List - Snippets | Space - Multipurpose Responsive Template</title>
+
+  <!-- Favicon -->
+  <link rel="shortcut icon" href="@@autopath/favicon.ico">
+
+  <!-- Font -->
+  <link href="@@vars.themeFont" rel="stylesheet">
+
+  <!-- CSS Implementing Plugins -->
+  <!-- bundlecss:vendor [@@autopath] -->
+  <link rel="stylesheet" href="@@autopath/node_modules/bootstrap-icons/font/bootstrap-icons.css">
+
+  <!-- CSS Space Template -->
+  <!-- bundlecss:theme [@@autopath] @@vars.version -->
+  <link rel="stylesheet" href="@@autopath/assets/css/theme.css">
+  <link rel="stylesheet" href="@@autopath/assets/css/snippets.css">
+</head>
+
+<body class="navbar-sidebar-aside-lg">
+  <!-- ========== HEADER ========== -->
+  @@include("@@autopath/partials/docs/snippets-navbar.html")
+  <!-- ========== END HEADER ========== -->
+
+  <!-- ========== MAIN CONTENT ========== -->
+  <main id="content" role="main">
+    <!-- Navbar -->
+    @@include("@@autopath/partials/docs/snippets-sidebar.html", {
+      "category": "blogs",
+      "link": "blogs-list.html"
+    })
+    <!-- End Navbar -->
+
+    <!-- Content -->
+    <div class="navbar-sidebar-aside-content content-space-1 content-space-md-2 px-lg-5 px-xl-10">
+      <!-- Page Header -->
+      <div class="docs-page-header">
+        <div class="row align-items-center">
+          <div class="col-sm">
+            <h1 class="docs-page-header-title">Blogs List</h1>
+          </div>
+        </div>
+      </div>
+      <!-- End Page Header -->
+
+      <!-- Heading -->
+      <h2 id="component-1" class="hs-docs-heading">
+        Component #1 <a class="anchorjs-link" href="#component-1" aria-label="Anchor" data-anchorjs-icon="#"></a>
+      </h2>
+      <!-- End Heading -->
+
+      <!-- Card -->
+      <div class="card">
+        <!-- Header -->
+        <div class="card-header">
+          <!-- Nav -->
+          <ul class="nav nav-segment" id="navTab1" role="tablist">
+            <li class="nav-item">
+              <a class="nav-link active" id="nav-resultTab1" href="#nav-result1" data-bs-toggle="pill" data-bs-target="#nav-result1" role="tab" aria-controls="nav-result1" aria-selected="true">Preview</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" id="nav-htmlTab1" href="#nav-html1" data-bs-toggle="pill" data-bs-target="#nav-html1" role="tab" aria-controls="nav-html1" aria-selected="false">HTML</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" id="nav-jsTab1" href="#nav-js1" data-bs-toggle="pill" data-bs-target="#nav-js1" role="tab" aria-controls="nav-js1" aria-selected="false">JS</a>
+            </li>
+          </ul>
+          <!-- End Nav -->
+        </div>
+        <!-- End Header -->
+
+        <!-- Tab Content -->
+        <div class="tab-content" id="navTabContent1">
+          <div class="tab-pane fade p-4 show active" id="nav-result1" role="tabpanel" aria-labelledby="nav-resultTab1">
+            <!-- Blog List -->
+            <div class="container content-space-1">
+              <div class="row align-items-md-center">
+                <div class="col-md-6 order-md-2 mb-5 mb-md-0">
+                  <a href="https://www.youtube.com/watch?v=0qisGSwZym4" role="button" data-fslightbox="youtube-video">
+                    <div class="position-relative">
+                      <img class="img-fluid" src="@@autopath/assets/img/950x950/img2.jpg" alt="Image Description">
+
+                      <div class="position-absolute bottom-0 start-0 p-5">
+                        <!-- Fancybox -->
+                        <div class="d-flex align-items-center">
+                          <div class="flex-shrink-0">
+                            <span class="btn btn-icon btn-white text-primary">
+                              <i class="bi-play-circle-fill"></i>
+                            </span>
+                          </div>
+                          <div class="flex-grow-1 ms-3">
+                            <span class="text-white">Watch Andrea’s story</span>
+                          </div>
+                        </div>
+                        <!-- End Fancybox -->
+                      </div>
+                    </div>
+                  </a>
+                </div>
+                <!-- End Col -->
+
+                <div class="col-md-6">
+                  <div class="pe-md-5">
+                    <span class="text-cap">Featured customers</span>
+                    <h3>Very precise documentation with many features well explained.</h3>
+
+                    <!-- Blockquote -->
+                    <figure class="mb-7">
+                      <blockquote class="blockquote blockquote-sm">“ Now that we’re using Space, everyone involved in a project has visibility into things like changes in scope and other status updates. “</blockquote>
+
+                      <figcaption class="blockquote-footer">
+                        Andrea
+                        <span class="blockquote-footer-source">Director of Sales | MailChimp</span>
+                      </figcaption>
+                    </figure>
+                    <!-- End Blockquote -->
+
+                    <img class="img-fluid" src="@@autopath/assets/svg/brands/mailchimp-primary.svg" alt="Logo" style="width: 12.5rem;">
+                  </div>
+                </div>
+                <!-- End Col -->
+              </div>
+              <!-- End Row -->
+            </div>
+            <!-- End Blog List -->
+          </div>
+
+          <div class="tab-pane fade" id="nav-html1" role="tabpanel" aria-labelledby="nav-htmlTab1">
+            <pre>
+              <code class="language-markup" data-lang="html">
+                &lt;!-- Blog List --&gt;
+                &lt;div class="container content-space-1"&gt;
+                  &lt;div class="row align-items-md-center"&gt;
+                    &lt;div class="col-md-6 order-md-2 mb-5 mb-md-0"&gt;
+                      &lt;a href="https://www.youtube.com/watch?v=0qisGSwZym4" role="button" data-fslightbox="youtube-video"&gt;
+                        &lt;div class="position-relative"&gt;
+                          &lt;img class="img-fluid" src="@@autopath/assets/img/950x950/img2.jpg" alt="Image Description"&gt;
+
+                          &lt;div class="position-absolute bottom-0 start-0 p-5"&gt;
+                            &lt;!-- Fancybox --&gt;
+                            &lt;div class="d-flex align-items-center"&gt;
+                              &lt;div class="flex-shrink-0"&gt;
+                                &lt;span class="btn btn-icon btn-white text-primary"&gt;
+                                  &lt;i class="bi-play-circle-fill"&gt;&lt;/i&gt;
+                                &lt;/span&gt;
+                              &lt;/div&gt;
+                              &lt;div class="flex-grow-1 ms-3"&gt;
+                                &lt;span class="text-white"&gt;Watch Andrea’s story&lt;/span&gt;
+                              &lt;/div&gt;
+                            &lt;/div&gt;
+                            &lt;!-- End Fancybox --&gt;
+                          &lt;/div&gt;
+                        &lt;/div&gt;
+                      &lt;/a&gt;
+                    &lt;/div&gt;
+                    &lt;!-- End Col --&gt;
+
+                    &lt;div class="col-md-6"&gt;
+                      &lt;div class="pe-md-5"&gt;
+                        &lt;span class="text-cap"&gt;Featured customers&lt;/span&gt;
+                        &lt;h3&gt;Very precise documentation with many features well explained.&lt;/h3&gt;
+
+                        &lt;!-- Blockquote --&gt;
+                        &lt;figure class="mb-7"&gt;
+                          &lt;blockquote class="blockquote blockquote-sm"&gt;“ Now that we’re using Space, everyone involved in a project has visibility into things like changes in scope and other status updates. “&lt;/blockquote&gt;
+
+                          &lt;figcaption class="blockquote-footer"&gt;
+                            Andrea
+                            &lt;span class="blockquote-footer-source"&gt;Director of Sales | MailChimp&lt;/span&gt;
+                          &lt;/figcaption&gt;
+                        &lt;/figure&gt;
+                        &lt;!-- End Blockquote --&gt;
+
+                        &lt;img class="img-fluid" src="@@autopath/assets/svg/brands/mailchimp-primary.svg" alt="Logo" style="width: 12.5rem;"&gt;
+                      &lt;/div&gt;
+                    &lt;/div&gt;
+                    &lt;!-- End Col --&gt;
+                  &lt;/div&gt;
+                  &lt;!-- End Row --&gt;
+                &lt;/div&gt;
+                &lt;!-- End Blog List --&gt;
+              </code>
+            </pre>
+          </div>
+
+          <div class="tab-pane fade" id="nav-js1" role="tabpanel" aria-labelledby="nav-jsTab1">
+            <pre>
+              <code class="language-markup" data-lang="html">
+                &lt;!-- JS Implementing Plugins --&gt;
+                &lt;!-- bundlejs:vendor [@@autopath] --&gt;
+                &lt;script src="@@autopath/node_modules/fslightbox/index.js"&gt;&lt;/script&gt;
+              </code>
+            </pre>
+          </div>
+        </div>
+        <!-- End Tab Content -->
+      </div>
+      <!-- End Card -->
+
+      <!-- Heading -->
+      <h2 id="component-2" class="hs-docs-heading">
+        Component #2 <a class="anchorjs-link" href="#component-2" aria-label="Anchor" data-anchorjs-icon="#"></a>
+      </h2>
+      <!-- End Heading -->
+
+      <!-- Card -->
+      <div class="card">
+        <!-- Header -->
+        <div class="card-header">
+          <!-- Nav -->
+          <ul class="nav nav-segment" id="navTab2" role="tablist">
+            <li class="nav-item">
+              <a class="nav-link active" id="nav-resultTab2" href="#nav-result2" data-bs-toggle="pill" data-bs-target="#nav-result2" role="tab" aria-controls="nav-result2" aria-selected="true">Preview</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" id="nav-htmlTab2" href="#nav-html2" data-bs-toggle="pill" data-bs-target="#nav-html2" role="tab" aria-controls="nav-html2" aria-selected="false">HTML</a>
+            </li>
+          </ul>
+          <!-- End Nav -->
+        </div>
+        <!-- End Header -->
+
+        <!-- Tab Content -->
+        <div class="tab-content" id="navTabContent2">
+          <div class="tab-pane fade p-4 show active" id="nav-result2" role="tabpanel" aria-labelledby="nav-resultTab2">
+            <!-- List - Blog -->
+            <div class="container">
+              <!-- Card -->
+              <div class="card card-sm">
+                <div class="card-body">
+                  <div class="row align-items-md-center">
+                    <div class="col-md-6 mb-3 mb-md-0">
+                      <img class="img-fluid" src="@@autopath/assets/img/900x700/img8.jpg" alt="Image Description">
+                    </div>
+                    <!-- End Col -->
+
+                    <div class="col-md-6">
+                      <div class="ps-md-5">
+                        <!-- List Separator -->
+                        <ul class="list-inline list-separator mb-3">
+                          <li class="list-inline-item">
+                            <a class="text-cap text-muted mb-0" href="#">Product resources</a>
+                          </li>
+                          <li class="list-inline-item">
+                            <span class="text-cap text-muted mb-0">7 min read</span>
+                          </li>
+                        </ul>
+                        <!-- End List Separator -->
+
+                        <h3 class="mb-3 mb-md-5">
+                          <a class="text-dark" href="@@autopath/blog-article.html">Introduction to marketing and selling payments for SaaS platforms</a>
+                        </h3>
+                        <p>SaaS platforms are often looking for ways to offer complementary services that add extra value for their customers.</p>
+                      </div>
+                    </div>
+                    <!-- End Col -->
+                  </div>
+                  <!-- End Row -->
+                </div>
+              </div>
+              <!-- End Card -->
+            </div>
+            <!-- End List - Blog -->
+          </div>
+
+          <div class="tab-pane fade" id="nav-html2" role="tabpanel" aria-labelledby="nav-htmlTab2">
+            <pre>
+              <code class="language-markup" data-lang="html">
+                &lt;!-- List - Blog --&gt;
+                &lt;div class="container" style="margin-top: -10rem;"&gt;
+                  &lt;!-- Card --&gt;
+                  &lt;div class="card card-sm"&gt;
+                    &lt;div class="card-body"&gt;
+                      &lt;div class="row align-items-md-center"&gt;
+                        &lt;div class="col-md-6 mb-3 mb-md-0"&gt;
+                          &lt;img class="img-fluid" src="@@autopath/assets/img/900x700/img8.jpg" alt="Image Description"&gt;
+                        &lt;/div&gt;
+                        &lt;!-- End Col --&gt;
+
+                        &lt;div class="col-md-6"&gt;
+                          &lt;div class="ps-md-5"&gt;
+                            &lt;!-- List Separator --&gt;
+                            &lt;ul class="list-inline list-separator mb-3"&gt;
+                              &lt;li class="list-inline-item"&gt;
+                                &lt;a class="text-cap text-muted mb-0" href="#"&gt;Product resources&lt;/a&gt;
+                              &lt;/li&gt;
+                              &lt;li class="list-inline-item"&gt;
+                                &lt;span class="text-cap text-muted mb-0"&gt;7 min read&lt;/span&gt;
+                              &lt;/li&gt;
+                            &lt;/ul&gt;
+                            &lt;!-- End List Separator --&gt;
+
+                            &lt;h3 class="mb-3 mb-md-5"&gt;
+                              &lt;a class="text-dark" href="@@autopath/blog-article.html"&gt;Introduction to marketing and selling payments for SaaS platforms&lt;/a&gt;
+                            &lt;/h3&gt;
+                            &lt;p&gt;SaaS platforms are often looking for ways to offer complementary services that add extra value for their customers.&lt;/p&gt;
+                          &lt;/div&gt;
+                        &lt;/div&gt;
+                        &lt;!-- End Col --&gt;
+                      &lt;/div&gt;
+                      &lt;!-- End Row --&gt;
+                    &lt;/div&gt;
+                  &lt;/div&gt;
+                  &lt;!-- End Card --&gt;
+                &lt;/div&gt;
+                &lt;!-- End List - Blog --&gt;
+              </code>
+            </pre>
+          </div>
+        </div>
+        <!-- End Tab Content -->
+      </div>
+      <!-- End Card -->
+    </div>
+    <!-- End Content -->
+  </main>
+  <!-- ========== END MAIN CONTENT ========== -->
+
+  <!-- ========== SECONDARY CONTENTS ========== -->
+  <!-- Go To -->
+  @@include("@@autopath/partials/layouts-components/go-to.html")
+  <!-- ========== END SECONDARY CONTENTS ========== -->
+
+  <!-- JS Global Compulsory @@deleteLine:build -->
+  <script src="@@autopath/node_modules/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
+
+  <!-- JS Implementing Plugins -->
+  <!-- bundlejs:vendor [@@autopath] -->
+  <script src="@@autopath/assets/vendor/hs-header/dist/hs-header.min.js"></script>
+  <script src="@@autopath/assets/vendor/hs-nav-scroller/dist/hs-nav-scroller.min.js"></script>
+  <script src="@@autopath/node_modules/list.js/dist/list.min.js"></script>
+  <script src="@@autopath/assets/vendor/hs-go-to/dist/hs-go-to.min.js"></script>
+  <script src="@@autopath/assets/vendor/prism/prism.js"></script>
+  <script src="@@autopath/node_modules/fslightbox/index.js"></script>
+
+  <!-- JS Space -->
+  <!-- bundlejs:theme [@@autopath] -->
+  <script src="@@autopath/assets/js/hs.core.js"></script>
+  <script src="@@autopath/assets/js/hs.list.js"></script>
+
+  <!-- JS Plugins Init. -->
+  <script>
+    (function() {
+      // INITIALIZATION OF HEADER
+      // =======================================================
+      new HSHeader('#header').init()
+
+
+      // INITIALIZATION OF NAV SCROLLER
+      // =======================================================
+      new HsNavScroller('.js-nav-scroller', {
+        delay: 400,
+        offset: 140
+      })
+
+
+      // INITIALIZATION OF LISTJS COMPONENT
+      // =======================================================
+      const snippetsSearch = HSCore.components.HSList.init('#snippetsSearch');
+
+
+      // GET JSON FILE RESULTS
+      // =======================================================
+      fetch('@@autopath/assets/json/snippets-search.json')
+      .then(response => response.json())
+      .then(data => {
+        snippetsSearch.getItem(0).add(data)
+      })
+
+
+      // INITIALIZATION OF GO TO
+      // =======================================================
+      new HSGoTo('.js-go-to')
+    })()
+  </script>
+</body>
+</html>

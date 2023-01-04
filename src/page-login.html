@@ -1,0 +1,232 @@
+<!DOCTYPE html>
+<html lang="@@languageDirection.lang" dir="@@if(languageDirection.isRTL){rtl}">
+  <head>
+    <!-- Required Meta Tags Always Come First -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Title -->
+    <title>Log In | Space - Multipurpose Responsive Template</title>
+
+    <!-- Favicon -->
+    <link rel="shortcut icon" href="@@autopath/favicon.ico">
+
+    <!-- Font -->
+    <link href="@@vars.themeFont" rel="stylesheet">
+
+    <!-- CSS Implementing Plugins -->
+    <!-- bundlecss:vendor [@@autopath] -->
+    <link rel="stylesheet" href="@@autopath/node_modules/bootstrap-icons/font/bootstrap-icons.css">
+    <link rel="stylesheet" href="@@autopath/assets/vendor/hs-mega-menu/dist/hs-mega-menu.min.css">
+
+    <!-- CSS Space Template -->
+    <!-- bundlecss:theme [@@autopath] @@vars.version -->
+    <link rel="stylesheet" href="@@autopath/assets/css/theme.css">
+  </head>
+
+  <body>
+    <!-- ========== HEADER ========== -->
+    @@include("@@autopath/partials/navbar/main.html", {
+      "category": "pages",
+      "link": "page-login.html"
+    })
+    <!-- ========== END HEADER ========== -->
+
+    <!-- ========== MAIN CONTENT ========== -->
+    <main id="content" role="main">
+      <!-- Content -->
+      <div class="bg-soft-primary-light">
+        <div class="container content-space-1 content-space-t-md-3">
+          <div class="mx-auto" style="max-width: 30rem;">
+            <!-- Card -->
+            <div class="card card-lg zi-2">
+              <!-- Header -->
+              <div class="card-header text-center">
+                <h4 class="card-title">Log in</h4>
+                <p class="card-text">Don't have an account yet? <a class="link" href="@@autopath/page-signup.html">Sign up here</a></p>
+              </div>
+              <!-- End Header -->
+
+              <!-- Card Body -->
+              <div class="card-body">
+                <form class="js-validate need-validate" novalidate>
+                  <div class="d-grid">
+                    <a class="btn btn-white btn-lg" href="#">
+                      <span class="d-flex justify-content-center align-items-center">
+                        <img class="avatar avatar-xss me-2" src="@@autopath/assets/svg/brands/google-icon.svg" alt="Image Description">
+                        Log in with Google
+                      </span>
+                    </a>
+                  </div>
+
+                  <span class="divider-center my-4">OR</span>
+
+                  <!-- Form -->
+                  <div class="mb-4">
+                    <label class="form-label" for="loginFormEmail">Your email</label>
+                    <input type="email" class="form-control form-control-lg" name="loginFormEmailName" id="loginFormEmail" placeholder="email@site.com" aria-label="email@site.com" required>
+                    <span class="invalid-feedback">Please enter a valid email address.</span>
+                  </div>
+                  <!-- End Form -->
+
+                  <!-- Form -->
+                  <div class="mb-4">
+                    <div class="d-flex justify-content-between align-items-center">
+                      <label class="form-label" for="loginFormPassword">Password</label>
+                      <a class="form-label-link" href="@@autopath/page-reset-password.html">Forgot Password?</a>
+                    </div>
+
+                    <div class="input-group input-group-merge" data-hs-validation-validate-class>
+                      <input type="password" class="js-toggle-password form-control form-control-lg" name="loginFormPasswordName" id="loginFormPassword" placeholder="8+ characters required" aria-label="8+ characters required" required
+                             data-hs-toggle-password-options='{
+                               "target": "#loginFormChangePassTarget",
+                               "defaultClass": "bi-eye-slash",
+                               "showClass": "bi-eye",
+                               "classChangeTarget": "#changePassIcon"
+                             }'>
+                      <a id="loginFormChangePassTarget" class="input-group-append input-group-text" href="javascript:;">
+                        <i id="changePassIcon" class="bi-eye"></i>
+                      </a>
+                    </div>
+                    <span class="invalid-feedback">Your password is invalid. Please try again.</span>
+                  </div>
+                  <!-- End Form -->
+
+                  <!-- Checkbox -->
+                  <div class="form-check mb-4">
+                    <input type="checkbox" class="form-check-input" id="loginFormRememberMeCheck" name="loginFormRememberMeCheck">
+                    <label class="form-check-label" for="loginFormRememberMeCheck"> Remember me</label>
+                  </div>
+                  <!-- End Checkbox -->
+
+                  <div class="d-grid mb-4">
+                    <button type="submit" class="btn btn-primary btn-lg">Log in</button>
+                  </div>
+                </form>
+              </div>
+              <!-- End Card Body -->
+            </div>
+            <!-- End Card -->
+          </div>
+        </div>
+      </div>
+      <!-- End Content -->
+
+      <!-- Shape -->
+      <div class="shape-container">
+        <div class="shape shape-bottom zi-1">
+          <svg viewBox="0 0 3000 1000" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <path d="M0 1000V583.723L3000 0V1000H0Z" fill="#fff"/>
+          </svg>
+        </div>
+      </div>
+      <!-- End Shape -->
+
+      <!-- Clients -->
+      <div class="container content-space-b-1 content-space-b-md-3">
+        <div class="w-lg-65 text-center mx-lg-auto">
+          <!-- Heading -->
+          <div class="mb-4">
+            <h5>Thousands of world’s leading companies trust Space</h5>
+          </div>
+          <!-- End Heading -->
+
+          <div class="row">
+            <div class="col text-center py-3">
+              <img class="avatar avatar-lg avatar-4x3" src="@@autopath/assets/svg/brands/capsule-primary.svg" alt="Logo">
+            </div>
+            <!-- End Col -->
+
+            <div class="col text-center py-3">
+              <img class="avatar avatar-lg avatar-4x3" src="@@autopath/assets/svg/brands/fitbit-primary.svg" alt="Logo">
+            </div>
+            <!-- End Col -->
+
+            <div class="col text-center py-3">
+              <img class="avatar avatar-lg avatar-4x3" src="@@autopath/assets/svg/brands/forbes-primary.svg" alt="Logo">
+            </div>
+            <!-- End Col -->
+
+            <div class="col text-center py-3">
+              <img class="avatar avatar-lg avatar-4x3" src="@@autopath/assets/svg/brands/mailchimp-primary.svg" alt="Logo">
+            </div>
+            <!-- End Col -->
+
+            <div class="col text-center py-3">
+              <img class="avatar avatar-lg avatar-4x3" src="@@autopath/assets/svg/brands/layar-primary.svg" alt="Logo">
+            </div>
+            <!-- End Col -->
+          </div>
+          <!-- End Row -->
+        </div>
+      </div>
+      <!-- End Clients -->
+    </main>
+    <!-- ========== END MAIN CONTENT ========== -->
+
+    <!-- ========== FOOTER ========== -->
+    @@include("@@autopath/partials/footer/main.html")
+    <!-- ========== END FOOTER ========== -->
+
+    <!-- ========== SECONDARY CONTENTS ========== -->
+    <!-- Sign Up -->
+    @@include("@@autopath/partials/modal/signup.html")
+
+    <!-- Go To -->
+    @@include("@@autopath/partials/layouts-components/go-to.html")
+    <!-- ========== END SECONDARY CONTENTS ========== -->
+
+    <!-- JS Global Compulsory @@deleteLine:build -->
+    <script src="@@autopath/node_modules/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
+
+    <!-- JS Implementing Plugins -->
+    <!-- bundlejs:vendor [@@autopath] -->
+    <script src="@@autopath/assets/vendor/hs-mega-menu/dist/hs-mega-menu.min.js"></script>
+    <script src="@@autopath/assets/vendor/hs-show-animation/dist/hs-show-animation.min.js"></script>
+    <script src="@@autopath/assets/vendor/hs-go-to/dist/hs-go-to.min.js"></script>
+    <script src="@@autopath/assets/vendor/hs-toggle-password/dist/js/hs-toggle-password.js"></script>
+
+    <!-- JS Space -->
+    <!-- bundlejs:theme [@@autopath] -->
+    <script src="@@autopath/assets/js/hs.core.js"></script>
+    <script src="@@autopath/assets/js/hs.bs-validation.js"></script>
+
+    <!-- JS Plugins Init. -->
+    <script>
+      (function() {
+        // INITIALIZATION OF MEGA MENU
+        // =======================================================
+        const megaMenu = new HSMegaMenu('.js-mega-menu', {
+          desktop: {
+            position: 'left'
+          }
+        })
+
+
+        // INITIALIZATION OF SHOW ANIMATIONS
+        // =======================================================
+        new HSShowAnimation('.js-animation-link')
+
+
+        // INITIALIZATION OF BOOTSTRAP VALIDATION
+        // =======================================================
+        HSBsValidation.init('.js-validate', {
+          onSubmit: data => {
+            data.event.preventDefault()
+            alert('Submited')
+          }
+        })
+
+
+        // INITIALIZATION OF GO TO
+        // =======================================================
+        new HSGoTo('.js-go-to')
+
+
+        // INITIALIZATION OF TOGGLE PASSWORD
+        // =======================================================
+        new HSTogglePassword('.js-toggle-password')
+      })()
+    </script>
+  </body>
+</html>

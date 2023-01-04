@@ -1,0 +1,48 @@
+/*------------------------------------
+  Devices
+------------------------------------*/
+
+.devices {
+  max-width: $devices-max-width;
+  position: relative;
+  overflow: hidden;
+  padding: calc($devices-padding-y / 4) $devices-margin-x $devices-padding-y;
+  margin-right: -$devices-margin-x;
+  margin-left: -$devices-margin-x;
+
+  .device-mobile {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    z-index: 2;
+    margin-left: $devices-margin-x-offset;
+    margin-bottom: $devices-margin-y;
+
+    @include media-breakpoint-down(lg) {
+      display: none;
+    }
+  }
+
+  .device-browser {
+    margin-left: auto;
+    margin-right: $devices-margin-x-offset;
+  }
+  
+  @include media-breakpoint-down(lg) {
+    .device-mobile {
+      margin-right: $devices-mobile-margin-x;
+    }
+
+    .device-browser {
+      margin-right: auto;
+    }
+  }
+}
+
+// Shadow None
+.devices-shadow-none {
+  .device-mobile-frame,
+  .device-browser {
+    box-shadow: none;
+  }
+}

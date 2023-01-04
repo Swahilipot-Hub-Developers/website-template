@@ -1,0 +1,55 @@
+/*------------------------------------
+  Navbar Skins
+------------------------------------*/
+
+// Light
+.navbar-light {
+  // Brand
+  .navbar-brand {
+    &,
+    &:hover,
+    &:focus {
+      color: $navbar-light-brand-color;
+    }
+  }
+
+  // Toggler
+  .navbar-toggler {
+    color: $navbar-light-brand-color;
+    border-color: $navbar-light-toggle-border-color;
+  }
+
+  // Navbar Nav
+  .navbar-nav .nav-link {
+    color: $navbar-light-color;
+
+    &.active,
+    &:hover,
+    &:focus {
+      color: $navbar-light-hover-color;
+    }
+  }
+}
+
+// Dark
+.navbar-dark {
+  .navbar-nav {
+    .nav-item:hover .nav-link {
+      &,
+      &:hover,
+      &:focus {
+        color: $navbar-dark-hover-color;
+      }
+    }
+  }
+
+  .nav-link.dropdown-toggle {
+    &::after {
+      background-image: $dropdown-toggle-pseudo-light-bg;
+    }
+  }
+
+  .nav-divider {
+    border-color: $navbar-dark-divider-color;
+  }
+}

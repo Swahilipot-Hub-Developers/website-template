@@ -1,0 +1,1229 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <!-- Required Meta Tags Always Come First -->
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+  <!-- Title -->
+  <title>Documentation | Space - Multipurpose Template + UI KIT</title>
+
+  <!-- Favicon -->
+  <link rel="shortcut icon" href="../favicon.ico">
+
+  <!-- Font -->
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap" rel="stylesheet">
+
+  <!-- CSS Implementing Plugins -->
+  <link rel="stylesheet" href="../assets/vendor/bootstrap-icons/font/bootstrap-icons.css">
+
+  <!-- CSS Space Template -->
+  <link rel="stylesheet" href="../assets/css/theme.min.css">
+  <link rel="stylesheet" href="../assets/css/docs.min.css">
+</head>
+
+<body class="navbar-sidebar-aside-lg">
+  <!-- ========== HEADER ========== -->
+  <header id="header" class="navbar navbar-expand navbar-fixed navbar-end navbar-light navbar-sticky-lg-top bg-white">
+    <div class="container-fluid">
+      <nav class="navbar-nav-wrap">
+        <div class="row flex-grow-1">
+          <!-- Default Logo -->
+          <div class="docs-navbar-sidebar-container d-flex align-items-center mb-2 mb-lg-0">
+            <a class="navbar-brand" href="../documentation/index.html" aria-label="Space">
+              <img class="navbar-brand-logo" src="../assets/svg/logos/logo.svg" alt="Logo">
+            </a>
+            <a href="../documentation/changelog.html">
+              <span class="badge bg-soft-primary text-primary">v2.3.1</span>
+            </a>
+          </div>
+          <!-- End Default Logo -->
+
+          <div class="col-md px-lg-0">
+            <div class="d-flex justify-content-between align-items-center px-lg-5 px-xl-10">
+              <div class="d-none d-md-block">
+                <!-- Search Form -->
+                <form id="docsSearch" class="position-relative"
+                      data-hs-list-options='{
+                       "searchMenu": true,
+                       "keyboard": true,
+                       "item": "searchTemplate",
+                       "valueNames": ["component", "category", {"name": "link", "attr": "href"}],
+                       "empty": "#searchNoResults"
+                     }'>
+                  <!-- Input Group -->
+                  <div class="input-group input-group-merge navbar-input-group">
+                    <div class="input-group-prepend input-group-text">
+                      <i class="bi-search"></i>
+                    </div>
+
+                    <input type="search" class="search form-control" placeholder="Search in docs" aria-label="Search in docs">
+
+                    <a class="input-group-append input-group-text" href="javascript:;">
+                      <i id="clearSearchResultsIcon" class="bi-x" style="display: none;"></i>
+                    </a>
+                  </div>
+                  <!-- End Input Group -->
+
+                  <!-- List -->
+                  <div class="list dropdown-menu w-100 overflow-auto" style="max-height: 16rem;"></div>
+                  <!-- End List -->
+
+                  <!-- Empty -->
+                  <div id="searchNoResults" style="display: none;">
+                    <div class="text-center p-4">
+                      <img class="mb-3" src="../assets/svg/illustrations/oc-error.svg" alt="Image Description" style="width: 7rem;">
+                      <p class="mb-0">No Results</p>
+                    </div>
+                  </div>
+                  <!-- End Empty -->
+                </form>
+                <!-- End Search Form -->
+
+                <!-- List Item Template -->
+                <div class="d-none">
+                  <div id="searchTemplate" class="dropdown-item">
+                    <a class="d-block link" href="#">
+                      <span class="category d-block text-muted mb-1"></span>
+                      <span class="component fw-bold text-dark"></span>
+                    </a>
+                  </div>
+                </div>
+                <!-- End List Item Template -->
+              </div>
+
+              <!-- Navbar -->
+              <ul class="navbar-nav p-0">
+                <li class="nav-item">
+                  <a class="btn btn-ghost-secondary" href="https://htmlstream.com/contact-us" target="_blank">
+                    Get Support <i class="bi-box-arrow-up-right ms-1"></i>
+                  </a>
+                </li>
+                <li class="nav-item">
+                  <a class="btn btn-primary" href="../index.html">
+                    <i class="bi-eye me-1"></i> Preview Demo
+                  </a>
+                </li>
+              </ul>
+              <!-- End Navbar -->
+            </div>
+          </div>
+          <!-- End Col -->
+        </div>
+        <!-- End Row -->
+      </nav>
+    </div>
+  </header>
+  <!-- ========== END HEADER ========== -->
+
+  <!-- ========== MAIN CONTENT ========== -->
+  <main id="content" role="main">
+    <!-- Navbar -->
+    <nav class="js-nav-scroller navbar navbar-expand-lg navbar-sidebar navbar-vertical navbar-light bg-white border-end"
+          data-hs-nav-scroller-options='{
+            "type": "vertical",
+            "target": ".navbar-nav .active",
+            "offset": 80
+           }'>
+      <!-- Navbar Toggle -->
+      <button type="button" class="navbar-toggler btn btn-white d-grid w-100" data-bs-toggle="collapse" data-bs-target="#navbarVerticalNavMenu" aria-label="Toggle navigation" aria-expanded="false" aria-controls="navbarVerticalNavMenu">
+        <span class="d-flex justify-content-between align-items-center">
+          <span class="h3 mb-0">Nav menu</span>
+
+          <span class="navbar-toggler-default">
+            <i class="bi-list"></i>
+          </span>
+
+          <span class="navbar-toggler-toggled">
+            <i class="bi-x"></i>
+          </span>
+        </span>
+      </button>
+      <!-- End Navbar Toggle -->
+
+      <!-- Navbar Collapse -->
+      <div id="navbarVerticalNavMenu" class="collapse navbar-collapse">
+        <div class="navbar-brand-wrapper border-end" style="height: auto;">
+          <!-- Default Logo -->
+          <div class="d-flex align-items-center mb-3">
+            <a class="navbar-brand" href="../documentation/index.html" aria-label="Space">
+              <img class="navbar-brand-logo" src="../assets/svg/logos/logo.svg" alt="Logo">
+            </a>
+            <a class="navbar-brand-badge" href="../documentation/changelog.html">
+              <span class="badge bg-soft-primary text-primary ms-2">v2.3.1</span>
+            </a>
+          </div>
+          <!-- End Default Logo -->
+      
+          <!-- Nav -->
+          <ul class="nav nav-segment nav-fill nav-justified">
+            <li class="nav-item">
+              <a class="nav-link active" href="../documentation/index.html">Docs</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="../snippets/index.html">Snippets</a>
+            </li>
+          </ul>
+          <!-- End Nav -->
+        </div>
+
+        <div class="docs-navbar-sidebar-aside-body navbar-sidebar-aside-body">
+          <ul id="navbarSettings" class="navbar-nav nav nav-vertical nav-tabs nav-tabs-borderless nav-sm">
+            <li class="nav-item">
+              <span class="nav-subtitle">Documentation</span>
+            </li>
+        
+            <li class="nav-item">
+              <a class="nav-link active" href="../documentation/index.html">Introduction</a>
+            </li>
+
+            <li class="nav-item my-2 my-lg-5"></li>
+
+            <li class="nav-item">
+              <span class="nav-subtitle">Getting started</span>
+            </li>
+
+            <li class="nav-item">
+              <a class="nav-link " href="../documentation/getting-started.html">Getting Started</a>
+            </li>
+
+            <li class="nav-item">
+              <a class="nav-link " href="../documentation/gulp.html">Gulp</a>
+            </li>
+
+            <li class="nav-item">
+              <a class="nav-link " href="../documentation/customization.html">Customization</a>
+            </li>
+
+            <li class="nav-item">
+              <a class="nav-link " href="../documentation/credits.html">Credits</a>
+            </li>
+
+            <li class="nav-item">
+              <a class="nav-link " href="../documentation/changelog.html">Changelog</a>
+            </li>
+
+            <li class="nav-item my-2 my-lg-5"></li>
+
+            <li class="nav-item">
+              <span class="nav-subtitle">Design &amp; Graphics</span>
+            </li>
+
+            <li class="nav-item">
+              <a class="nav-link " href="../documentation/bs-icons.html">Bootstrap Icons</a>
+            </li>
+
+            <li class="nav-item">
+              <a class="nav-link " href="../documentation/duotone-icons.html">Duotone Icons</a>
+            </li>
+
+            <li class="nav-item">
+              <a class="nav-link " href="../documentation/illustrations.html">Illustrations</a>
+            </li>
+
+            <li class="nav-item">
+              <a class="nav-link " href="../documentation/figma.html">Figma</a>
+            </li>
+
+            <li class="nav-item my-2 my-lg-5"></li>
+
+            <li class="nav-item">
+              <span class="nav-subtitle">Components</span>
+            </li>
+
+            <li class="nav-item">
+              <a class="nav-link " href="../documentation/accordion.html">Accordion</a>
+            </li>
+
+            <li class="nav-item">
+              <a class="nav-link " href="../documentation/alerts.html">Alerts</a>
+            </li>
+
+            <li class="nav-item">
+              <a class="nav-link " href="../documentation/avatars.html">Avatars</a>
+            </li>
+
+            <li class="nav-item">
+              <a class="nav-link " href="../documentation/badge.html">Badge</a>
+            </li>
+
+            <li class="nav-item">
+              <a class="nav-link " href="../documentation/banners.html">Banners</a>
+            </li>
+
+            <li class="nav-item">
+              <a class="nav-link " href="../documentation/breadcrumb.html">Breadcrumb</a>
+            </li>
+
+            <li class="nav-item">
+              <a class="nav-link " href="../documentation/buttons.html">Buttons</a>
+            </li>
+
+            <li class="nav-item">
+              <a class="nav-link " href="../documentation/cards.html">Cards</a>
+            </li>
+
+            <li class="nav-item">
+              <a class="nav-link " href="../documentation/collapse.html">Collapse</a>
+            </li>
+
+            <li class="nav-item">
+              <a class="nav-link " href="../documentation/column-divider.html">Column Divider</a>
+            </li>
+
+            <li class="nav-item">
+              <a class="nav-link " href="../documentation/devices.html">Devices</a>
+            </li>
+
+            <li class="nav-item">
+              <a class="nav-link " href="../documentation/divider.html">Divider</a>
+            </li>
+
+            <li class="nav-item">
+              <a class="nav-link " href="../documentation/dropdowns.html">Dropdowns</a>
+            </li>
+
+            <li class="nav-item">
+              <a class="nav-link " href="../documentation/list-group.html">List Group</a>
+            </li>
+
+            <li class="nav-item">
+              <a class="nav-link " href="../documentation/lists.html">Lists</a>
+            </li>
+
+            <li class="nav-item">
+              <a class="nav-link " href="../documentation/modal.html">Modal</a>
+            </li>
+
+            <li class="nav-item">
+              <a class="nav-link " href="../documentation/offcanvas.html">Offcanvas</a>
+            </li>
+
+            <li class="nav-item">
+              <a class="nav-link " href="../documentation/pagination.html">Pagination</a>
+            </li>
+
+            <li class="nav-item">
+              <a class="nav-link " href="../documentation/popovers.html">Popovers</a>
+            </li>
+
+            <li class="nav-item">
+              <a class="nav-link " href="../documentation/progress.html">Progress</a>
+            </li>
+
+            <li class="nav-item">
+              <a class="nav-link " href="../documentation/shapes.html">Shapes</a>
+            </li>
+
+            <li class="nav-item">
+              <a class="nav-link " href="../documentation/spinners.html">Spinners</a>
+            </li>
+
+            <li class="nav-item">
+              <a class="nav-link " href="../documentation/steps.html">Steps</a>
+            </li>
+        
+            <li class="nav-item">
+              <a class="nav-link " href="../documentation/tab.html">Tab</a>
+            </li>
+
+            <li class="nav-item">
+              <a class="nav-link " href="../documentation/tables.html">Tables</a>
+            </li>
+
+            <li class="nav-item">
+              <a class="nav-link " href="../documentation/toasts.html">Toasts</a>
+            </li>
+
+            <li class="nav-item">
+              <a class="nav-link " href="../documentation/tooltips.html">Tooltips</a>
+            </li>
+
+            <li class="nav-item">
+              <a class="nav-link " href="../documentation/typography.html">Typography</a>
+            </li>
+
+            <li class="nav-item my-2 my-lg-5"></li>
+
+            <li class="nav-item">
+              <small class="nav-subtitle d-block">Navbars</small>
+            </li>
+
+            <li class="nav-item">
+              <a class="nav-link " href="../documentation/navbar.html">Navbar</a>
+            </li>
+
+            <li class="nav-item">
+              <a class="nav-link " href="../documentation/navs.html">Navs</a>
+            </li>
+
+            <li class="nav-item">
+              <a class="nav-link " href="../documentation/mega-menu.html">Mega Menu</a>
+            </li>
+
+            <li class="nav-item">
+              <a class="nav-link " href="../documentation/scrollspy.html">Scrollspy</a>
+            </li>
+
+            <li class="nav-item my-2 my-lg-5"></li>
+
+            <li class="nav-item">
+              <small class="nav-subtitle d-block">Basic forms</small>
+            </li>
+
+            <li class="nav-item">
+              <a class="nav-link " href="../documentation/basic-forms.html">Basic Forms</a>
+            </li>
+
+            <li class="nav-item">
+              <a class="nav-link " href="../documentation/checks-and-switches.html">Checks &amp; Switches</a>
+            </li>
+
+            <li class="nav-item">
+              <a class="nav-link " href="../documentation/input-group.html">Input Group</a>
+            </li>
+
+            <li class="nav-item my-2 my-lg-5"></li>
+
+            <li class="nav-item">
+              <small class="nav-subtitle">Media</small>
+            </li>
+
+            <li class="nav-item">
+              <a class="nav-link " href="../documentation/fslightbox.html">Fullscreen Lightbox</a>
+            </li>
+
+            <li class="nav-item">
+              <a class="nav-link " href="../documentation/swiper.html">Swiper Touch Slider</a>
+            </li>
+
+            <li class="nav-item my-2 my-lg-5"></li>
+
+            <li class="nav-item">
+              <small class="nav-subtitle">Others</small>
+            </li>
+
+            <li class="nav-item">
+              <a class="nav-link " href="../documentation/sticky-block.html">Sticky Block</a>
+            </li>
+
+            <li class="nav-item">
+              <a class="nav-link " href="../documentation/countdown.html">Countdown</a>
+            </li>
+
+            <li class="nav-item">
+              <a class="nav-link " href="../documentation/sorting.html">Sorting (Shuffle.js)</a>
+            </li>
+
+            <li class="nav-item">
+              <a class="nav-link " href="../documentation/go-to.html">Go To</a>
+            </li>
+
+            <li class="nav-item">
+              <a class="nav-link " href="../documentation/show-animation.html">Show Animation</a>
+            </li>
+
+            <li class="nav-item">
+              <a class="nav-link " href="../documentation/typedjs.html">Typedjs</a>
+            </li>
+
+            <li class="nav-item my-2 my-lg-5"></li>
+        
+            <li class="nav-item">
+              <small class="nav-subtitle d-block">Utilities</small>
+            </li>
+        
+            <li class="nav-item">
+              <a class="nav-link "
+                href="../documentation/backgrounds.html">Backgrounds</a>
+            </li>
+        
+            <li class="nav-item">
+              <a class="nav-link " href="../documentation/borders.html">Borders</a>
+            </li>
+        
+            <li class="nav-item">
+              <a class="nav-link " href="../documentation/colors.html">Colors</a>
+            </li>
+        
+            <li class="nav-item">
+              <a class="nav-link " href="../documentation/lines.html">Lines</a>
+            </li>
+        
+            <li class="nav-item">
+              <a class="nav-link " href="../documentation/links.html">Links</a>
+            </li>
+        
+            <li class="nav-item">
+              <a class="nav-link " href="../documentation/position.html">Position</a>
+            </li>
+        
+            <li class="nav-item">
+              <a class="nav-link " href="../documentation/rotations.html">Rotations</a>
+            </li>
+        
+            <li class="nav-item">
+              <a class="nav-link " href="../documentation/shadows.html">Shadows</a>
+            </li>
+        
+            <li class="nav-item">
+              <a class="nav-link " href="../documentation/sizing.html">Sizing</a>
+            </li>
+        
+            <li class="nav-item">
+              <a class="nav-link " href="../documentation/spacing.html">Spacing</a>
+            </li>
+        
+            <li class="nav-item">
+              <a class="nav-link " href="../documentation/z-index.html">Z-index</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+      <!-- End Navbar Collapse -->
+    </nav>
+
+    <!-- End Navbar -->
+
+    <!-- Content -->
+    <div class="navbar-sidebar-aside-content content-space-1 content-space-md-2 px-lg-5 px-xl-10">
+      <div class="row justify-content-md-between align-items-md-center mb-10">
+        <div class="col-md-6 col-xl-5">
+          <div class="mb-4">
+            <h1 class="mb-3" style="font-size: 3rem;">Boost <span class="text-primary text-highlight-warning">your idea</span> with native components.</h1>
+            <p class="lead">Components are the reusable building blocks of our design system to create patterns and intuitive user experiences.</p>
+          </div>
+
+          <div class="d-flex flex-wrap gap-2">
+            <!-- Card -->
+            <div class="bg-soft-secondary text-center rounded" style="min-width: 8rem;">
+              <div class="card-body">
+                <h2 class="h1 fw-normal mb-1">45</h2>
+                <span class="small text-cap mb-0">Components</span>
+              </div>
+            </div>
+            <!-- End Card -->
+
+            <!-- Card -->
+            <div class="bg-soft-secondary text-center rounded" style="min-width: 8rem;">
+              <div class="card-body">
+                <h2 class="h1 fw-normal mb-1">20</h2>
+                <span class="small text-cap mb-0">Plugins</span>
+              </div>
+            </div>
+            <!-- End Card -->
+
+            <!-- Card -->
+            <div class="bg-soft-secondary text-center rounded" style="min-width: 8rem;">
+              <div class="card-body">
+                <h2 class="h1 fw-normal mb-1">500+</h2>
+                <span class="small text-cap mb-0">Combinations</span>
+              </div>
+            </div>
+            <!-- End Card -->
+          </div>
+        </div>
+        <!-- End Col -->
+
+        <div class="col-md-6 col-xl-6">
+          <img class="img-fluid" src="../assets/svg/illustrations/oc-project-development.svg" alt="Image Description">
+        </div>
+        <!-- End Col -->
+      </div>
+      <!-- End Row -->
+
+      <span class="divider-center text-cap mb-8">Design &amp; Graphics</span>
+
+      <div class="row row-cols-1 row-cols-sm-2 row-cols-md-3 row-cols-xl-5 mb-6">
+        <div class="col mb-4">
+          <!-- Card -->
+          <a class="card card-sm card-transition h-100" href="../documentation/bs-icons.html" data-aos="fade-up">
+            <img class="card-img p-2" src="../assets/svg/design-system/docs-bs-icons.svg" alt="Image Description">
+            <div class="card-body">
+              <h4 class="card-title text-inherit">Bootstrap Icons</h4>
+              <p class="card-text small text-body">Free, high quality, open source icon library with over 1,300 icons. Include them anyway you like—SVGs, SVG sprite, or web fonts.</p>
+            </div>
+          </a>
+          <!-- End Card -->
+        </div>
+        <!-- End Col -->
+
+        <div class="col mb-4">
+          <!-- Card -->
+          <a class="card card-sm card-transition h-100" href="../documentation/duotone-icons.html" data-aos="fade-up">
+            <img class="card-img p-2" src="../assets/svg/design-system/docs-duotone-icons.svg" alt="Image Description">
+            <div class="card-body">
+              <h4 class="card-title text-inherit">Duotone Icons</h4>
+              <p class="card-text small text-body">Space vector duotone duotone icons.</p>
+            </div>
+          </a>
+          <!-- End Card -->
+        </div>
+        <!-- End Col -->
+
+        <div class="col mb-4">
+          <!-- Card -->
+          <a class="card card-sm card-transition h-100" href="../documentation/illustrations.html" data-aos="fade-up">
+            <img class="card-img p-2" src="../assets/svg/design-system/docs-illustrations.svg" alt="Image Description">
+            <div class="card-body">
+              <h4 class="card-title text-inherit">Illustrations</h4>
+              <p class="card-text small text-body">High-quality and eye-catching scenes for any kind of projects from websites to applications.</p>
+            </div>
+          </a>
+          <!-- End Card -->
+        </div>
+
+        <div class="col mb-4">
+          <!-- Card -->
+          <a class="card card-sm card-transition h-100" href="../documentation/figma.html" data-aos="fade-up">
+            <img class="card-img p-2" src="../assets/svg/design-system/docs-figma.svg" alt="Image Description">
+            <div class="card-body">
+              <h4 class="card-title text-inherit">Figma</h4>
+              <p class="card-text small text-body">Figma is fast and powerful designing tool. Space utilizes all major Figma's features such as variables, auto layouts,
+              reusable components and more.</p>
+            </div>
+          </a>
+          <!-- End Card -->
+        </div>
+        <!-- End Col -->
+      </div>
+      <!-- End Row -->
+
+      <span class="divider-center text-cap mb-8">Components</span>
+
+      <div class="row row-cols-1 row-cols-sm-2 row-cols-md-3 row-cols-xl-5 mb-6">
+        <div class="col mb-4">
+          <!-- Card -->
+          <a class="card card-sm card-transition h-100" href="../documentation/accordion.html" data-aos="fade-up">
+            <img class="card-img p-2" src="../assets/svg/design-system/docs-accordion.svg" alt="Image Description">
+            <div class="card-body">
+              <h4 class="card-title text-inherit">Accordion</h4>
+              <p class="card-text small text-body">Vertically collapsing accordions.</p>
+            </div>
+          </a>
+          <!-- End Card -->
+        </div>
+        <!-- End Col -->
+
+
+        <div class="col mb-4">
+          <!-- Card -->
+          <a class="card card-sm card-transition h-100" href="../documentation/alerts.html" data-aos="fade-up">
+            <img class="card-img p-2" src="../assets/svg/design-system/docs-alerts.svg" alt="Image Description">
+            <div class="card-body">
+              <h4 class="card-title text-inherit">Alerts</h4>
+              <p class="card-text small text-body">An alert lets users know when important information is available or when an action is required.</p>
+            </div>
+          </a>
+          <!-- End Card -->
+        </div>
+        <!-- End Col -->
+
+        <div class="col mb-4">
+          <!-- Card -->
+          <a class="card card-sm card-transition h-100" href="../documentation/avatars.html" data-aos="fade-up">
+            <img class="card-img p-2" src="../assets/svg/design-system/docs-avatars.svg" alt="Image Description">
+            <div class="card-body">
+              <h4 class="card-title text-inherit">Avatars</h4>
+              <p class="card-text small text-body">An avatar is a visual representation of a user or entity.</p>
+            </div>
+          </a>
+          <!-- End Card -->
+        </div>
+        <!-- End Col -->
+
+        <div class="col mb-4">
+          <!-- Card -->
+          <a class="card card-sm card-transition h-100" href="../documentation/badge.html" data-aos="fade-up">
+            <img class="card-img p-2" src="../assets/svg/design-system/docs-badge.svg" alt="Image Description">
+            <div class="card-body">
+              <h4 class="card-title text-inherit">Badge</h4>
+              <p class="card-text small text-body">A badge is a visual indicator for numeric values such as tallies and scores.</p>
+            </div>
+          </a>
+          <!-- End Card -->
+        </div>
+        <!-- End Col -->
+
+        <div class="col mb-4">
+          <!-- Card -->
+          <a class="card card-sm card-transition h-100" href="../documentation/breadcrumb.html" data-aos="fade-up">
+            <img class="card-img p-2" src="../assets/svg/design-system/docs-breadcrumb.svg" alt="Image Description">
+            <div class="card-body">
+              <h4 class="card-title text-inherit">Breadcrumb</h4>
+              <p class="card-text small text-body">Breadcrumbs are a navigation system used to show a user's location in a site or app.</p>
+            </div>
+          </a>
+          <!-- End Card -->
+        </div>
+        <!-- End Col -->
+
+        <div class="col mb-4">
+          <!-- Card -->
+          <a class="card card-sm card-transition h-100" href="../documentation/buttons.html" data-aos="fade-up">
+            <img class="card-img p-2" src="../assets/svg/design-system/docs-buttons.svg" alt="Image Description">
+            <div class="card-body">
+              <h4 class="card-title text-inherit">Buttons</h4>
+              <p class="card-text small text-body">A button triggers an event or action. They let users know what will happen next.</p>
+            </div>
+          </a>
+          <!-- End Card -->
+        </div>
+        <!-- End Col -->
+
+        <div class="col mb-4">
+          <!-- Card -->
+          <a class="card card-sm card-transition h-100" href="../documentation/cards.html" data-aos="fade-up">
+            <img class="card-img p-2" src="../assets/svg/design-system/docs-cards.svg" alt="Image Description">
+            <div class="card-body">
+              <h4 class="card-title text-inherit">Cards</h4>
+              <p class="card-text small text-body">A flexible and extensible content container with multiple variants and options.</p>
+            </div>
+          </a>
+          <!-- End Card -->
+        </div>
+        <!-- End Col -->
+
+        <div class="col mb-4">
+          <!-- Card -->
+          <a class="card card-sm card-transition h-100" href="../documentation/collapse.html" data-aos="fade-up">
+            <img class="card-img p-2" src="../assets/svg/design-system/docs-collapse.svg" alt="Image Description">
+            <div class="card-body">
+              <h4 class="card-title text-inherit">Collapse</h4>
+              <p class="card-text small text-body">Toggle the visibility of content across your project.</p>
+            </div>
+          </a>
+          <!-- End Card -->
+        </div>
+        <!-- End Col -->
+
+        <div class="col mb-4">
+          <!-- Card -->
+          <a class="card card-sm card-transition h-100" href="../documentation/column-divider.html" data-aos="fade-up">
+            <img class="card-img p-2" src="../assets/svg/design-system/docs-column-divider.svg" alt="Image Description">
+            <div class="card-body">
+              <h4 class="card-title text-inherit">Column Divider</h4>
+              <p class="card-text small text-body">Separate groups of related menu items with a vertical divider.</p>
+            </div>
+          </a>
+          <!-- End Card -->
+        </div>
+        <!-- End Col -->
+
+        <div class="col mb-4">
+          <!-- Card -->
+          <a class="card card-sm card-transition h-100" href="../documentation/devices.html" data-aos="fade-up">
+            <img class="card-img p-2" src="../assets/svg/design-system/docs-devices.svg" alt="Image Description">
+            <div class="card-body">
+              <h4 class="card-title text-inherit">Devices</h4>
+              <p class="card-text small text-body">Beautifully demonstrate your contents in phone, laptop or tablet device mockups.</p>
+            </div>
+          </a>
+          <!-- End Card -->
+        </div>
+        <!-- End Col -->
+
+        <div class="col mb-4">
+          <!-- Card -->
+          <a class="card card-sm card-transition h-100" href="../documentation/divider.html" data-aos="fade-up">
+            <img class="card-img p-2" src="../assets/svg/design-system/docs-divider.svg" alt="Image Description">
+            <div class="card-body">
+              <h4 class="card-title text-inherit">Divider</h4>
+            <p class="card-text small text-body">Separate groups of related menu items with a vertical divider.</p>
+            </div>
+          </a>
+          <!-- End Card -->
+        </div>
+        <!-- End Col -->
+
+        <div class="col mb-4">
+          <!-- Card -->
+          <a class="card card-sm card-transition h-100" href="../documentation/dropdowns.html" data-aos="fade-up">
+            <img class="card-img p-2" src="../assets/svg/design-system/docs-dropdowns.svg" alt="Image Description">
+            <div class="card-body">
+              <h4 class="card-title text-inherit">Dropdowns</h4>
+              <p class="card-text small text-body">A dropdown menu displays a list of actions or options to a user.</p>
+            </div>
+          </a>
+          <!-- End Card -->
+        </div>
+        <!-- End Col -->
+
+        <div class="col mb-4">
+          <!-- Card -->
+          <a class="card card-sm card-transition h-100" href="../documentation/list-group.html" data-aos="fade-up">
+            <img class="card-img p-2" src="../assets/svg/design-system/docs-list-group.svg" alt="Image Description">
+            <div class="card-body">
+              <h4 class="card-title text-inherit">List Group</h4>
+              <p class="card-text small text-body">List groups are a flexible and powerful component for displaying a series of content.</p>
+            </div>
+          </a>
+          <!-- End Card -->
+        </div>
+        <!-- End Col -->
+
+        <div class="col mb-4">
+          <!-- Card -->
+          <a class="card card-sm card-transition h-100" href="../documentation/lists.html" data-aos="fade-up">
+            <img class="card-img p-2" src="../assets/svg/design-system/docs-lists.svg" alt="Image Description">
+            <div class="card-body">
+              <h4 class="card-title text-inherit">Lists</h4>
+              <p class="card-text small text-body">Lists are a flexible and powerful component for displaying a series of content.</p>
+            </div>
+          </a>
+          <!-- End Card -->
+        </div>
+        <!-- End Col -->
+
+        <div class="col mb-4">
+          <!-- Card -->
+          <a class="card card-sm card-transition h-100" href="../documentation/modal.html" data-aos="fade-up">
+            <img class="card-img p-2" src="../assets/svg/design-system/docs-modal.svg" alt="Image Description">
+            <div class="card-body">
+              <h4 class="card-title text-inherit">Modal</h4>
+              <p class="card-text small text-body">A modal dialog displays content that requires user interaction, in a layer above the page.</p>
+            </div>
+          </a>
+          <!-- End Card -->
+        </div>
+        <!-- End Col -->
+
+        <div class="col mb-4">
+          <!-- Card -->
+          <a class="card card-sm card-transition h-100" href="../documentation/offcanvas.html" data-aos="fade-up">
+            <img class="card-img p-2" src="../assets/svg/design-system/docs-offcanvas.svg" alt="Image Description">
+            <div class="card-body">
+              <h4 class="card-title text-inherit">Offcanvas</h4>
+              <p class="card-text small text-body">Build hidden sidebars into your project for navigation, shopping carts, and more.</p>
+            </div>
+          </a>
+          <!-- End Card -->
+        </div>
+        <!-- End Col -->
+
+        <div class="col mb-4">
+          <!-- Card -->
+          <a class="card card-sm card-transition h-100" href="../documentation/pagination.html" data-aos="fade-up">
+            <img class="card-img p-2" src="../assets/svg/design-system/docs-pagination.svg" alt="Image Description">
+            <div class="card-body">
+              <h4 class="card-title text-inherit">Pagination</h4>
+              <p class="card-text small text-body">Pagination allows you to divide large amounts of content into smaller chunks across multiple pages.</p>
+            </div>
+          </a>
+          <!-- End Card -->
+        </div>
+        <!-- End Col -->
+
+        <div class="col mb-4">
+          <!-- Card -->
+          <a class="card card-sm card-transition h-100" href="../documentation/popovers.html" data-aos="fade-up">
+            <img class="card-img p-2" src="../assets/svg/design-system/docs-popovers.svg" alt="Image Description">
+            <div class="card-body">
+              <h4 class="card-title text-inherit">Popovers</h4>
+              <p class="card-text small text-body">Add Bootstrap popovers, like those found in iOS, to any element on your site.</p>
+            </div>
+          </a>
+          <!-- End Card -->
+        </div>
+        <!-- End Col -->
+
+        <div class="col mb-4">
+          <!-- Card -->
+          <a class="card card-sm card-transition h-100" href="../documentation/progress.html" data-aos="fade-up">
+            <img class="card-img p-2" src="../assets/svg/design-system/docs-progress.svg" alt="Image Description">
+            <div class="card-body">
+              <h4 class="card-title text-inherit">Progress</h4>
+              <p class="card-text small text-body">Documentation and examples for using custom progress bars.</p>
+            </div>
+          </a>
+          <!-- End Card -->
+        </div>
+        <!-- End Col -->
+
+        <div class="col mb-4">
+          <!-- Card -->
+          <a class="card card-sm card-transition h-100" href="../documentation/shapes.html" data-aos="fade-up">
+            <img class="card-img p-2" src="../assets/svg/design-system/docs-shapes.svg" alt="Image Description">
+            <div class="card-body">
+              <h4 class="card-title text-inherit">Shapes</h4>
+              <p class="card-text small text-body">Shapes to use as background cover elements.</p>
+            </div>
+          </a>
+          <!-- End Card -->
+        </div>
+        <!-- End Col -->
+
+        <div class="col mb-4">
+          <!-- Card -->
+          <a class="card card-sm card-transition h-100" href="../documentation/spinners.html" data-aos="fade-up">
+            <img class="card-img p-2" src="../assets/svg/design-system/docs-spinners.svg" alt="Image Description">
+            <div class="card-body">
+              <h4 class="card-title text-inherit">Spinners</h4>
+              <p class="card-text small text-body">A spinner is an animated spinning icon that lets users know content is being loaded.</p>
+            </div>
+          </a>
+          <!-- End Card -->
+        </div>
+        <!-- End Col -->
+
+        <div class="col mb-4">
+          <!-- Card -->
+          <a class="card card-sm card-transition h-100" href="../documentation/steps.html" data-aos="fade-up">
+            <img class="card-img p-2" src="../assets/svg/design-system/docs-steps.svg" alt="Image Description">
+            <div class="card-body">
+              <h4 class="card-title text-inherit">Steps</h4>
+              <p class="card-text small text-body">A component that displays content as a process with defined by user milestones.</p>
+            </div>
+          </a>
+          <!-- End Card -->
+        </div>
+        <!-- End Col -->
+
+        <div class="col mb-4">
+          <!-- Card -->
+          <a class="card card-sm card-transition h-100" href="../documentation/tab.html" data-aos="fade-up">
+            <img class="card-img p-2" src="../assets/svg/design-system/docs-tab.svg" alt="Image Description">
+            <div class="card-body">
+              <h4 class="card-title text-inherit">Tab</h4>
+              <p class="card-text small text-body">Tabbable panes.</p>
+            </div>
+          </a>
+          <!-- End Card -->
+        </div>
+        <!-- End Col -->
+
+        <div class="col mb-4">
+          <!-- Card -->
+          <a class="card card-sm card-transition h-100" href="../documentation/tables.html" data-aos="fade-up">
+            <img class="card-img p-2" src="../assets/svg/design-system/docs-tables.svg" alt="Image Description">
+            <div class="card-body">
+              <h4 class="card-title text-inherit">Tables</h4>
+              <p class="card-text small text-body">Documentation and examples for opt-in styling of tables with Bootstrap.</p>
+            </div>
+          </a>
+          <!-- End Card -->
+        </div>
+        <!-- End Col -->
+
+        <div class="col mb-4">
+          <!-- Card -->
+          <a class="card card-sm card-transition h-100" href="../documentation/toasts.html" data-aos="fade-up">
+            <img class="card-img p-2" src="../assets/svg/design-system/docs-toasts.svg" alt="Image Description">
+            <div class="card-body">
+              <h4 class="card-title text-inherit">Toasts</h4>
+              <p class="card-text small text-body">Push notifications to your visitors with a toast.</p>
+            </div>
+          </a>
+          <!-- End Card -->
+        </div>
+        <!-- End Col -->
+
+        <div class="col mb-4">
+          <!-- Card -->
+          <a class="card card-sm card-transition h-100" href="../documentation/tooltips.html" data-aos="fade-up">
+            <img class="card-img p-2" src="../assets/svg/design-system/docs-tooltips.svg" alt="Image Description">
+            <div class="card-body">
+              <h4 class="card-title text-inherit">Tooltips</h4>
+              <p class="card-text small text-body">A tooltip is a floating, non-actionable label used to explain a user interface element or feature.</p>
+            </div>
+          </a>
+          <!-- End Card -->
+        </div>
+        <!-- End Col -->
+
+        <div class="col mb-4">
+          <!-- Card -->
+          <a class="card card-sm card-transition h-100" href="../documentation/typography.html" data-aos="fade-up">
+            <img class="card-img p-2" src="../assets/svg/design-system/docs-typography.svg" alt="Image Description">
+            <div class="card-body">
+              <h4 class="card-title text-inherit">Typography</h4>
+              <p class="card-text small text-body">Documentation and examples for Space typography, including global settings,
+                headings, body text, lists, and more.</p>
+            </div>
+          </a>
+          <!-- End Card -->
+        </div>
+        <!-- End Col -->
+      </div>
+      <!-- End Row -->
+
+      <span class="divider-center text-cap mb-8">Navbars</span>
+
+      <div class="row row-cols-1 row-cols-sm-2 row-cols-md-3 row-cols-xl-5 mb-6">
+        <div class="col mb-4">
+          <!-- Card -->
+          <a class="card card-sm card-transition h-100" href="../documentation/navbar.html" data-aos="fade-up">
+            <img class="card-img p-2" src="../assets/svg/design-system/docs-navbar.svg" alt="Image Description">
+            <div class="card-body">
+              <h4 class="card-title text-inherit">Header (navbar)</h4>
+              <p class="card-text small text-body">Powerful and responsive navigation header, the navbar.</p>
+            </div>
+          </a>
+          <!-- End Card -->
+        </div>
+        <!-- End Col -->
+
+        <div class="col mb-4">
+          <!-- Card -->
+          <a class="card card-sm card-transition h-100" href="../documentation/navs.html" data-aos="fade-up">
+            <img class="card-img p-2" src="../assets/svg/design-system/docs-navs.svg" alt="Image Description">
+            <div class="card-body">
+              <h4 class="card-title text-inherit">Navs</h4>
+              <p class="card-text small text-body">Documentation and examples for how to use navigation components.</p>
+            </div>
+          </a>
+          <!-- End Card -->
+        </div>
+        <!-- End Col -->
+
+        <div class="col mb-4">
+          <!-- Card -->
+          <a class="card card-sm card-transition h-100" href="../documentation/mega-menu.html" data-aos="fade-up">
+            <img class="card-img p-2" src="../assets/svg/design-system/docs-mega-menu.svg" alt="Image Description">
+            <div class="card-body">
+              <h4 class="card-title text-inherit">Mega Menu</h4>
+              <p class="card-text small text-body">A powerful, and responsive navigation mega menu.</p>
+            </div>
+          </a>
+          <!-- End Card -->
+        </div>
+        <!-- End Col -->
+
+        <div class="col mb-4">
+          <!-- Card -->
+          <a class="card card-sm card-transition h-100" href="../documentation/scrollspy.html" data-aos="fade-up">
+            <img class="card-img p-2" src="../assets/svg/design-system/docs-scrollspy.svg" alt="Image Description">
+            <div class="card-body">
+              <h4 class="card-title text-inherit">Scrollspy</h4>
+              <p class="card-text small text-body">Automatically update Space navigation or list group components based on scroll position to indicate which link is currently active in the viewport.</p>
+            </div>
+          </a>
+          <!-- End Card -->
+        </div>
+        <!-- End Col -->
+      </div>
+      <!-- End Row -->
+
+      <span class="divider-center text-cap mb-8">Basic forms</span>
+
+      <div class="row row-cols-1 row-cols-sm-2 row-cols-md-3 row-cols-xl-5 mb-6">
+        <div class="col mb-4">
+          <!-- Card -->
+          <a class="card card-sm card-transition h-100" href="../documentation/basic-forms.html" data-aos="fade-up">
+            <img class="card-img p-2" src="../assets/svg/design-system/docs-basic-forms.svg" alt="Image Description">
+            <div class="card-body">
+              <h4 class="card-title text-inherit">Basic Forms</h4>
+              <p class="card-text small text-body">Examples and usage guidelines for form control styles, layout options, and custom components for creating a wide variety of forms.</p>
+            </div>
+          </a>
+          <!-- End Card -->
+        </div>
+        <!-- End Col -->
+
+        <div class="col mb-4">
+          <!-- Card -->
+          <a class="card card-sm card-transition h-100" href="../documentation/checks-and-switches.html" data-aos="fade-up">
+            <img class="card-img p-2" src="../assets/svg/design-system/docs-checks-and-switches.svg" alt="Image Description">
+            <div class="card-body">
+              <h4 class="card-title text-inherit">Checks &amp; Switches</h4>
+              <p class="card-text small text-body">A checkbox is an input control that allows a user to select one or more options from a number of choices.</p>
+            </div>
+          </a>
+          <!-- End Card -->
+        </div>
+        <!-- End Col -->
+
+        <div class="col mb-4">
+          <!-- Card -->
+          <a class="card card-sm card-transition h-100" href="../documentation/input-group.html" data-aos="fade-up">
+            <img class="card-img p-2" src="../assets/svg/design-system/docs-input-group.svg" alt="Image Description">
+            <div class="card-body">
+              <h4 class="card-title text-inherit">Input Group</h4>
+              <p class="card-text small text-body">Easily extend form controls by adding text, buttons, or button groups on either side of textual inputs, custom selects, and custom file inputs.</p>
+            </div>
+          </a>
+          <!-- End Card -->
+        </div>
+        <!-- End Col -->
+      </div>
+      <!-- End Row -->
+
+      <span class="divider-center text-cap mb-8">Media</span>
+
+      <div class="row row-cols-1 row-cols-sm-2 row-cols-md-3 row-cols-xl-5 mb-6">
+        <div class="col mb-4">
+          <!-- Card -->
+          <a class="card card-sm card-transition h-100" href="../documentation/fslightbox.html" data-aos="fade-up">
+            <img class="card-img p-2" src="../assets/svg/design-system/docs-fslightbox.svg" alt="Image Description">
+            <div class="card-body">
+              <h4 class="card-title text-inherit">Fullscreen Lightbox</h4>
+              <p class="card-text small text-body">Simple and powerful lightbox for displaying photos, HTML5 or YouTube videos in clean overlaying box.</p>
+            </div>
+          </a>
+          <!-- End Card -->
+        </div>
+        <!-- End Col -->
+
+        <div class="col mb-4">
+          <!-- Card -->
+          <a class="card card-sm card-transition h-100" href="../documentation/swiper.html" data-aos="fade-up">
+            <img class="card-img p-2" src="../assets/svg/design-system/docs-swiper.svg" alt="Image Description">
+            <div class="card-body">
+              <h4 class="card-title text-inherit">Swiper</h4>
+              <p class="card-text small text-body">Most modern mobile touch slider.</p>
+            </div>
+          </a>
+          <!-- End Card -->
+        </div>
+        <!-- End Col -->
+      </div>
+      <!-- End Row -->
+
+      <span class="divider-center text-cap mb-8">Others</span>
+
+      <div class="row row-cols-1 row-cols-sm-2 row-cols-md-3 row-cols-xl-5">
+        <div class="col mb-4">
+          <!-- Card -->
+          <a class="card card-sm card-transition h-100" href="../documentation/sticky-block.html" data-aos="fade-up">
+            <img class="card-img p-2" src="../assets/svg/design-system/docs-sticky-block.svg" alt="Image Description">
+            <div class="card-body">
+              <h4 class="card-title text-inherit">Sticky Block</h4>
+              <p class="card-text small text-body">This is for making any block floating on your page.</p>
+            </div>
+          </a>
+          <!-- End Card -->
+        </div>
+        <!-- End Col -->
+
+        <div class="col mb-4">
+          <!-- Card -->
+          <a class="card card-sm card-transition h-100" href="../documentation/countdown.html" data-aos="fade-up">
+            <img class="card-img p-2" src="../assets/svg/design-system/docs-countdown.svg" alt="Image Description">
+            <div class="card-body">
+              <h4 class="card-title text-inherit">Countdown</h4>
+              <p class="card-text small text-body">A simple JavaScript API for producing an accurate, intuitive description of the timespan between two Date instances.</p>
+            </div>
+          </a>
+          <!-- End Card -->
+        </div>
+        <!-- End Col -->
+
+        <div class="col mb-4">
+          <!-- Card -->
+          <a class="card card-sm card-transition h-100" href="../documentation/sorting.html" data-aos="fade-up">
+            <img class="card-img p-2" src="../assets/svg/design-system/docs-sorting.svg" alt="Image Description">
+            <div class="card-body">
+              <h4 class="card-title text-inherit">Sorting (Shuffle.js)</h4>
+              <p class="card-text small text-body">Categorize, sort, and filter a responsive grid of items powered by Shuffle.js.</p>
+            </div>
+          </a>
+          <!-- End Card -->
+        </div>
+        <!-- End Col -->
+
+        <div class="col mb-4">
+          <!-- Card -->
+          <a class="card card-sm card-transition h-100" href="../documentation/go-to.html" data-aos="fade-up">
+            <img class="card-img p-2" src="../assets/svg/design-system/docs-go-to.svg" alt="Image Description">
+            <div class="card-body">
+              <h4 class="card-title text-inherit">Go To</h4>
+              <p class="card-text small text-body">Smooth scroll back to the top of the page.</p>
+            </div>
+          </a>
+          <!-- End Card -->
+        </div>
+        <!-- End Col -->
+
+        <div class="col mb-4">
+          <!-- Card -->
+          <a class="card card-sm card-transition h-100" href="../documentation/show-animation.html" data-aos="fade-up">
+            <img class="card-img p-2" src="../assets/svg/design-system/docs-show-animation.svg" alt="Image Description">
+            <div class="card-body">
+              <h4 class="card-title text-inherit">Show Animation</h4>
+              <p class="card-text small text-body">A plugin to make boring show/hide blocks elegant with the opening/closing animation effects.</p>
+            </div>
+          </a>
+          <!-- End Card -->
+        </div>
+        <!-- End Col -->
+
+        <div class="col mb-4">
+          <!-- Card -->
+          <a class="card card-sm card-transition h-100" href="../documentation/typedjs.html" data-aos="fade-up">
+            <img class="card-img p-2" src="../assets/svg/design-system/docs-typedjs.svg" alt="Image Description">
+            <div class="card-body">
+              <h4 class="card-title text-inherit">Typed.js</h4>
+              <p class="card-text small text-body">Decorate your website with Typed.js is a library that types, allowing to showcase more texts in a sentence.</p>
+            </div>
+          </a>
+          <!-- End Card -->
+        </div>
+        <!-- End Col -->
+      </div>
+      <!-- End Row -->
+    </div>
+    <!-- End Content -->
+  </main>
+  <!-- ========== END MAIN CONTENT ========== -->
+
+  <!-- ========== SECONDARY CONTENTS ========== -->
+  <!-- Go To -->
+  <a class="js-go-to go-to position-fixed" href="javascript:;" style="visibility: hidden;"
+     data-hs-go-to-options='{
+       "offsetTop": 700,
+       "position": {
+         "init": {
+           "right": "2rem"
+         },
+         "show": {
+           "bottom": "2rem"
+         },
+         "hide": {
+           "bottom": "-2rem"
+         }
+       }
+     }'>
+    <i class="bi-chevron-up"></i>
+  </a>
+  <!-- ========== END SECONDARY CONTENTS ========== -->
+
+  <!-- JS Global Compulsory  -->
+  <script src="../assets/vendor/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
+
+  <!-- JS Implementing Plugins -->
+  <script src="../assets/vendor/hs-header/dist/hs-header.min.js"></script>
+  <script src="../assets/vendor/list.js/dist/list.min.js"></script>
+  <script src="../assets/vendor/hs-go-to/dist/hs-go-to.min.js"></script>
+  <script src="../assets/vendor/prism/prism.js"></script>
+
+  <!-- JS Space -->
+  <script src="../assets/js/theme.min.js"></script>
+
+  <!-- JS Plugins Init. -->
+  <script>
+    (function() {
+      // INITIALIZATION OF HEADER
+      // =======================================================
+      new HSHeader('#header').init()
+
+
+      // INITIALIZATION OF LISTJS COMPONENT
+      // =======================================================
+      const docsSearch = HSCore.components.HSList.init('#docsSearch');
+
+
+      // GET JSON FILE RESULTS
+      // =======================================================
+      fetch('../assets/json/docs-search.json')
+      .then(response => response.json())
+      .then(data => {
+        docsSearch.getItem(0).add(data)
+      })
+
+      // INITIALIZATION OF GO TO
+      // =======================================================
+      new HSGoTo('.js-go-to')
+    })()
+  </script>
+</body>
+</html>

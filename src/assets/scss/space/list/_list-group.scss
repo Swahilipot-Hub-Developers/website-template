@@ -1,0 +1,54 @@
+/*------------------------------------
+  List Group
+------------------------------------*/
+
+.list-group-item {
+  &:first-child {
+    @include border-top-radius($list-group-border-radius);
+  }
+
+  &:last-child {
+    @include border-bottom-radius($list-group-border-radius);
+  }
+}
+
+// Icon
+.list-group-icon {
+  width: $list-group-icon-width;
+  text-align: center;
+  margin-right: $list-group-icon-margin-x;
+}
+
+// Flush
+.list-group-flush {
+  > .list-group-item {
+    border-width: 0 0 0;
+  }
+}
+
+// Striped
+.list-group-striped {
+  > li:nth-of-type(odd) {
+    background-color: $list-group-striped-bg-color;
+  }
+}
+
+// Sizes
+.list-group-sm {
+  .list-group-item {
+    font-size: $list-group-sm-item-font-size;
+    padding: calc($list-group-item-padding-y / 2) calc($list-group-item-padding-x / 2);
+  }
+}
+
+.list-group-lg {
+  .list-group-item {
+    padding: $list-group-lg-item-padding-y $list-group-lg-item-padding-x;
+  }
+
+  .list-group-icon {
+    font-size: $list-group-lg-icon-font-size;
+    width: $list-group-lg-icon-width;
+    margin-right: $list-group-lg-icon-margin-x;
+  }
+}

@@ -1,0 +1,668 @@
+<!DOCTYPE html>
+<html lang="@@languageDirection.lang" dir="@@if(languageDirection.isRTL){rtl}">
+  <head>
+    <!-- Required Meta Tags Always Come First -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Title -->
+    <title>Pricing | Space - Multipurpose Responsive Template</title>
+
+    <!-- Favicon -->
+    <link rel="shortcut icon" href="@@autopath/favicon.ico">
+
+    <!-- Font -->
+    <link href="@@vars.themeFont" rel="stylesheet">
+
+    <!-- CSS Implementing Plugins -->
+    <!-- bundlecss:vendor [@@autopath] -->
+    <link rel="stylesheet" href="@@autopath/node_modules/bootstrap-icons/font/bootstrap-icons.css">
+    <link rel="stylesheet" href="@@autopath/assets/vendor/hs-mega-menu/dist/hs-mega-menu.min.css">
+
+    <!-- CSS Space Template -->
+    <!-- bundlecss:theme [@@autopath] @@vars.version -->
+    <link rel="stylesheet" href="@@autopath/assets/css/theme.css">
+  </head>
+
+  <body>
+    <!-- ========== HEADER ========== -->
+    @@include("@@autopath/partials/navbar/main.html", {
+      "category": "pages",
+      "link": "page-pricing.html"
+    })
+    <!-- ========== END HEADER ========== -->
+
+    <!-- ========== MAIN CONTENT ========== -->
+    <main id="content" role="main">
+      <!-- Hero -->
+      <div class="bg-soft-primary-light overflow-hidden">
+        <div class="container content-space-1 content-space-md-2">
+          <!-- Heading -->
+          <div class="w-lg-50 text-center mx-lg-auto mb-10">
+            <h1 class="display-4 text-primary">Find the right plan for your <span class="text-warning">team</span></h1>
+            <p class="lead text-body">Pay as you go service, cancel anytime.</p>
+          </div>
+          <!-- End Heading -->
+
+          <!-- Form Switch -->
+          <div class="d-flex justify-content-center mb-5">
+            <div class="form-check form-switch form-switch-between">
+              <label class="form-check-label">Monthly</label>
+              <input class="js-toggle-switch form-check-input" type="checkbox"
+                     data-hs-toggle-switch-options='{
+                       "targetSelector": "#pricingCount1, #pricingCount2, #pricingCount3"
+                     }'>
+              <label class="form-check-label form-switch-promotion">
+                Annually
+                <span class="form-switch-promotion-container">
+                  <span class="form-switch-promotion-body">
+                    <svg class="form-switch-promotion-arrow" xmlns="http://www.w3.org/2000/svg" x="0px" y="0px" viewBox="0 0 99.3 57" width="48">
+                      <path fill="none" stroke="#bdc5d1" stroke-width="4" stroke-linecap="round" stroke-miterlimit="10" d="M2,39.5l7.7,14.8c0.4,0.7,1.3,0.9,2,0.4L27.9,42"></path>
+                      <path fill="none" stroke="#bdc5d1" stroke-width="4" stroke-linecap="round" stroke-miterlimit="10" d="M11,54.3c0,0,10.3-65.2,86.3-50"></path>
+                    </svg>
+                    <span class="form-switch-promotion-text">
+                      <span class="badge bg-warning text-dark rounded-pill ms-1">Save 10%</span>
+                    </span>
+                  </span>
+                </span>
+              </label>
+            </div>
+          </div>
+          <!-- End Form Switch -->
+
+          <!-- Card Group -->
+          <div class="w-lg-85 position-relative mx-lg-auto mb-7">
+            <div class="row card-group-md-row card-group-md-3">
+              <div class="col-md mb-3 mb-md-0">
+                <!-- Card -->
+                <div class="card card-lg">
+                  <div class="card-header text-center">
+                    <div class="mb-2">
+                      <span class="fs-5 align-top text-dark fw-bold">$</span>
+                      <span id="pricingCount1" class="fs-2 text-dark fw-bold"
+                             data-hs-toggle-switch-item-options='{
+                               "min": 29,
+                               "max": 19
+                             }'>19</span>
+                      <span>/mo</span>
+                    </div>
+
+                    <h5 class="card-title">Professional</h5>
+                    <p class="card-text">All the basics for starting a new business</p>
+                  </div>
+
+                  <div class="card-body d-flex justify-content-center h-100 py-0">
+                    <!-- List Checked -->
+                    <ul class="list-checked list-checked-primary">
+                      <li class="list-checked-item">1 user</li>
+                      <li class="list-checked-item">Space plan features</li>
+                      <li class="list-checked-item">1 app</li>
+                    </ul>
+                    <!-- End List Checked -->
+                  </div>
+
+                  <div class="card-footer text-center">
+                    <div class="d-grid mb-2">
+                      <button type="button" class="btn btn-ghost-primary">Try free for 30 days</button>
+                    </div>
+                    <p class="card-text text-muted small">No card required</p>
+                  </div>
+                </div>
+                <!-- End Card -->
+              </div>
+              <!-- End Col -->
+
+              <div class="col-md mb-3 mb-md-0">
+                <!-- Card -->
+                <div class="card card-lg">
+                  <div class="card-header text-center">
+                    <div class="mb-2">
+                      <span class="fs-5 align-top text-dark fw-bold">$</span>
+                      <span id="pricingCount2" class="fs-2 text-dark fw-bold"
+                             data-hs-toggle-switch-item-options='{
+                               "min": 49,
+                               "max": 39
+                             }'>39</span>
+                      <span>/mo</span>
+                    </div>
+
+                    <h5 class="card-title">Team</h5>
+                    <p class="card-text">Everything you need for a growing business</p>
+                  </div>
+
+                  <div class="card-body d-flex justify-content-center h-100 py-0">
+                    <!-- List Checked -->
+                    <ul class="list-checked list-checked-primary">
+                      <li class="list-checked-item">3 users</li>
+                      <li class="list-checked-item">Space plan features</li>
+                      <li class="list-checked-item">3 apps</li>
+                      <li class="list-checked-item">Product support</li>
+                    </ul>
+                    <!-- End List Checked -->
+                  </div>
+
+                  <div class="card-footer text-center">
+                    <div class="d-grid mb-2">
+                      <button type="button" class="btn btn-primary">Try free for 30 days</button>
+                    </div>
+                    <p class="card-text text-muted small">No card required</p>
+                  </div>
+                </div>
+                <!-- End Card -->
+              </div>
+              <!-- End Col -->
+
+              <div class="col-md mb-3 mb-md-0">
+                <!-- Card -->
+                <div class="card card-lg">
+                  <div class="card-header text-center">
+                    <div class="mb-2">
+                      <span class="fs-5 align-top text-dark fw-bold">$</span>
+                      <span id="pricingCount3" class="fs-2 text-dark fw-bold"
+                             data-hs-toggle-switch-item-options='{
+                               "min": 69,
+                               "max": 59
+                             }'>59</span>
+                      <span>/mo</span>
+                    </div>
+
+                    <h5 class="card-title">Enterprise</h5>
+                    <p class="card-text">Advanced features for scaling your business</p>
+                  </div>
+
+                  <div class="card-body d-flex justify-content-center h-100 py-0">
+                    <!-- List Checked -->
+                    <ul class="list-checked list-checked-primary">
+                      <li class="list-checked-item">Unlimited users</li>
+                      <li class="list-checked-item">Space plan features</li>
+                      <li class="list-checked-item">Unlimited apps</li>
+                      <li class="list-checked-item">Product support</li>
+                    </ul>
+                    <!-- End List Checked -->
+                  </div>
+
+                  <div class="card-footer text-center">
+                    <div class="d-grid mb-2">
+                      <button type="button" class="btn btn-ghost-primary">Try free for 30 days</button>
+                    </div>
+                    <p class="card-text text-muted small">No card required</p>
+                  </div>
+                </div>
+                <!-- End Card -->
+              </div>
+              <!-- End Col -->
+
+              <div class="col-12">
+                <!-- Card -->
+                <div class="card card-lg card-divider">
+                  <div class="card-body">
+                    <div class="row">
+                      <div class="col-sm mb-3 mb-sm-0">
+                        <h5 class="card-title">Customized</h5>
+                        <p class="card-text">Design a custom package for your business</p>
+                      </div>
+                      <!-- End Col -->
+
+                      <div class="col-sm-auto">
+                        <a class="btn btn-white" href="#">Contact sales <i class="bi-chevron-right small ms-2"></i></a>
+                      </div>
+                      <!-- End Col -->
+                    </div>
+                    <!-- End Row -->
+                  </div>
+                </div>
+                <!-- End Card -->
+              </div>
+              <!-- End Col -->
+            </div>
+            <!-- End Row -->
+
+            <!-- Background Shapes -->
+            <div class="position-absolute zi-n1" style="top: -6rem; left: -6rem;">
+              <img src="@@autopath/assets/svg/components/shape-1.svg" alt="SVG" width="500" style="width: 12rem;">
+            </div>
+            <div class="position-absolute zi-n1" style="bottom: -6rem; right: -7rem;">
+              <img src="@@autopath/assets/svg/components/shape-7.svg" alt="SVG" width="250">
+            </div>
+            <!-- End Background Shapes -->
+          </div>
+          <!-- End Card Group -->
+
+          <!-- Info -->
+          <div class="text-center">
+            <p class="mb-0">Want to see more?</p>
+            <a class="link" href="#fullListOfFeatures">See all features and compare plans <i class="bi-chevron-right small ms-1"></i></a>
+          </div>
+          <!-- End Info -->
+        </div>
+      </div>
+      <!-- End Hero -->
+
+      <!-- Pricing Table -->
+      <div id="fullListOfFeatures" class="container content-space-1 content-space-md-3">
+        <!-- Heading -->
+        <div class="w-lg-65 text-center mx-lg-auto mb-7">
+          <h3>Compare plans</h3>
+        </div>
+        <!-- End Heading -->
+
+        <!-- Table -->
+        <div class="table-responsive-sm">
+          <table class="table table-lg table-striped table-borderless">
+            <thead>
+              <tr class="table-align-middle">
+                <th scope="col"></th>
+                <th scope="col" class="table-text-center h5">Basic</th>
+                <th scope="col" class="table-text-center h5">Premium</th>
+              </tr>
+            </thead>
+
+            <tbody>
+              <tr>
+                <th scope="row" class="h6 fw-bold">Financial data</th>
+                <td></td>
+                <td></td>
+              </tr>
+
+              <tr>
+                <th scope="row">Open/High/Low/Close</th>
+                <td class="table-text-center">
+                  <i class="bi-check-circle text-primary"></i>
+                </td>
+                <td class="table-text-center">
+                  <i class="bi-check-circle text-primary"></i>
+                </td>
+              </tr>
+
+              <tr>
+                <th scope="row">Price-volume difference indicator</th>
+                <td class="table-text-center">
+                  <i class="bi-dash text-body"></i>
+                </td>
+                <td class="table-text-center">
+                  <i class="bi-check-circle text-primary"></i>
+                </td>
+              </tr>
+
+              <tr>
+                <th scope="row" class="h6 fw-bold">On-chain data</th>
+                <td></td>
+                <td></td>
+              </tr>
+
+              <tr>
+                <th scope="row">Network growth</th>
+                <td class="table-text-center">
+                  <i class="bi-dash text-body"></i>
+                </td>
+                <td class="table-text-center">
+                  <i class="bi-check-circle text-primary"></i>
+                </td>
+              </tr>
+
+              <tr>
+                <th scope="row">Average token age consumed</th>
+                <td class="table-text-center">
+                  <i class="bi-check-circle text-primary"></i>
+                </td>
+                <td class="table-text-center">
+                  <i class="bi-check-circle text-primary"></i>
+                </td>
+              </tr>
+
+              <tr>
+                <th scope="row">Exchange flow</th>
+                <td class="table-text-center">
+                  <i class="bi-dash text-body"></i>
+                </td>
+                <td class="table-text-center">
+                  <i class="bi-check-circle text-primary"></i>
+                </td>
+              </tr>
+
+              <tr>
+                <th scope="row">Total ERC20 exchange funds flow</th>
+                <td class="table-text-center">
+                  <i class="bi-dash text-body"></i>
+                </td>
+                <td class="table-text-center">
+                  <i class="bi-check-circle text-primary"></i>
+                </td>
+              </tr>
+
+              <tr>
+                <th scope="row">Transaction volume</th>
+                <td class="table-text-center">
+                  <i class="bi-check-circle text-primary"></i>
+                </td>
+                <td class="table-text-center">
+                  <i class="bi-check-circle text-primary"></i>
+                </td>
+              </tr>
+
+              <tr>
+                <th scope="row">Total circulation (beta)</th>
+                <td class="table-text-center">
+                  <i class="bi-dash text-body"></i>
+                </td>
+                <td class="table-text-center">
+                  <i class="bi-check-circle text-primary"></i>
+                </td>
+              </tr>
+
+              <tr>
+                <th scope="row">Velocity of tokens (beta)</th>
+                <td class="table-text-center">
+                  <i class="bi-check-circle text-primary"></i>
+                </td>
+                <td class="table-text-center">
+                  <i class="bi-check-circle text-primary"></i>
+                </td>
+              </tr>
+
+              <tr>
+                <th scope="row">ETH gas used</th>
+                <td class="table-text-center">
+                  <i class="bi-dash text-body"></i>
+                </td>
+                <td class="table-text-center">
+                  <i class="bi-check-circle text-primary"></i>
+                </td>
+              </tr>
+
+              <tr>
+                <th scope="row" class="h6 fw-bold">Social data</th>
+                <td></td>
+                <td></td>
+              </tr>
+
+              <tr>
+                <th scope="row">Dev activity</th>
+                <td class="table-text-center">
+                  <i class="bi-dash text-body"></i>
+                </td>
+                <td class="table-text-center">
+                  <i class="bi-check-circle text-primary"></i>
+                </td>
+              </tr>
+
+              <tr>
+                <th scope="row">Topic search</th>
+                <td class="table-text-center">
+                  <i class="bi-check-circle text-primary"></i>
+                </td>
+                <td class="table-text-center">
+                  <i class="bi-check-circle text-primary"></i>
+                </td>
+              </tr>
+
+              <tr>
+                <th scope="row">Relative social dominance</th>
+                <td class="table-text-center">
+                  <i class="bi-dash text-body"></i>
+                </td>
+                <td class="table-text-center">
+                  <i class="bi-check-circle text-primary"></i>
+                </td>
+              </tr>
+
+              <tr>
+                <th scope="row">Total social volume</th>
+                <td class="table-text-center">
+                  <i class="bi-dash text-body"></i>
+                </td>
+                <td class="table-text-center">
+                  <i class="bi-check-circle text-primary"></i>
+                </td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+        <!-- End Table -->
+      </div>
+      <!-- End Pricing Table -->
+
+      <!-- Clients -->
+      <div class="container content-space-b-1 content-space-b-md-3">
+        <div class="w-lg-65 text-center mx-lg-auto">
+          <!-- Heading -->
+          <div class="mb-4">
+            <h5>Thousands of world’s leading companies trust Space</h5>
+          </div>
+          <!-- End Heading -->
+
+          <div class="row">
+            <div class="col text-center py-3">
+              <img class="avatar avatar-lg avatar-4x3" src="@@autopath/assets/svg/brands/capsule-primary.svg" alt="Logo">
+            </div>
+            <!-- End Col -->
+
+            <div class="col text-center py-3">
+              <img class="avatar avatar-lg avatar-4x3" src="@@autopath/assets/svg/brands/fitbit-primary.svg" alt="Logo">
+            </div>
+            <!-- End Col -->
+
+            <div class="col text-center py-3">
+              <img class="avatar avatar-lg avatar-4x3" src="@@autopath/assets/svg/brands/forbes-primary.svg" alt="Logo">
+            </div>
+            <!-- End Col -->
+
+            <div class="col text-center py-3">
+              <img class="avatar avatar-lg avatar-4x3" src="@@autopath/assets/svg/brands/mailchimp-primary.svg" alt="Logo">
+            </div>
+            <!-- End Col -->
+
+            <div class="col text-center py-3">
+              <img class="avatar avatar-lg avatar-4x3" src="@@autopath/assets/svg/brands/layar-primary.svg" alt="Logo">
+            </div>
+            <!-- End Col -->
+          </div>
+          <!-- End Row -->
+        </div>
+      </div>
+      <!-- End Clients -->
+
+      <!-- Testimonials -->
+      <div class="bg-soft-warning">
+        <div class="container content-space-1 content-space-md-3">
+          <div class="text-center mb-5">
+            <img class="avatar avatar-xl avatar-4x3" src="@@autopath/assets/svg/illustrations/oc-review.svg" alt="Illustration">
+          </div>
+
+          <!-- Blockquote -->
+          <figure class="w-md-75 text-center mx-md-auto">
+            <blockquote class="blockquote">“ I just wanted to say that I'm very happy with my purchase of Space so far. The documentation is outstanding - clear and detailed. ”</blockquote>
+
+            <figcaption class="blockquote-footer text-center  mb-7">
+              Philip
+              <span class="blockquote-footer-source">Product Manager | Mailchimp</span>
+            </figcaption>
+
+            <img class="avatar avatar-xxl avatar-4x3" src="@@autopath/assets/svg/brands/mailchimp-primary.svg" alt="Logo">
+          </figure>
+          <!-- End Blockquote -->
+        </div>
+      </div>
+      <!-- End Testimonials -->
+
+      <!-- FAQ -->
+      <div class="container content-space-1 content-space-md-3">
+        <!-- Heading -->
+        <div class="w-lg-65 text-center mx-lg-auto mb-7">
+          <h3>Frequently Asked Questions</h3>
+        </div>
+        <!-- End Heading -->
+
+        <!-- Accordion -->
+        <div class="w-lg-85 mx-lg-auto mb-7">
+          <div class="accordion accordion-flush" id="accordionFAQ">
+            <!-- Accordion Item -->
+            <div class="accordion-item">
+              <div class="accordion-header" id="headingOne">
+                <a class="accordion-button" role="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                  What methods of payments are supported?
+                </a>
+              </div>
+              <div id="collapseOne" class="accordion-collapse collapse show" aria-labelledby="headingOne" data-bs-parent="#accordionFAQ">
+                <div class="accordion-body">
+                  You can purchase the themes on Bootstrap Themes via any major credit/debit card (via Stripe) or with your Paypal account. We don't support cryptocurrencies or invoicing at this time.
+                </div>
+              </div>
+            </div>
+            <!-- End Accordion Item -->
+
+            <!-- Accordion Item -->
+            <div class="accordion-item">
+              <div class="accordion-header" id="headingTwo">
+                <a class="accordion-button collapsed" role="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                  Can I cancel at anytime?
+                </a>
+              </div>
+              <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo" data-bs-parent="#accordionFAQ">
+                <div class="accordion-body">
+                  If you'd like a refund please reach out to us at <a href="#">themes@getbootstrap.com</a>. If you need technical help with the theme before a refund please reach out to the seller first and they can get in touch with us if they're unable to resolve the issue.
+                </div>
+              </div>
+            </div>
+            <!-- End Accordion Item -->
+
+            <!-- Accordion Item -->
+            <div class="accordion-item">
+              <div class="accordion-header" id="headingThree">
+                <a class="accordion-button collapsed" role="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                  How do I get a receipt for my purchase?
+                </a>
+              </div>
+              <div id="collapseThree" class="accordion-collapse collapse" aria-labelledby="headingThree" data-bs-parent="#accordionFAQ">
+                <div class="accordion-body">
+                  You'll receive an email from Bootstrap themes once your purchase is complete.
+                </div>
+              </div>
+            </div>
+            <!-- End Accordion Item -->
+
+            <!-- Accordion Item -->
+            <div class="accordion-item">
+              <div class="accordion-header" id="headingFour">
+                <a class="accordion-button collapsed" role="button" data-bs-toggle="collapse" data-bs-target="#collapseFour" aria-expanded="false" aria-controls="collapseFour">
+                  Which license do I need?
+                </a>
+              </div>
+              <div id="collapseFour" class="accordion-collapse collapse" aria-labelledby="headingFour" data-bs-parent="#accordionFAQ">
+                <div class="accordion-body">
+                  There are three license types - <a href="#">Standard</a>, <a href="#">Multisite</a>, and <a href="#">Extended</a>. We've provided the table below for a quick look at the difference between the them, as well as a few examples of ways each license could be used. If you'd like more of the nitty-gritty details you can find them below and always feel free to reach out with any questions you have at <a href="#">themes@getbootstrap.com</a>.
+                </div>
+              </div>
+            </div>
+            <!-- End Accordion Item -->
+
+            <!-- Accordion Item -->
+            <div class="accordion-item">
+              <div class="accordion-header" id="headingFive">
+                <a class="accordion-button collapsed" role="button" data-bs-toggle="collapse" data-bs-target="#collapseFive" aria-expanded="false" aria-controls="collapseFive">
+                  How do I get access to a theme I purchased?
+                </a>
+              </div>
+              <div id="collapseFive" class="accordion-collapse collapse" aria-labelledby="headingFive" data-bs-parent="#accordionFAQ">
+                <div class="accordion-body">
+                  If you lose the link for a theme you purchased, don't panic! We've got you covered. You can login to your account, tap your avatar in the upper right corner, and tap Purchases. If you didn't create a login or can't remember the information, you can use our handy Redownload page, just remember to use the same email you originally made your purchases with.
+                </div>
+              </div>
+            </div>
+            <!-- End Accordion Item -->
+
+            <!-- Accordion Item -->
+            <div class="accordion-item">
+              <div class="accordion-header" id="headingSix">
+                <a class="accordion-button collapsed" role="button" data-bs-toggle="collapse" data-bs-target="#collapseSix" aria-expanded="false" aria-controls="collapseSix">
+                  Upgrade License Type
+                </a>
+              </div>
+              <div id="collapseSix" class="accordion-collapse collapse" aria-labelledby="headingSix" data-bs-parent="#accordionFAQ">
+                <div class="accordion-body">
+                  There may be times when you need to upgrade your license from the original type you purchased and we have a solution that ensures you can apply your original purchase cost to the new license purchase.
+                </div>
+              </div>
+            </div>
+            <!-- End Accordion Item -->
+          </div>
+        </div>
+        <!-- End Accordion -->
+
+        <!-- Info -->
+        <div class="text-center">
+          <p class="mb-0">Still have questions?</p>
+          <a class="link" href="@@autopath/page-contacts.html">Contact our friendly support team <i class="bi-chevron-right small ms-1"></i></a>
+        </div>
+        <!-- End Info -->
+      </div>
+      <!-- End FAQ -->
+    </main>
+    <!-- ========== END MAIN CONTENT ========== -->
+
+    <!-- ========== FOOTER ========== -->
+    @@include("@@autopath/partials/footer/main.html")
+    <!-- ========== END FOOTER ========== -->
+
+    <!-- ========== SECONDARY CONTENTS ========== -->
+    <!-- Sign Up -->
+    @@include("@@autopath/partials/modal/signup.html")
+
+    <!-- Go To -->
+    @@include("@@autopath/partials/layouts-components/go-to.html")
+    <!-- ========== END SECONDARY CONTENTS ========== -->
+
+    <!-- JS Global Compulsory @@deleteLine:build -->
+    <script src="@@autopath/node_modules/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
+
+    <!-- JS Implementing Plugins -->
+    <!-- bundlejs:vendor [@@autopath] -->
+    <script src="@@autopath/assets/vendor/hs-mega-menu/dist/hs-mega-menu.min.js"></script>
+    <script src="@@autopath/assets/vendor/hs-show-animation/dist/hs-show-animation.min.js"></script>
+    <script src="@@autopath/assets/vendor/hs-go-to/dist/hs-go-to.min.js"></script>
+    <script src="@@autopath/assets/vendor/hs-toggle-switch/dist/hs-toggle-switch.min.js"></script>
+
+    <!-- JS Space -->
+    <!-- bundlejs:theme [@@autopath] -->
+    <script src="@@autopath/assets/js/hs.core.js"></script>
+    <script src="@@autopath/assets/js/hs.bs-validation.js"></script>
+
+    <!-- JS Plugins Init. -->
+    <script>
+      (function() {
+        // INITIALIZATION OF MEGA MENU
+        // =======================================================
+        const megaMenu = new HSMegaMenu('.js-mega-menu', {
+          desktop: {
+            position: 'left'
+          }
+        })
+
+
+        // INITIALIZATION OF SHOW ANIMATIONS
+        // =======================================================
+        new HSShowAnimation('.js-animation-link')
+
+
+        // INITIALIZATION OF BOOTSTRAP VALIDATION
+        // =======================================================
+        HSBsValidation.init('.js-validate', {
+          onSubmit: data => {
+            data.event.preventDefault()
+            alert('Submited')
+          }
+        })
+
+
+        // INITIALIZATION OF GO TO
+        // =======================================================
+        new HSGoTo('.js-go-to')
+
+
+        // INITIALIZATION OF TOGGLE SWITCH
+        // =======================================================
+         new HSToggleSwitch('.js-toggle-switch')
+      })()
+    </script>
+  </body>
+</html>

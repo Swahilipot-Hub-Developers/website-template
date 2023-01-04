@@ -1,0 +1,367 @@
+<!DOCTYPE html>
+<html lang="@@languageDirection.lang" dir="@@if(languageDirection.isRTL){rtl}">
+  <head>
+    <!-- Required Meta Tags Always Come First -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Title -->
+    <title>Classic Portfolio | Space - Multipurpose Responsive Template</title>
+
+    <!-- Favicon -->
+    <link rel="shortcut icon" href="@@autopath/favicon.ico">
+
+    <!-- Font -->
+    <link href="@@vars.themeFont" rel="stylesheet">
+
+    <!-- CSS Implementing Plugins -->
+    <!-- bundlecss:vendor [@@autopath] -->
+    <link rel="stylesheet" href="@@autopath/node_modules/bootstrap-icons/font/bootstrap-icons.css">
+    <link rel="stylesheet" href="@@autopath/assets/vendor/hs-mega-menu/dist/hs-mega-menu.min.css">
+
+    <!-- CSS Space Template -->
+    <!-- bundlecss:theme [@@autopath] @@vars.version -->
+    <link rel="stylesheet" href="@@autopath/assets/css/theme.css">
+  </head>
+
+  <body>
+    <!-- ========== HEADER ========== -->
+    @@include("@@autopath/partials/navbar/main.html", {
+      "category": "pages",
+      "link": "portfolio-classic.html"
+    })
+    <!-- ========== END HEADER ========== -->
+
+    <!-- ========== MAIN CONTENT ========== -->
+    <main id="content" role="main">
+      <!-- Work -->
+      <div class="container content-space-1 content-space-b-md-3">
+        <!-- Heading -->
+        <div class="w-lg-50 text-center mx-lg-auto mb-7">
+          <h1>Explore our endless design options</h1>
+          <p>Learn from Space customers who are turning their dreams into a reality.</p>
+        </div>
+        <!-- End Heading -->
+
+        <!-- Nav Scroller -->
+        <div class="js-nav-scroller hs-nav-scroller-horizontal mb-5">
+          <span class="hs-nav-scroller-arrow-prev" style="display: none;">
+            <a class="hs-nav-scroller-arrow-link" href="javascript:;">
+              <i class="bi-chevron-left"></i>
+            </a>
+          </span>
+
+          <span class="hs-nav-scroller-arrow-next" style="display: none;">
+            <a class="hs-nav-scroller-arrow-link" href="javascript:;">
+              <i class="bi-chevron-right"></i>
+            </a>
+          </span>
+
+          <div class="d-flex justify-content-center">
+            <!-- Nav -->
+            <ul class="js-filter-options nav nav-link-gray nav-lg" id="portfolioTab" role="tablist">
+              <li class="nav-item" role="presentation">
+                <a class="nav-link active" href="javascript:;" data-group="all">All</a>
+              </li>
+              <li class="nav-item" role="presentation">
+                <a class="nav-link" href="javascript:;" data-group="branding">Branding</a>
+              </li>
+              <li class="nav-item" role="presentation">
+                <a class="nav-link" href="javascript:;" data-group="development">Development</a>
+              </li>
+              <li class="nav-item" role="presentation">
+                <a class="nav-link" href="javascript:;" data-group="product-design">Product Design</a>
+              </li>
+            </ul>
+            <!-- End Nav -->
+          </div>
+        </div>
+        <!-- End Nav Scroller -->
+
+        <div class="js-shuffle row row-cols-1 row-cols-sm-2 row-cols-md-3">
+          <div class="js-shuffle-item col-sm-6 mb-5" data-groups='["branding"]'>
+            <!-- Card -->
+            <a class="card card-flush card-transition" href="@@autopath/portfolio-case-study.html">
+              <img class="card-img-top" src="@@autopath/assets/img/600x650/img1.jpg" alt="Image Description">
+              <div class="card-body">
+                <span class="card-subtitle text-body">Branding</span>
+                <h5 class="card-title">Hondo Loggy</h5>
+              </div>
+            </a>
+            <!-- End Card -->
+          </div>
+          <!-- End Col -->
+
+          <div class="js-shuffle-item col-sm-6 mb-5" data-groups='["development"]'>
+            <!-- Card -->
+            <a class="card card-flush card-transition" href="@@autopath/portfolio-case-study.html">
+              <img class="card-img-top" src="@@autopath/assets/img/600x650/img2.jpg" alt="Image Description">
+              <div class="card-body">
+                <span class="card-subtitle text-body">Development</span>
+                <h5 class="card-title">Wibbitz</h5>
+              </div>
+            </a>
+            <!-- End Card -->
+          </div>
+          <!-- End Col -->
+
+          <div class="js-shuffle-item col-sm-6 mb-5" data-groups='["product-design"]'>
+            <!-- Card -->
+            <a class="card card-flush card-transition" href="@@autopath/portfolio-case-study.html">
+              <img class="card-img-top" src="@@autopath/assets/img/600x650/img3.jpg" alt="Image Description">
+              <div class="card-body">
+                <span class="card-subtitle text-body">Product Design</span>
+                <h5 class="card-title">The Hub</h5>
+              </div>
+            </a>
+            <!-- End Card -->
+          </div>
+          <!-- End Col -->
+
+          <div class="js-shuffle-item col-sm-6 mb-5" data-groups='["product-design"]'>
+            <!-- Card -->
+            <a class="card card-flush card-transition" href="@@autopath/portfolio-case-study.html">
+              <img class="card-img-top" src="@@autopath/assets/img/600x650/img4.jpg" alt="Image Description">
+              <div class="card-body">
+                <span class="card-subtitle text-body">Product Design</span>
+                <h5 class="card-title">Starbucks</h5>
+              </div>
+            </a>
+            <!-- End Card -->
+          </div>
+          <!-- End Col -->
+
+          <div class="js-shuffle-item col-sm-6 mb-5" data-groups='["product"]'>
+            <!-- Card -->
+            <a class="card card-flush card-transition" href="@@autopath/portfolio-case-study.html">
+              <img class="card-img-top" src="@@autopath/assets/img/600x650/img5.jpg" alt="Image Description">
+              <div class="card-body">
+                <span class="card-subtitle text-body">Product Design</span>
+                <h5 class="card-title">TATT</h5>
+              </div>
+            </a>
+            <!-- End Card -->
+          </div>
+          <!-- End Col -->
+
+          <div class="js-shuffle-item col-sm-6 mb-5" data-groups='["branding"]'>
+            <!-- Card -->
+            <a class="card card-flush card-transition" href="@@autopath/portfolio-case-study.html">
+              <img class="card-img-top" src="@@autopath/assets/img/600x650/img8.jpg" alt="Image Description">
+              <div class="card-body">
+                <span class="card-subtitle text-body">Branding</span>
+                <h5 class="card-title">Slack Agency</h5>
+              </div>
+            </a>
+            <!-- End Card -->
+          </div>
+          <!-- End Col -->
+        </div>
+        <!-- End Row -->
+
+        <div class="text-center">
+          <a class="btn btn-outline-primary" href="#">View more</a>
+        </div>
+      </div>
+      <!-- End Work -->
+
+      <!-- Testimonials -->
+      <div class="container">
+        <div class="banner-start">
+          <div class="row align-items-md-center">
+            <div class="col-md-6">
+              <div class="p-5 p-md-7">
+                <!-- Blockquote -->
+                <figure class="mb-7">
+                  <blockquote class="blockquote">“ Truly great template and great costumer support. Very precise documentation with many features well explained. ”</blockquote>
+
+                  <figcaption class="blockquote-footer">
+                    Andrea
+                    <span class="blockquote-footer-source">Director of Sales | MailChimp</span>
+                  </figcaption>
+                </figure>
+                <!-- End Blockquote -->
+
+                <img class="avatar avatar-xl avatar-4x3" src="@@autopath/assets/svg/brands/mailchimp-primary.svg" alt="Logo">
+              </div>
+            </div>
+            <!-- End Col -->
+
+            <div class="col-md-6 content-space-md-1">
+              <div class="w-85 w-md-100 mx-auto me-md-auto">
+                <img class="img-fluid" src="@@autopath/assets/img/950x950/img6.jpg" alt="Image Description">
+              </div>
+            </div>
+            <!-- End Col -->
+          </div>
+          <!-- End Row -->
+        </div>
+      </div>
+      <!-- End Testimonials -->
+
+      <!-- Clients -->
+      <div class="container content-space-1 content-space-md-3">
+        <div class="w-lg-65 text-center mx-lg-auto">
+          <!-- Heading -->
+          <div class="mb-4">
+            <h5>Thousands of world’s leading companies trust Space</h5>
+          </div>
+          <!-- End Heading -->
+
+          <div class="row">
+            <div class="col text-center py-3">
+              <img class="avatar avatar-lg avatar-4x3" src="@@autopath/assets/svg/brands/capsule-primary.svg" alt="Logo">
+            </div>
+            <!-- End Col -->
+
+            <div class="col text-center py-3">
+              <img class="avatar avatar-lg avatar-4x3" src="@@autopath/assets/svg/brands/fitbit-primary.svg" alt="Logo">
+            </div>
+            <!-- End Col -->
+
+            <div class="col text-center py-3">
+              <img class="avatar avatar-lg avatar-4x3" src="@@autopath/assets/svg/brands/forbes-primary.svg" alt="Logo">
+            </div>
+            <!-- End Col -->
+
+            <div class="col text-center py-3">
+              <img class="avatar avatar-lg avatar-4x3" src="@@autopath/assets/svg/brands/mailchimp-primary.svg" alt="Logo">
+            </div>
+            <!-- End Col -->
+
+            <div class="col text-center py-3">
+              <img class="avatar avatar-lg avatar-4x3" src="@@autopath/assets/svg/brands/layar-primary.svg" alt="Logo">
+            </div>
+            <!-- End Col -->
+          </div>
+          <!-- End Row -->
+        </div>
+      </div>
+      <!-- End Clients -->
+    </main>
+    <!-- ========== END MAIN CONTENT ========== -->
+
+    <!-- ========== FOOTER ========== -->
+    @@include("@@autopath/partials/footer/main.html")
+    <!-- ========== END FOOTER ========== -->
+
+    <!-- ========== SECONDARY CONTENTS ========== -->
+    <!-- Sign Up -->
+    @@include("@@autopath/partials/modal/signup.html")
+
+    <!-- Go To -->
+    @@include("@@autopath/partials/layouts-components/go-to.html")
+    <!-- ========== END SECONDARY CONTENTS ========== -->
+
+    <!-- JS Global Compulsory @@deleteLine:build -->
+    <script src="@@autopath/node_modules/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
+
+    <!-- JS Implementing Plugins -->
+    <!-- bundlejs:vendor [@@autopath] -->
+    <script src="@@autopath/assets/vendor/hs-mega-menu/dist/hs-mega-menu.min.js"></script>
+    <script src="@@autopath/assets/vendor/hs-show-animation/dist/hs-show-animation.min.js"></script>
+    <script src="@@autopath/assets/vendor/hs-go-to/dist/hs-go-to.min.js"></script>
+    <script src="@@autopath/node_modules/fslightbox/index.js"></script>
+    <script src="@@autopath/assets/vendor/hs-nav-scroller/dist/hs-nav-scroller.min.js"></script>
+    <script src="@@autopath/node_modules/shufflejs/dist/shuffle.js"></script>
+
+    <!-- JS Space -->
+    <!-- bundlejs:theme [@@autopath] -->
+    <script src="@@autopath/assets/js/hs.core.js"></script>
+    <script src="@@autopath/assets/js/hs.bs-validation.js"></script>
+
+    <!-- JS Plugins Init. -->
+    <script>
+      (function() {
+        // INITIALIZATION OF MEGA MENU
+        // =======================================================
+        const megaMenu = new HSMegaMenu('.js-mega-menu', {
+          desktop: {
+            position: 'left'
+          }
+        })
+
+
+        // INITIALIZATION OF SHOW ANIMATIONS
+        // =======================================================
+        new HSShowAnimation('.js-animation-link')
+
+
+        // INITIALIZATION OF BOOTSTRAP VALIDATION
+        // =======================================================
+        HSBsValidation.init('.js-validate', {
+          onSubmit: data => {
+            data.event.preventDefault()
+            alert('Submited')
+          }
+        })
+
+
+        // INITIALIZATION OF GO TO
+        // =======================================================
+        new HSGoTo('.js-go-to')
+
+
+        // INITIALIZATION OF NAV SCROLLER
+        // =======================================================
+        new HsNavScroller('.js-nav-scroller')
+
+
+        // INITIALIZATION OF SHUFFLE
+        // =======================================================
+        class ShufflePorfolio {
+          constructor(element) {
+            this.element = element;
+            this.shuffle = new Shuffle(element, {
+              itemSelector: '.js-shuffle-item',
+              speed: 500
+            })
+
+            this.addFilterButtons()
+          }
+
+          addFilterButtons() {
+            const options = document.querySelector('.js-filter-options')
+            if (!options) {
+              return
+            }
+
+            const filterButtons = Array.from(options.children)
+            const onClick = this._handleFilterClick.bind(this)
+            filterButtons.forEach((button) => {
+              button.addEventListener('click', onClick, false)
+            });
+          }
+
+          _handleFilterClick(evt) {
+            const btn = evt.currentTarget.firstElementChild
+            const isActive = btn.classList.contains('active')
+            const btnGroup = btn.getAttribute('data-group')
+
+            this._removeActiveClassFromChildren(btn.parentNode.parentNode)
+
+            let filterGroup
+            if (isActive) {
+              btn.classList.remove('active')
+              filterGroup = Shuffle.ALL_ITEMS
+            } else {
+              btn.classList.add('active')
+              filterGroup = btnGroup
+            }
+
+            this.shuffle.filter(filterGroup)
+          }
+
+          _removeActiveClassFromChildren(parent) {
+            const { children } = parent
+            for (let i = children.length - 1; i >= 0; i--) {
+              children[i].firstElementChild.classList.remove('active')
+            }
+          }
+        }
+
+        new ShufflePorfolio(document.querySelector('.js-shuffle'))
+      })()
+    </script>
+  </body>
+</html>

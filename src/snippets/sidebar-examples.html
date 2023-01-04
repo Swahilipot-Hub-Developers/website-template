@@ -1,0 +1,899 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <!-- Required Meta Tags Always Come First -->
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+  <!-- Title -->
+  <title>Sidebar Examples - Snippets | Space - Multipurpose Responsive Template</title>
+
+  <!-- Favicon -->
+  <link rel="shortcut icon" href="@@autopath/favicon.ico">
+
+  <!-- Font -->
+  <link href="@@vars.themeFont" rel="stylesheet">
+
+  <!-- CSS Implementing Plugins -->
+  <!-- bundlecss:vendor [@@autopath] -->
+  <link rel="stylesheet" href="@@autopath/node_modules/bootstrap-icons/font/bootstrap-icons.css">
+
+  <!-- CSS Space Template -->
+  <!-- bundlecss:theme [@@autopath] @@vars.version -->
+  <link rel="stylesheet" href="@@autopath/assets/css/theme.css">
+  <link rel="stylesheet" href="@@autopath/assets/css/snippets.css">
+</head>
+
+<body class="navbar-sidebar-aside-lg">
+  <!-- ========== HEADER ========== -->
+  @@include("@@autopath/partials/docs/snippets-navbar.html")
+  <!-- ========== END HEADER ========== -->
+
+  <!-- ========== MAIN CONTENT ========== -->
+  <main id="content" role="main">
+    <!-- Navbar -->
+    @@include("@@autopath/partials/docs/snippets-sidebar.html", {
+      "category": "",
+      "link": "sidebar-examples.html"
+    })
+    <!-- End Navbar -->
+
+    <!-- Content -->
+    <div class="navbar-sidebar-aside-content content-space-1 content-space-md-2 px-lg-5 px-xl-10">
+      <!-- Page Header -->
+      <div class="docs-page-header">
+        <div class="row align-items-center">
+          <div class="col-sm">
+            <h1 class="docs-page-header-title">Sidebar Examples</h1>
+          </div>
+        </div>
+      </div>
+      <!-- End Page Header -->
+
+      <!-- Heading -->
+      <h2 id="component-1" class="hs-docs-heading">
+        Component #1 <a class="anchorjs-link" href="#component-1" aria-label="Anchor" data-anchorjs-icon="#"></a>
+      </h2>
+      <!-- End Heading -->
+
+      <!-- Card -->
+      <div class="card">
+        <!-- Header -->
+        <div class="card-header">
+          <!-- Nav -->
+          <ul class="nav nav-segment" id="navTab1" role="tablist">
+            <li class="nav-item">
+              <a class="nav-link active" id="nav-resultTab1" href="#nav-result1" data-bs-toggle="pill" data-bs-target="#nav-result1" role="tab" aria-controls="nav-result1" aria-selected="true">Preview</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" id="nav-htmlTab1" href="#nav-html1" data-bs-toggle="pill" data-bs-target="#nav-html1" role="tab" aria-controls="nav-html1" aria-selected="false">HTML</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" id="nav-jsTab1" href="#nav-js1" data-bs-toggle="pill" data-bs-target="#nav-js1" role="tab" aria-controls="nav-js1" aria-selected="false">JS</a>
+            </li>
+          </ul>
+          <!-- End Nav -->
+        </div>
+        <!-- End Header -->
+
+        <!-- Tab Content -->
+        <div class="tab-content" id="navTabContent1">
+          <div class="tab-pane fade p-4 show active" id="nav-result1" role="tabpanel" aria-labelledby="nav-resultTab1">
+            <!-- List -->
+            <div class="container content-space-1">
+              <div class="row">
+                <div id="stickyBlockStartPointEg1" class="col-md-4 mb-3 mb-md-0">
+                  <!-- Navbar -->
+                  <div class="navbar-expand-md">
+                    <!-- Navbar Toggle -->
+                    <div class="d-grid">
+                      <button type="button" class="navbar-toggler btn btn-white mb-3" data-bs-toggle="collapse" data-bs-target="#navbarVerticalNavMenuEg1" aria-label="Toggle navigation" aria-expanded="false" aria-controls="navbarVerticalNavMenuEg1">
+                        <span class="d-flex justify-content-between align-items-center">
+                          <span class="h6 mb-0">Nav menu</span>
+
+                          <span class="navbar-toggler-default">
+                            <i class="bi-list"></i>
+                          </span>
+
+                          <span class="navbar-toggler-toggled">
+                            <i class="bi-x"></i>
+                          </span>
+                        </span>
+                      </button>
+                    </div>
+                    <!-- End Navbar Toggle -->
+
+                    <!-- Navbar Collapse -->
+                    <div id="navbarVerticalNavMenuEg1" class="collapse navbar-collapse">
+                      <!-- Sticky Block -->
+                      <div class="js-sticky-block"
+                          data-hs-sticky-block-options='{
+                           "parentSelector": "#stickyBlockStartPointEg1",
+                           "targetSelector": "#header",
+                           "breakpoint": "md",
+                           "startPoint": "#stickyBlockStartPointEg1",
+                           "endPoint": "#stickyBlockEndPointEg1",
+                           "stickyOffsetTop": 20
+                         }'>
+                        <!-- List -->
+                        <ul class="nav nav-link-gray nav-tabs nav-vertical">
+                          <li class="nav-item">
+                            <a class="nav-link" href="#">Top Solutions (5)</a>
+                          </li>
+                          <li class="nav-item">
+                            <a class="nav-link active" href="#">Getting Started (7)</a>
+                          </li>
+                          <li class="nav-item">
+                            <a class="nav-link" href="#">Gulp (1)</a>
+                          </li>
+                          <li class="nav-item">
+                            <a class="nav-link" href="#">Customization (1)</a>
+                          </li>
+                          <li class="nav-item">
+                            <a class="nav-link" href="#">License (4)</a>
+                          </li>
+                          <li class="nav-item">
+                            <a class="nav-link" href="#">Payments (12)</a>
+                          </li>
+                          <li class="nav-item">
+                            <a class="nav-link" href="#">Purchasing (35)</a>
+                          </li>
+                        </ul>
+                        <!-- End List -->
+                      </div>
+                      <!-- End Sticky Block -->
+                    </div>
+                    <!-- End Navbar Collapse -->
+                  </div>
+                  <!-- End Navbar -->
+                </div>
+                <!-- End Col -->
+
+                <div class="col-md-8">
+                  <!-- List -->
+                  <ul class="list-unstyled list-py-2">
+                    <li>
+                      <!-- Media -->
+                      <div class="d-sm-flex">
+                        <div class="flex-shrink-0 mb-3 mb-sm-0">
+                          <span class="svg-icon svg-icon-sm text-primary">
+                            @@include("@@autopath/assets/vendor/duotone-icons/cod/cod012.svg")
+                          </span>
+                        </div>
+
+                        <div class="flex-grow-1 ms-sm-3">
+                          <div class="mb-5">
+                            <span class="text-cap">Getting Started</span>
+                            <h5>What methods of payments are supported?</h5>
+                            <p>You can purchase the themes on Bootstrap Themes via any major credit/debit card (via Stripe) or with your Paypal account. We don't support cryptocurrencies or invoicing at this time.</p>
+                          </div>
+
+                          <a class="link" href="@@autopath/page-help-center-article.html">Read more <i class="bi-chevron-right small ms-1"></i></a>
+                        </div>
+                      </div>
+                      <!-- End Media -->
+                    </li>
+
+                    <li class="border-top my-5"></li>
+
+                    <li>
+                      <!-- Media -->
+                      <div class="d-sm-flex">
+                        <div class="flex-shrink-0 mb-3 mb-sm-0">
+                          <span class="svg-icon svg-icon-sm text-primary">
+                            @@include("@@autopath/assets/vendor/duotone-icons/cod/cod012.svg")
+                          </span>
+                        </div>
+
+                        <div class="flex-grow-1 ms-sm-3">
+                          <div class="mb-5">
+                            <span class="text-cap">Getting Started</span>
+                            <h5>How can I get a refund?</h5>
+                            <p>If you'd like a refund please reach out to us at themes@getbootstrap.com. If you need technical help with the theme before a refund please reach out to the seller first and they can get in touch with us if they're unable to resolve the issue.</p>
+                          </div>
+
+                          <a class="link" href="@@autopath/page-help-center-article.html">Read more <i class="bi-chevron-right small ms-1"></i></a>
+                        </div>
+                      </div>
+                      <!-- End Media -->
+                    </li>
+
+                    <li class="border-top my-5"></li>
+
+                    <li>
+                      <!-- Media -->
+                      <div class="d-sm-flex">
+                        <div class="flex-shrink-0 mb-3 mb-sm-0">
+                          <span class="svg-icon svg-icon-sm text-primary">
+                            @@include("@@autopath/assets/vendor/duotone-icons/cod/cod012.svg")
+                          </span>
+                        </div>
+
+                        <div class="flex-grow-1 ms-sm-3">
+                          <div class="mb-5">
+                            <span class="text-cap">Getting Started</span>
+                            <h5>Which license do I need?</h5>
+                            <p>There are three license types - Standard, Multisite, and Extended. We've provided the table below for a quick look at the difference between the them, as well as a few examples of ways each license could be used.</p>
+                          </div>
+
+                          <a class="link" href="@@autopath/page-help-center-article.html">Read more <i class="bi-chevron-right small ms-1"></i></a>
+                        </div>
+                      </div>
+                      <!-- End Media -->
+                    </li>
+
+                    <li class="border-top my-5"></li>
+                  </ul>
+                  <!-- End List -->
+
+                  <!-- End Sticky End Point -->
+                  <div id="stickyBlockEndPointEg1"></div>
+
+                  <!-- Pagination -->
+                  <nav class="d-sm-flex justify-content-sm-between align-items-sm-center text-center" aria-label="Page navigation example">
+                    <ul class="pagination justify-content-center justify-content-sm-end mb-sm-0">
+                      <li class="page-item disabled">
+                        <a class="page-link" href="#" tabindex="-1">
+                          <span aria-hidden="true">&laquo;</span>
+                        </a>
+                      </li>
+                      <li class="page-item active"><a class="page-link" href="#">1</a></li>
+                      <li class="page-item"><a class="page-link" href="#">2</a></li>
+                      <li class="page-item"><a class="page-link" href="#">3</a></li>
+                      <li class="page-item">
+                        <a class="page-link" href="#">
+                          <span aria-hidden="true">&raquo;</span>
+                        </a>
+                      </li>
+                    </ul>
+
+                    <small class="text-muted">Showing 3 of 3</small>
+                  </nav>
+                  <!-- End Pagination -->
+                </div>
+                <!-- End Col -->
+              </div>
+              <!-- End Row -->
+            </div>
+            <!-- End List -->
+          </div>
+
+          <div class="tab-pane fade" id="nav-html1" role="tabpanel" aria-labelledby="nav-htmlTab1">
+            <pre>
+              <code class="language-markup" data-lang="html">
+                &lt;!-- List --&gt;
+                &lt;div class="container content-space-1"&gt;
+                  &lt;div class="row"&gt;
+                    &lt;div id="stickyBlockStartPointEg1" class="col-md-4 mb-3 mb-md-0"&gt;
+                      &lt;!-- Navbar --&gt;
+                      &lt;div class="navbar-expand-md"&gt;
+                        &lt;!-- Navbar Toggle --&gt;
+                        &lt;div class="d-grid"&gt;
+                          &lt;button type="button" class="navbar-toggler btn btn-white mb-3" data-bs-toggle="collapse" data-bs-target="#navbarVerticalNavMenuEg1" aria-label="Toggle navigation" aria-expanded="false" aria-controls="navbarVerticalNavMenuEg1"&gt;
+                            &lt;span class="d-flex justify-content-between align-items-center"&gt;
+                              &lt;span class="h6 mb-0"&gt;Nav menu&lt;/span&gt;
+
+                              &lt;span class="navbar-toggler-default"&gt;
+                                &lt;i class="bi-list"&gt;&lt;/i&gt;
+                              &lt;/span&gt;
+
+                              &lt;span class="navbar-toggler-toggled"&gt;
+                                &lt;i class="bi-x"&gt;&lt;/i&gt;
+                              &lt;/span&gt;
+                            &lt;/span&gt;
+                          &lt;/button&gt;
+                        &lt;/div&gt;
+                        &lt;!-- End Navbar Toggle --&gt;
+
+                        &lt;!-- Navbar Collapse --&gt;
+                        &lt;div id="navbarVerticalNavMenuEg1" class="collapse navbar-collapse"&gt;
+                          &lt;!-- Sticky Block --&gt;
+                          &lt;div class="js-sticky-block"
+                              data-hs-sticky-block-options='{
+                               "parentSelector": "#stickyBlockStartPointEg1",
+                               "targetSelector": "#header",
+                               "breakpoint": "md",
+                               "startPoint": "#stickyBlockStartPointEg1",
+                               "endPoint": "#stickyBlockEndPointEg1",
+                               "stickyOffsetTop": 20
+                             }'&gt;
+                            &lt;!-- List --&gt;
+                            &lt;ul class="nav nav-link-gray nav-tabs nav-vertical"&gt;
+                              &lt;li class="nav-item"&gt;
+                                &lt;a class="nav-link" href="#"&gt;Top Solutions (5)&lt;/a&gt;
+                              &lt;/li&gt;
+                              &lt;li class="nav-item"&gt;
+                                &lt;a class="nav-link active" href="#"&gt;Getting Started (7)&lt;/a&gt;
+                              &lt;/li&gt;
+                              &lt;li class="nav-item"&gt;
+                                &lt;a class="nav-link" href="#"&gt;Gulp (1)&lt;/a&gt;
+                              &lt;/li&gt;
+                              &lt;li class="nav-item"&gt;
+                                &lt;a class="nav-link" href="#"&gt;Customization (1)&lt;/a&gt;
+                              &lt;/li&gt;
+                              &lt;li class="nav-item"&gt;
+                                &lt;a class="nav-link" href="#"&gt;License (4)&lt;/a&gt;
+                              &lt;/li&gt;
+                              &lt;li class="nav-item"&gt;
+                                &lt;a class="nav-link" href="#"&gt;Payments (12)&lt;/a&gt;
+                              &lt;/li&gt;
+                              &lt;li class="nav-item"&gt;
+                                &lt;a class="nav-link" href="#"&gt;Purchasing (35)&lt;/a&gt;
+                              &lt;/li&gt;
+                            &lt;/ul&gt;
+                            &lt;!-- End List --&gt;
+                          &lt;/div&gt;
+                          &lt;!-- End Sticky Block --&gt;
+                        &lt;/div&gt;
+                        &lt;!-- End Navbar Collapse --&gt;
+                      &lt;/div&gt;
+                      &lt;!-- End Navbar --&gt;
+                    &lt;/div&gt;
+                    &lt;!-- End Col --&gt;
+
+                    &lt;div class="col-md-8"&gt;
+                      &lt;!-- List --&gt;
+                      &lt;ul class="list-unstyled list-py-2"&gt;
+                        &lt;li&gt;
+                          &lt;!-- Media --&gt;
+                          &lt;div class="d-sm-flex"&gt;
+                            &lt;div class="flex-shrink-0 mb-3 mb-sm-0"&gt;
+                              &lt;span class="svg-icon svg-icon-sm text-primary"&gt;
+                                [@@]include("@@autopath/assets/vendor/duotone-icons/cod/cod012.svg")
+                              &lt;/span&gt;
+                            &lt;/div&gt;
+
+                            &lt;div class="flex-grow-1 ms-sm-3"&gt;
+                              &lt;div class="mb-5"&gt;
+                                &lt;span class="text-cap"&gt;Getting Started&lt;/span&gt;
+                                &lt;h5&gt;What methods of payments are supported?&lt;/h5&gt;
+                                &lt;p&gt;You can purchase the themes on Bootstrap Themes via any major credit/debit card (via Stripe) or with your Paypal account. We don't support cryptocurrencies or invoicing at this time.&lt;/p&gt;
+                              &lt;/div&gt;
+
+                              &lt;a class="link" href="@@autopath/page-help-center-article.html"&gt;Read more &lt;i class="bi-chevron-right small ms-1"&gt;&lt;/i&gt;&lt;/a&gt;
+                            &lt;/div&gt;
+                          &lt;/div&gt;
+                          &lt;!-- End Media --&gt;
+                        &lt;/li&gt;
+
+                        &lt;li class="border-top my-5"&gt;&lt;/li&gt;
+
+                        &lt;li&gt;
+                          &lt;!-- Media --&gt;
+                          &lt;div class="d-sm-flex"&gt;
+                            &lt;div class="flex-shrink-0 mb-3 mb-sm-0"&gt;
+                              &lt;span class="svg-icon svg-icon-sm text-primary"&gt;
+                                [@@]include("@@autopath/assets/vendor/duotone-icons/cod/cod012.svg")
+                              &lt;/span&gt;
+                            &lt;/div&gt;
+
+                            &lt;div class="flex-grow-1 ms-sm-3"&gt;
+                              &lt;div class="mb-5"&gt;
+                                &lt;span class="text-cap"&gt;Getting Started&lt;/span&gt;
+                                &lt;h5&gt;How can I get a refund?&lt;/h5&gt;
+                                &lt;p&gt;If you'd like a refund please reach out to us at themes@getbootstrap.com. If you need technical help with the theme before a refund please reach out to the seller first and they can get in touch with us if they're unable to resolve the issue.&lt;/p&gt;
+                              &lt;/div&gt;
+
+                              &lt;a class="link" href="@@autopath/page-help-center-article.html"&gt;Read more &lt;i class="bi-chevron-right small ms-1"&gt;&lt;/i&gt;&lt;/a&gt;
+                            &lt;/div&gt;
+                          &lt;/div&gt;
+                          &lt;!-- End Media --&gt;
+                        &lt;/li&gt;
+
+                        &lt;li class="border-top my-5"&gt;&lt;/li&gt;
+
+                        &lt;li&gt;
+                          &lt;!-- Media --&gt;
+                          &lt;div class="d-sm-flex"&gt;
+                            &lt;div class="flex-shrink-0 mb-3 mb-sm-0"&gt;
+                              &lt;span class="svg-icon svg-icon-sm text-primary"&gt;
+                                [@@]include("@@autopath/assets/vendor/duotone-icons/cod/cod012.svg")
+                              &lt;/span&gt;
+                            &lt;/div&gt;
+
+                            &lt;div class="flex-grow-1 ms-sm-3"&gt;
+                              &lt;div class="mb-5"&gt;
+                                &lt;span class="text-cap"&gt;Getting Started&lt;/span&gt;
+                                &lt;h5&gt;Which license do I need?&lt;/h5&gt;
+                                &lt;p&gt;There are three license types - Standard, Multisite, and Extended. We've provided the table below for a quick look at the difference between the them, as well as a few examples of ways each license could be used.&lt;/p&gt;
+                              &lt;/div&gt;
+
+                              &lt;a class="link" href="@@autopath/page-help-center-article.html"&gt;Read more &lt;i class="bi-chevron-right small ms-1"&gt;&lt;/i&gt;&lt;/a&gt;
+                            &lt;/div&gt;
+                          &lt;/div&gt;
+                          &lt;!-- End Media --&gt;
+                        &lt;/li&gt;
+
+                        &lt;li class="border-top my-5"&gt;&lt;/li&gt;
+                      &lt;/ul&gt;
+                      &lt;!-- End List --&gt;
+
+                      &lt;!-- End Sticky End Point --&gt;
+                      &lt;div id="stickyBlockEndPointEg1"&gt;&lt;/div&gt;
+
+                      &lt;!-- Pagination --&gt;
+                      &lt;nav class="d-sm-flex justify-content-sm-between align-items-sm-center text-center" aria-label="Page navigation example"&gt;
+                        &lt;ul class="pagination justify-content-center justify-content-sm-end mb-sm-0"&gt;
+                          &lt;li class="page-item disabled"&gt;
+                            &lt;a class="page-link" href="#" tabindex="-1"&gt;
+                              &lt;span aria-hidden="true"&gt;&laquo;&lt;/span&gt;
+                            &lt;/a&gt;
+                          &lt;/li&gt;
+                          &lt;li class="page-item active"&gt;&lt;a class="page-link" href="#"&gt;1&lt;/a&gt;&lt;/li&gt;
+                          &lt;li class="page-item"&gt;&lt;a class="page-link" href="#"&gt;2&lt;/a&gt;&lt;/li&gt;
+                          &lt;li class="page-item"&gt;&lt;a class="page-link" href="#"&gt;3&lt;/a&gt;&lt;/li&gt;
+                          &lt;li class="page-item"&gt;
+                            &lt;a class="page-link" href="#"&gt;
+                              &lt;span aria-hidden="true"&gt;&raquo;&lt;/span&gt;
+                            &lt;/a&gt;
+                          &lt;/li&gt;
+                        &lt;/ul&gt;
+
+                        &lt;small class="text-muted"&gt;Showing 3 of 3&lt;/small&gt;
+                      &lt;/nav&gt;
+                      &lt;!-- End Pagination --&gt;
+                    &lt;/div&gt;
+                    &lt;!-- End Col --&gt;
+                  &lt;/div&gt;
+                  &lt;!-- End Row --&gt;
+                &lt;/div&gt;
+                &lt;!-- End List --&gt;
+              </code>
+            </pre>
+          </div>
+
+          <div class="tab-pane fade" id="nav-js1" role="tabpanel" aria-labelledby="nav-jsTab1">
+            <pre>
+              <code class="language-markup" data-lang="html">
+                &lt;!-- JS Implementing Plugins --&gt;
+                &lt;!-- bundlejs:vendor [@@autopath] --&gt;
+                &lt;script src="@@autopath/assets/vendor/hs-sticky-block/dist/hs-sticky-block.min.js"&gt;&lt;/script&gt;
+
+                &lt;!-- JS Plugins Init. --&gt;
+                &lt;script&gt;
+                  (function() {
+                    // INITIALIZATION OF STICKY BLOCKS
+                    // =======================================================
+                    Promise.all(Array.from(document.images)
+                      .filter(img => !img.complete)
+                      .map(img => new Promise(resolve => {
+                        img.onload = img.onerror = resolve
+                      })))
+                      .then(() => {
+                        new HSStickyBlock('.js-sticky-block', {
+                          targetSelector: document.getElementById('header').classList.contains('navbar-fixed') ? '#header' : null
+                        })
+                      })
+                  })()
+                &lt;/script&gt;
+              </code>
+            </pre>
+          </div>
+        </div>
+        <!-- End Tab Content -->
+      </div>
+      <!-- End Card -->
+
+      <!-- Heading -->
+      <h2 id="component-2" class="hs-docs-heading">
+        Component #2 <a class="anchorjs-link" href="#component-2" aria-label="Anchor" data-anchorjs-icon="#"></a>
+      </h2>
+      <!-- End Heading -->
+
+      <!-- Card -->
+      <div class="card">
+        <!-- Header -->
+        <div class="card-header">
+          <!-- Nav -->
+          <ul class="nav nav-segment" id="navTab2" role="tablist">
+            <li class="nav-item">
+              <a class="nav-link active" id="nav-resultTab2" href="#nav-result2" data-bs-toggle="pill" data-bs-target="#nav-result2" role="tab" aria-controls="nav-result2" aria-selected="true">Preview</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" id="nav-htmlTab2" href="#nav-html2" data-bs-toggle="pill" data-bs-target="#nav-html2" role="tab" aria-controls="nav-html2" aria-selected="false">HTML</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" id="nav-jsTab2" href="#nav-js2" data-bs-toggle="pill" data-bs-target="#nav-js2" role="tab" aria-controls="nav-js2" aria-selected="false">JS</a>
+            </li>
+          </ul>
+          <!-- End Nav -->
+        </div>
+        <!-- End Header -->
+
+        <!-- Tab Content -->
+        <div class="tab-content" id="navTabContent2">
+          <div class="tab-pane fade p-4 show active" id="nav-result2" role="tabpanel" aria-labelledby="nav-resultTab2">
+            <!-- Description -->
+            <div class="container content-space-1">
+              <div class="row">
+                <div class="col-md-4 col-lg-3 mb-3 mb-md-0">
+                  <!-- Navbar -->
+                  <div class="navbar-expand-md">
+                    <!-- Navbar Toggle -->
+                    <div class="d-grid">
+                      <button type="button" class="navbar-toggler btn btn-white mb-3" data-bs-toggle="collapse" data-bs-target="#navbarVerticalNavMenuEg2" aria-label="Toggle navigation" aria-expanded="false" aria-controls="navbarVerticalNavMenuEg2">
+                        <span class="d-flex justify-content-between align-items-center">
+                          <span class="text-dark mb-0">Menu</span>
+
+                          <span class="navbar-toggler-default">
+                            <i class="bi-list"></i>
+                          </span>
+
+                          <span class="navbar-toggler-toggled">
+                            <i class="bi-x"></i>
+                          </span>
+                        </span>
+                      </button>
+                    </div>
+                    <!-- End Navbar Toggle -->
+
+                    <!-- Navbar Collapse -->
+                    <div id="navbarVerticalNavMenuEg2" class="collapse navbar-collapse">
+                      <ul id="navbarSettingsEg2" class="js-sticky-block js-scrollspy nav nav-tabs nav-link-gray nav-vertical"
+                          data-hs-sticky-block-options='{
+                           "parentSelector": "#navbarVerticalNavMenuEg2",
+                           "targetSelector": "#header",
+                           "breakpoint": "md",
+                           "startPoint": "#navbarVerticalNavMenuEg2",
+                           "endPoint": "#stickyBlockEndPointEg2",
+                           "stickyOffsetTop": 20
+                         }'>
+                        <li class="nav-item">
+                          <a class="nav-link active" href="#content">1. Accounts</a>
+                        </li>
+                        <li class="nav-item">
+                          <a class="nav-link" href="#linksToOtherWebsInfo">2. Links to other websites</a>
+                        </li>
+                        <li class="nav-item">
+                          <a class="nav-link" href="#terminationInfo">3. Termination</a>
+                        </li>
+                        <li class="nav-item">
+                          <a class="nav-link" href="#goveringLawInfo">4. Governing law</a>
+                        </li>
+                        <li class="nav-item">
+                          <a class="nav-link" href="#changesInfo">5. Changes</a>
+                        </li>
+                      </ul>
+                    </div>
+                    <!-- End Navbar Collapse -->
+                  </div>
+                  <!-- End Navbar -->
+                </div>
+                <!-- End Col -->
+
+                <div class="col-md-8 col-lg-9">
+                  <div class="mb-7">
+                    <p>Thanks for using our products and services ("Services"). The Services are provided by Pixeel Ltd. ("Space"), located at 153 Williamson Plaza, Maggieberg, MT 09514, England, United Kingdom.</p>
+
+                    <p>By using our Services, you are agreeing to these terms. Please read them carefully.</p>
+
+                    <p>Our Services are very diverse, so sometimes additional terms or product requirements (including age requirements) may apply. Additional terms will be available with the relevant Services, and those additional terms become part of your agreement with us if you use those Services.</p>
+                  </div>
+
+                  <div id="accountInfo" class="mb-7">
+                    <h4>1. Accounts</h4>
+
+                    <p>When you create an account with us, you must provide us information that is accurate, complete, and current at all times. Failure to do so constitutes a breach of the Terms, which may result in immediate termination of your account on our Service.</p>
+
+                    <p>You are responsible for safeguarding the password that you use to access the Service and for any activities or actions under your password, whether your password is with our Service or a third-party service.</p>
+
+                    <p>You agree not to disclose your password to any third party. You must notify us immediately upon becoming aware of any breach of security or unauthorized use of your account.</p>
+                  </div>
+
+                  <div id="linksToOtherWebsInfo" class="mb-7">
+                    <h4>2. Links to other websites</h4>
+
+                    <p>Our Service may contain links to third-party web sites or services that are not owned or controlled by Space.</p>
+
+                    <p>Space has no control over, and assumes no responsibility for, the content, privacy policies, or practices of any third party web sites or services. You further acknowledge and agree that Space shall not be responsible or liable, directly or indirectly, for any damage or loss caused or alleged to be caused by or in connection with use of or reliance on any such content, goods or services available on or through any such web sites or services.</p>
+
+                    <p>We strongly advise you to read the terms and conditions and privacy policies of any third-party web sites or services that you visit.</p>
+                  </div>
+
+                  <div id="terminationInfo" class="mb-7">
+                    <h4>3. Termination</h4>
+
+                    <p>We may terminate or suspend access to our Service immediately, without prior notice or liability, for any reason whatsoever, including without limitation if you breach the Terms.</p>
+
+                    <p>All provisions of the Terms which by their nature should survive termination shall survive termination, including, without limitation, ownership provisions, warranty disclaimers, indemnity and limitations of liability.</p>
+
+                    <p>We may terminate or suspend your account immediately, without prior notice or liability, for any reason whatsoever, including without limitation if you breach the Terms.</p>
+
+                    <p>Upon termination, your right to use the Service will immediately cease. If you wish to terminate your account, you may simply discontinue using the Service.</p>
+
+                    <p>All provisions of the Terms which by their nature should survive termination shall survive termination, including, without limitation, ownership provisions, warranty disclaimers, indemnity and limitations of liability.</p>
+                  </div>
+
+                  <div id="goveringLawInfo" class="mb-7">
+                    <h4>4. Governing law</h4>
+
+                    <p>These Terms shall be governed and construed in accordance with the laws of Jersey, without regard to its conflict of law provisions.</p>
+
+                    <p>Our failure to enforce any right or provision of these Terms will not be considered a waiver of those rights. If any provision of these Terms is held to be invalid or unenforceable by a court, the remaining provisions of these Terms will remain in effect. These Terms constitute the entire agreement between us regarding our Service, and supersede and replace any prior agreements we might have between us regarding the Service.</p>
+                  </div>
+
+                  <div id="changesInfo" class="mb-7">
+                    <h4>5. Changes</h4>
+
+                    <p>We reserve the right, at our sole discretion, to modify or replace these Terms at any time. If a revision is material we will try to provide at least 30 days notice prior to any new terms taking effect. What constitutes a material change will be determined at our sole discretion.</p>
+
+                    <p>By continuing to access or use our Service after those revisions become effective, you agree to be bound by the revised terms. If you do not agree to the new terms, please stop using the Service.</p>
+                  </div>
+
+                  <!-- End Sticky End Point -->
+                  <div id="stickyBlockEndPointEg2"></div>
+                </div>
+                <!-- End Col -->
+              </div>
+              <!-- End Row -->
+            </div>
+            <!-- End Description -->
+          </div>
+
+          <div class="tab-pane fade" id="nav-html2" role="tabpanel" aria-labelledby="nav-htmlTab2">
+            <pre>
+              <code class="language-markup" data-lang="html">
+                &lt;!-- Description --&gt;
+                &lt;div class="container content-space-1"&gt;
+                  &lt;div class="row"&gt;
+                    &lt;div class="col-md-4 col-lg-3 mb-3 mb-md-0"&gt;
+                      &lt;!-- Navbar --&gt;
+                      &lt;div class="navbar-expand-md"&gt;
+                        &lt;!-- Navbar Toggle --&gt;
+                        &lt;div class="d-grid"&gt;
+                          &lt;button type="button" class="navbar-toggler btn btn-white mb-3" data-bs-toggle="collapse" data-bs-target="#navbarVerticalNavMenuEg2" aria-label="Toggle navigation" aria-expanded="false" aria-controls="navbarVerticalNavMenuEg2"&gt;
+                            &lt;span class="d-flex justify-content-between align-items-center"&gt;
+                              &lt;span class="text-dark mb-0"&gt;Menu&lt;/span&gt;
+
+                              &lt;span class="navbar-toggler-default"&gt;
+                                &lt;i class="bi-list"&gt;&lt;/i&gt;
+                              &lt;/span&gt;
+
+                              &lt;span class="navbar-toggler-toggled"&gt;
+                                &lt;i class="bi-x"&gt;&lt;/i&gt;
+                              &lt;/span&gt;
+                            &lt;/span&gt;
+                          &lt;/button&gt;
+                        &lt;/div&gt;
+                        &lt;!-- End Navbar Toggle --&gt;
+
+                        &lt;!-- Navbar Collapse --&gt;
+                        &lt;div id="navbarVerticalNavMenuEg2" class="collapse navbar-collapse"&gt;
+                          &lt;ul id="navbarSettingsEg2" class="js-sticky-block js-scrollspy nav nav-tabs nav-link-gray nav-vertical"
+                              data-hs-sticky-block-options='{
+                               "parentSelector": "#navbarVerticalNavMenuEg2",
+                               "targetSelector": "#header",
+                               "breakpoint": "md",
+                               "startPoint": "#navbarVerticalNavMenuEg2",
+                               "endPoint": "#stickyBlockEndPointEg2",
+                               "stickyOffsetTop": 20
+                             }'&gt;
+                            &lt;li class="nav-item"&gt;
+                              &lt;a class="nav-link active" href="#content"&gt;1. Accounts&lt;/a&gt;
+                            &lt;/li&gt;
+                            &lt;li class="nav-item"&gt;
+                              &lt;a class="nav-link" href="#linksToOtherWebsInfo"&gt;2. Links to other websites&lt;/a&gt;
+                            &lt;/li&gt;
+                            &lt;li class="nav-item"&gt;
+                              &lt;a class="nav-link" href="#terminationInfo"&gt;3. Termination&lt;/a&gt;
+                            &lt;/li&gt;
+                            &lt;li class="nav-item"&gt;
+                              &lt;a class="nav-link" href="#goveringLawInfo"&gt;4. Governing law&lt;/a&gt;
+                            &lt;/li&gt;
+                            &lt;li class="nav-item"&gt;
+                              &lt;a class="nav-link" href="#changesInfo"&gt;5. Changes&lt;/a&gt;
+                            &lt;/li&gt;
+                          &lt;/ul&gt;
+                        &lt;/div&gt;
+                        &lt;!-- End Navbar Collapse --&gt;
+                      &lt;/div&gt;
+                      &lt;!-- End Navbar --&gt;
+                    &lt;/div&gt;
+                    &lt;!-- End Col --&gt;
+
+                    &lt;div class="col-md-8 col-lg-9"&gt;
+                      &lt;div class="mb-7"&gt;
+                        &lt;p&gt;Thanks for using our products and services ("Services"). The Services are provided by Pixeel Ltd. ("Space"), located at 153 Williamson Plaza, Maggieberg, MT 09514, England, United Kingdom.&lt;/p&gt;
+
+                        &lt;p&gt;By using our Services, you are agreeing to these terms. Please read them carefully.&lt;/p&gt;
+
+                        &lt;p&gt;Our Services are very diverse, so sometimes additional terms or product requirements (including age requirements) may apply. Additional terms will be available with the relevant Services, and those additional terms become part of your agreement with us if you use those Services.&lt;/p&gt;
+                      &lt;/div&gt;
+
+                      &lt;div id="accountInfo" class="mb-7"&gt;
+                        &lt;h4&gt;1. Accounts&lt;/h4&gt;
+
+                        &lt;p&gt;When you create an account with us, you must provide us information that is accurate, complete, and current at all times. Failure to do so constitutes a breach of the Terms, which may result in immediate termination of your account on our Service.&lt;/p&gt;
+
+                        &lt;p&gt;You are responsible for safeguarding the password that you use to access the Service and for any activities or actions under your password, whether your password is with our Service or a third-party service.&lt;/p&gt;
+
+                        &lt;p&gt;You agree not to disclose your password to any third party. You must notify us immediately upon becoming aware of any breach of security or unauthorized use of your account.&lt;/p&gt;
+                      &lt;/div&gt;
+
+                      &lt;div id="linksToOtherWebsInfo" class="mb-7"&gt;
+                        &lt;h4&gt;2. Links to other websites&lt;/h4&gt;
+
+                        &lt;p&gt;Our Service may contain links to third-party web sites or services that are not owned or controlled by Space.&lt;/p&gt;
+
+                        &lt;p&gt;Space has no control over, and assumes no responsibility for, the content, privacy policies, or practices of any third party web sites or services. You further acknowledge and agree that Space shall not be responsible or liable, directly or indirectly, for any damage or loss caused or alleged to be caused by or in connection with use of or reliance on any such content, goods or services available on or through any such web sites or services.&lt;/p&gt;
+
+                        &lt;p&gt;We strongly advise you to read the terms and conditions and privacy policies of any third-party web sites or services that you visit.&lt;/p&gt;
+                      &lt;/div&gt;
+
+                      &lt;div id="terminationInfo" class="mb-7"&gt;
+                        &lt;h4&gt;3. Termination&lt;/h4&gt;
+
+                        &lt;p&gt;We may terminate or suspend access to our Service immediately, without prior notice or liability, for any reason whatsoever, including without limitation if you breach the Terms.&lt;/p&gt;
+
+                        &lt;p&gt;All provisions of the Terms which by their nature should survive termination shall survive termination, including, without limitation, ownership provisions, warranty disclaimers, indemnity and limitations of liability.&lt;/p&gt;
+
+                        &lt;p&gt;We may terminate or suspend your account immediately, without prior notice or liability, for any reason whatsoever, including without limitation if you breach the Terms.&lt;/p&gt;
+
+                        &lt;p&gt;Upon termination, your right to use the Service will immediately cease. If you wish to terminate your account, you may simply discontinue using the Service.&lt;/p&gt;
+
+                        &lt;p&gt;All provisions of the Terms which by their nature should survive termination shall survive termination, including, without limitation, ownership provisions, warranty disclaimers, indemnity and limitations of liability.&lt;/p&gt;
+                      &lt;/div&gt;
+
+                      &lt;div id="goveringLawInfo" class="mb-7"&gt;
+                        &lt;h4&gt;4. Governing law&lt;/h4&gt;
+
+                        &lt;p&gt;These Terms shall be governed and construed in accordance with the laws of Jersey, without regard to its conflict of law provisions.&lt;/p&gt;
+
+                        &lt;p&gt;Our failure to enforce any right or provision of these Terms will not be considered a waiver of those rights. If any provision of these Terms is held to be invalid or unenforceable by a court, the remaining provisions of these Terms will remain in effect. These Terms constitute the entire agreement between us regarding our Service, and supersede and replace any prior agreements we might have between us regarding the Service.&lt;/p&gt;
+                      &lt;/div&gt;
+
+                      &lt;div id="changesInfo" class="mb-7"&gt;
+                        &lt;h4&gt;5. Changes&lt;/h4&gt;
+
+                        &lt;p&gt;We reserve the right, at our sole discretion, to modify or replace these Terms at any time. If a revision is material we will try to provide at least 30 days notice prior to any new terms taking effect. What constitutes a material change will be determined at our sole discretion.&lt;/p&gt;
+
+                        &lt;p&gt;By continuing to access or use our Service after those revisions become effective, you agree to be bound by the revised terms. If you do not agree to the new terms, please stop using the Service.&lt;/p&gt;
+                      &lt;/div&gt;
+
+                      &lt;!-- End Sticky End Point --&gt;
+                      &lt;div id="stickyBlockEndPointEg2"&gt;&lt;/div&gt;
+                    &lt;/div&gt;
+                    &lt;!-- End Col --&gt;
+                  &lt;/div&gt;
+                  &lt;!-- End Row --&gt;
+                &lt;/div&gt;
+                &lt;!-- End Description --&gt;
+              </code>
+            </pre>
+          </div>
+
+          <div class="tab-pane fade" id="nav-js2" role="tabpanel" aria-labelledby="nav-jsTab2">
+            <pre>
+              <code class="language-markup" data-lang="html">
+                &lt;!-- JS Implementing Plugins --&gt;
+                &lt;!-- bundlejs:vendor [@@autopath] --&gt;
+                &lt;script src="@@autopath/assets/vendor/hs-sticky-block/dist/hs-sticky-block.min.js"&gt;&lt;/script&gt;
+                &lt;script src="@@autopath/assets/vendor/hs-scrollspy/dist/hs-scrollspy.min.js"&gt;&lt;/script&gt;
+
+                &lt;!-- JS Plugins Init. --&gt;
+                &lt;script&gt;
+                  (function() {
+                    // INITIALIZATION OF STICKY BLOCKS
+                    // =======================================================
+                    Promise.all(Array.from(document.images)
+                      .filter(img => !img.complete)
+                      .map(img => new Promise(resolve => {
+                        img.onload = img.onerror = resolve
+                      })))
+                      .then(() => {
+                        new HSStickyBlock('.js-sticky-block', {
+                          targetSelector: document.getElementById('header').classList.contains('navbar-fixed') ? '#header' : null
+                        })
+                      })
+
+
+                    // INITIALIZATION OF SCROLLSPY
+                    // =======================================================
+                    new bootstrap.ScrollSpy(document.body, {
+                      target: '#navbarSettingsEg2',
+                      offset: 10
+                    })
+
+                    new HSScrollspy('#navbarVerticalNavMenuEg2', {
+                      breakpoint: 'lg'
+                    })
+                  })()
+                &lt;/script&gt;
+              </code>
+            </pre>
+          </div>
+        </div>
+        <!-- End Tab Content -->
+      </div>
+      <!-- End Card -->
+    </div>
+    <!-- End Content -->
+  </main>
+  <!-- ========== END MAIN CONTENT ========== -->
+
+  <!-- ========== SECONDARY CONTENTS ========== -->
+  <!-- Go To -->
+  @@include("@@autopath/partials/layouts-components/go-to.html")
+  <!-- ========== END SECONDARY CONTENTS ========== -->
+
+  <!-- JS Global Compulsory @@deleteLine:build -->
+  <script src="@@autopath/node_modules/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
+
+  <!-- JS Implementing Plugins -->
+  <!-- bundlejs:vendor [@@autopath] -->
+  <script src="@@autopath/assets/vendor/hs-header/dist/hs-header.min.js"></script>
+  <script src="@@autopath/assets/vendor/hs-nav-scroller/dist/hs-nav-scroller.min.js"></script>
+  <script src="@@autopath/node_modules/list.js/dist/list.min.js"></script>
+  <script src="@@autopath/assets/vendor/hs-go-to/dist/hs-go-to.min.js"></script>
+  <script src="@@autopath/assets/vendor/prism/prism.js"></script>
+  <script src="@@autopath/assets/vendor/hs-sticky-block/dist/hs-sticky-block.min.js"></script>
+  <script src="@@autopath/assets/vendor/hs-scrollspy/dist/hs-scrollspy.min.js"></script>
+
+  <!-- JS Space -->
+  <!-- bundlejs:theme [@@autopath] -->
+  <script src="@@autopath/assets/js/hs.core.js"></script>
+  <script src="@@autopath/assets/js/hs.list.js"></script>
+
+  <!-- JS Plugins Init. -->
+  <script>
+    (function() {
+      // INITIALIZATION OF HEADER
+      // =======================================================
+      new HSHeader('#header').init()
+
+
+      // INITIALIZATION OF NAV SCROLLER
+      // =======================================================
+      new HsNavScroller('.js-nav-scroller', {
+        delay: 400,
+        offset: 140
+      })
+
+
+      // INITIALIZATION OF LISTJS COMPONENT
+      // =======================================================
+      const snippetsSearch = HSCore.components.HSList.init('#snippetsSearch');
+
+
+      // GET JSON FILE RESULTS
+      // =======================================================
+      fetch('@@autopath/assets/json/snippets-search.json')
+      .then(response => response.json())
+      .then(data => {
+        snippetsSearch.getItem(0).add(data)
+      })
+
+
+      // INITIALIZATION OF GO TO
+      // =======================================================
+      new HSGoTo('.js-go-to')
+
+
+      // INITIALIZATION OF STICKY BLOCKS
+      // =======================================================
+      Promise.all(Array.from(document.images)
+        .filter(img => !img.complete)
+        .map(img => new Promise(resolve => {
+          img.onload = img.onerror = resolve
+        })))
+        .then(() => {
+           new HSStickyBlock('.js-sticky-block', {
+             targetSelector: document.getElementById('header').classList.contains('navbar-fixed') ? '#header' : null
+           })
+        })
+
+
+      // INITIALIZATION OF SCROLLSPY
+      // =======================================================
+      new bootstrap.ScrollSpy(document.body, {
+        target: '#navbarSettingsEg2',
+        offset: 10
+      })
+
+      new HSScrollspy('#navbarVerticalNavMenuEg2', {
+        breakpoint: 'lg'
+      })
+    })()
+  </script>
+</body>
+</html>

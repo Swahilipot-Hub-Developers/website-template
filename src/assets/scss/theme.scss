@@ -1,0 +1,27 @@
+// Setup
+@import '../../../node_modules/bootstrap/scss/functions';
+
+@import 'themes/default';
+@import 'user-variables';
+@import 'space/variables';
+
+@import '../../../node_modules/bootstrap/scss/variables';
+@import '../../../node_modules/bootstrap/scss/maps';
+@import '../../../node_modules/bootstrap/scss/utilities';
+
+@import 'space/utilities';
+@import 'user-utilities';
+
+// Bootstrap core
+@import '../../../node_modules/bootstrap/scss/bootstrap';
+
+/*----------------------------------------------------------------------
+  * Space - Multipurpose Responsive Template version v1.0
+  * Copyright 2021 Htmlstream
+  * Licensed under Bootstrap Themes (https://themes.getbootstrap.com/licenses/)
+------------------------------------------------------------------------*/
+
+@import 'space/space';
+
+// Custom core
+@import 'user';

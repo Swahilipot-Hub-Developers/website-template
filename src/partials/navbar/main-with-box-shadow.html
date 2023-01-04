@@ -1,0 +1,219 @@
+<header id="header" class="navbar navbar-expand-lg navbar-light navbar-shadow navbar-end bg-white">
+  <div class="container">
+    <nav class="js-mega-menu navbar-nav-wrap">
+      <!-- Default Logo -->
+      <a class="navbar-brand" href="@@autopath/index.html" aria-label="Space">
+        <img class="navbar-brand-logo" src="@@autopath/assets/svg/logos/logo.svg" alt="Image Description">
+      </a>
+      <!-- End Default Logo -->
+
+      <!-- Toggler -->
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-default">
+          <i class="bi-list"></i>
+        </span>
+        <span class="navbar-toggler-toggled">
+          <i class="bi-x"></i>
+        </span>
+      </button>
+      <!-- End Toggler -->
+      
+      <!-- Collapse -->
+      <div class="collapse navbar-collapse" id="navbarNavDropdown">
+        <ul class="navbar-nav">
+          <!-- Landings -->
+          <li class="hs-has-mega-menu nav-item"
+              data-hs-mega-menu-item-options='{
+                "desktop": {
+                  "maxWidth": "30rem"
+                }
+              }'>
+            <a id="landingsMegaMenu" class="hs-mega-menu-invoker nav-link dropdown-toggle @@if(category=='landings'){active}" aria-current="page" href="#" role="button" aria-expanded="false">Landings</a>
+
+            <!-- Mega Menu -->
+            <div class="hs-mega-menu hs-position-right-fix dropdown-menu" aria-labelledby="landingsMegaMenu" style="min-width: 30rem;">
+              <!-- Main Content -->
+              <div class="navbar-dropdown-menu-inner">
+                <div class="row">
+                  <div class="col-sm mb-3 mb-sm-0">
+                    <span class="dropdown-header">Classic</span>
+                    <a class="dropdown-item @@if(link=='index.html'){active}" href="@@autopath/index.html">Corporate</a>
+                    <a class="dropdown-item @@if(link=='landing-agency.html'){active}" href="@@autopath/landing-agency.html">Agency</a>
+                    <a class="dropdown-item @@if(link=='landing-consulting.html'){active}" href="@@autopath/landing-consulting.html">Consulting</a>
+                    <a class="dropdown-item @@if(link=='landing-services.html'){active}" href="@@autopath/landing-services.html">Services</a>
+                    <a class="dropdown-item @@if(link=='landing-business.html'){active}" href="@@autopath/landing-business.html">Business</a>
+                  </div>
+
+                  <div class="col-sm">
+                    <span class="dropdown-header">Services</span>
+                    <a class="dropdown-item @@if(link=='landing-services-growth.html'){active}" href="@@autopath/landing-services-growth.html">Growth</a>
+                    <a class="dropdown-item @@if(link=='landing-services-saas.html'){active}" href="@@autopath/landing-services-saas.html">SaaS</a>
+                    <a class="dropdown-item @@if(link=='landing-services-wallet.html'){active}" href="@@autopath/landing-services-wallet.html">Wallet</a>
+                    <a class="dropdown-item @@if(link=='landing-services-api.html'){active}" href="@@autopath/landing-services-api.html">API</a>
+                  </div>
+                </div>
+                <!-- End Row -->
+              </div>
+              <!-- End Main Content -->
+            </div>
+            <!-- End Mega Menu -->
+          </li>
+          <!-- End Landings -->
+
+          <!-- Pages -->
+          <li class="hs-has-mega-menu nav-item">
+            <a id="pagesMegaMenu" class="hs-mega-menu-invoker nav-link dropdown-toggle @@if(category=='pages'){active}" href="#" role="button" aria-expanded="false">Pages</a>
+
+            <!-- Mega Menu -->
+            <div class="hs-mega-menu hs-position-right dropdown-menu w-100" aria-labelledby="pagesMegaMenu" style="min-width: 42rem;">
+              <!-- Main Content -->
+              <div class="navbar-dropdown-menu-inner">
+                <div class="row">
+                  <div class="col-sm-6 col-md-3">
+                    <span class="dropdown-header">Company</span>
+                    <a class="dropdown-item @@if(link=='page-about.html'){active}" href="@@autopath/page-about.html">About</a>
+                    <a class="dropdown-item @@if(link=='page-services.html'){active}" href="@@autopath/page-services.html">Services</a>
+                    <a class="dropdown-item @@if(link=='page-customer-stories.html'){active}" href="@@autopath/page-customer-stories.html">Customer Stories</a>
+                    <a class="dropdown-item @@if(link=='page-customer-story.html'){active}" href="@@autopath/page-customer-story.html">Single Customer Story</a>
+                    <a class="dropdown-item @@if(link=='page-help-center.html'){active}" href="@@autopath/page-help-center.html">Help Center</a>
+                    <a class="dropdown-item @@if(link=='page-help-center-categories.html'){active}" href="@@autopath/page-help-center-categories.html">Help Center Categories</a>
+                    <a class="dropdown-item @@if(link=='page-help-center-article.html'){active}" href="@@autopath/page-help-center-article.html">Single Help Center</a>
+                  </div>
+
+                  <div class="col-sm-6 col-md-3 mb-3 mb-md-0">
+                    <span class="dropdown-header invisible">Company</span>
+                    <a class="dropdown-item @@if(link=='page-careers.html'){active}" href="@@autopath/page-careers.html">Careers</a>
+                    <a class="dropdown-item @@if(link=='page-careers-single-page.html'){active}" href="@@autopath/page-careers-single-page.html">Careers Single</a>
+                    <a class="dropdown-item @@if(link=='page-hire-us.html'){active}" href="@@autopath/page-hire-us.html">Hire Us</a>
+                    <a class="dropdown-item @@if(link=='page-contacts.html'){active}" href="@@autopath/page-contacts.html">Contacts</a>
+                    <a class="dropdown-item @@if(link=='page-login.html'){active}" href="@@autopath/page-login.html">Log In</a>
+                    <a class="dropdown-item @@if(link=='page-signup.html'){active}" href="@@autopath/page-signup.html">Sign Up</a>
+                    <a class="dropdown-item @@if(link=='page-reset-password.html'){active}" href="@@autopath/page-reset-password.html">Forgot Password</a>
+                  </div>
+
+                  <div class="col-sm-6 col-md-3 mb-3 mb-md-0">
+                    <span class="dropdown-header">Portfolio</span>
+                    <a class="dropdown-item @@if(link=='portfolio-modern.html'){active}" href="@@autopath/portfolio-modern.html">Modern</a>
+                    <a class="dropdown-item @@if(link=='portfolio-classic.html'){active}" href="@@autopath/portfolio-classic.html">Classic</a>
+                    <a class="dropdown-item @@if(link=='portfolio-case-study.html'){active}" href="@@autopath/portfolio-case-study.html">Case Study</a>
+                  </div>
+
+                  <div class="col-sm-6 col-md-3">
+                    <span class="dropdown-header">Specialty pages</span>
+                    <a class="dropdown-item @@if(link=='page-pricing.html'){active}" href="@@autopath/page-pricing.html">Pricing</a>
+                    <a class="dropdown-item @@if(link=='page-coming-soon.html'){active}" href="@@autopath/page-coming-soon.html">Coming Soon</a>
+                    <a class="dropdown-item @@if(link=='page-error-404.html'){active}" href="@@autopath/page-error-404.html">Error 404</a>
+                    <a class="dropdown-item @@if(link=='page-terms.html'){active}" href="@@autopath/page-terms.html">Terms &amp; Conditions</a>
+                    <a class="dropdown-item @@if(link=='page-privacy.html'){active}" href="@@autopath/page-privacy.html">Privacy &amp; Policy</a>
+                  </div>
+                </div>
+                <!-- End Row -->
+              </div>
+              <!-- End Main Content -->
+            </div>
+            <!-- End Mega Menu -->
+          </li>
+          <!-- End Pages -->
+
+          <!-- Blog -->
+          <li class="hs-has-sub-menu nav-item">
+            <a id="blogMegaMenu" class="hs-mega-menu-invoker nav-link dropdown-toggle @@if(category=='blog'){active}" href="#" role="button" aria-expanded="false">Blog</a>
+
+            <!-- Mega Menu -->
+            <div class="hs-sub-menu dropdown-menu" aria-labelledby="blogMegaMenu" style="min-width: 12rem;">
+              <a class="dropdown-item @@if(link=='blog-classic.html'){active}" href="@@autopath/blog-classic.html">Classic</a>
+              <a class="dropdown-item @@if(link=='blog-article.html'){active}" href="@@autopath/blog-article.html">Single Article</a>
+              <a class="dropdown-item @@if(link=='blog-author-profile.html'){active}" href="@@autopath/blog-author-profile.html">Author Profile</a>
+            </div>
+            <!-- End Mega Menu -->
+          </li>
+          <!-- End Blog -->
+
+          <!-- Docs -->
+          <li class="hs-has-mega-menu nav-item"
+              data-hs-mega-menu-item-options='{
+                "desktop": {
+                  "maxWidth": "20rem"
+                }
+              }'>
+            <a id="docsMegaMenu" class="hs-mega-menu-invoker nav-link dropdown-toggle @@if(category=='docs'){active}" href="#" role="button" aria-expanded="false">Docs</a>
+
+            <!-- Mega Menu -->
+            <div class="hs-mega-menu hs-position-right dropdown-menu" aria-labelledby="docsMegaMenu" style="min-width: 20rem;">
+              <!-- Link -->
+              <a class="navbar-dropdown-menu-media-link" href="@@autopath/documentation/index.html">
+                <div class="d-flex">
+                  <div class="flex-shrink-0">
+                    <span class="svg-icon svg-icon-sm text-primary">
+                      @@include("../../assets/vendor/duotone-icons/fil/fil024.svg")
+                    </span>
+                  </div>
+
+                  <div class="flex-grow-1 ms-3">
+                    <span class="navbar-dropdown-menu-media-title">Documentation <span class="badge bg-primary rounded-pill ms-1">v1.0</span></span>
+                    <p class="navbar-dropdown-menu-media-desc">Development guides for building projects with Space</p>
+                  </div>
+                </div>
+              </a>
+              <!-- End Link -->
+
+              <div class="dropdown-divider"></div>
+
+              <!-- Link -->
+              <a class="navbar-dropdown-menu-media-link" href="@@autopath/snippets/index.html">
+                <div class="d-flex">
+                  <div class="flex-shrink-0">
+                    <span class="svg-icon svg-icon-sm text-primary">
+                      @@include("../../assets/vendor/duotone-icons/cod/cod010.svg")
+                    </span>
+                  </div>
+
+                  <div class="flex-grow-1 ms-3">
+                    <span class="navbar-dropdown-menu-media-title">Snippets</span>
+                    <p class="navbar-dropdown-menu-media-desc">Move quickly with copy-to-clipboard feature</p>
+                  </div>
+                </div>
+              </a>
+              <!-- End Link -->
+            </div>
+            <!-- End Mega Menu -->
+          </li>
+          <!-- End Docs -->
+
+          <li class="nav-divider"></li>
+
+          <!-- Log in -->
+          <li class="nav-item">
+            <a class="js-animation-link btn btn-ghost-secondary btn-no-focus me-2 me-lg-0" href="javascript:;" role="button" data-bs-toggle="modal" data-bs-target="#signupModal"
+               data-hs-show-animation-options='{
+                       "targetSelector": "#signupModalFormLogin",
+                       "groupName": "idForm"
+                     }'>Log in</a>
+
+            <a class="js-animation-link d-lg-none btn btn-primary" href="javascript:;" role="button" data-bs-toggle="modal" data-bs-target="#signupModal"
+               data-hs-show-animation-options='{
+                       "targetSelector": "#signupModalFormSignup",
+                       "groupName": "idForm"
+                     }'>
+              <i class="bi-person-circle me-1"></i> Sign up
+            </a>
+          </li>
+          <!-- End Log in -->
+
+          <!-- Sign up -->
+          <li class="nav-item">
+            <a class="js-animation-link d-none d-lg-inline-block btn btn-primary" href="javascript:;" role="button" data-bs-toggle="modal" data-bs-target="#signupModal"
+               data-hs-show-animation-options='{
+                       "targetSelector": "#signupModalFormSignup",
+                       "groupName": "idForm"
+                     }'>
+              <i class="bi-person-circle me-1"></i> Sign up
+            </a>
+          </li>
+          <!-- End Sign up -->
+        </ul>
+      </div>
+      <!-- End Collapse -->
+    </nav>
+  </div>
+</header>

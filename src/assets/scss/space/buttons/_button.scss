@@ -1,0 +1,31 @@
+/*------------------------------------
+  Buttons
+------------------------------------*/
+
+.btn {
+  &:hover {
+    border-color: transparent;
+  }
+}
+
+.btn-link {
+  &:focus {
+    box-shadow: none;
+  }
+}
+
+.btn.dropdown-toggle {
+  display: inline-flex;
+  align-items: center;
+}
+
+// Add box-shadow on hover
+@each $color, $value in $theme-colors {
+  .btn-#{$color} {
+    .btn-check:focus + &,
+    &:hover,
+    &:focus {
+      box-shadow: $btn-box-shadow-value rgba($value, 0.35);
+    }
+  }
+}

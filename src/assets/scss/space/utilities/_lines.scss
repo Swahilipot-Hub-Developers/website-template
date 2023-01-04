@@ -1,0 +1,40 @@
+/*------------------------------------
+  Lines
+------------------------------------*/
+
+.lines {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  pointer-events: none;
+}
+
+.lines-container {
+  position: relative;
+  display: grid;
+  grid: 1fr / repeat(4,1fr);
+  height: 100%;
+  max-width: $lines-container-max-width;
+  margin: 0 auto;
+}
+
+.lines-item {
+  width: $lines-item-width;
+  height: 100%;
+  border-left: $lines-border-width solid $lines-border-color;
+}
+
+.lines-item:last-of-type {
+  position: absolute;
+  top: 0;
+  right: 0;
+}
+
+// Light
+.lines-light {
+  .lines-item {
+    border-left-color: $lines-light-border-color;
+  }
+}

@@ -1,0 +1,25 @@
+/*------------------------------------
+  Button Sizes
+------------------------------------*/
+
+.btn-icon.btn-sm {
+  font-size: $btn-icon-font-size-sm;
+  width: $btn-icon-width-sm;
+  height: $btn-icon-height-sm;
+
+  > svg {
+    width: $btn-icon-font-size-sm;
+    height: auto;
+  }
+}
+
+.btn-icon.btn-lg {
+  font-size: $btn-icon-font-size-lg;
+  width: $btn-icon-width-lg;
+  height: $btn-icon-height-lg;
+
+  > svg {
+    width: $btn-icon-font-size-lg;
+    height: auto;
+  }
+}

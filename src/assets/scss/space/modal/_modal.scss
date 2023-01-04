@@ -1,0 +1,33 @@
+/*------------------------------------
+  Modal
+------------------------------------*/
+
+.modal-header {
+  align-items: center;
+  padding-bottom: 0;
+
+  .close {
+    padding: $modal-close-padding-y $modal-close-padding-x;
+    margin: 0 0 0 auto;
+  }
+}
+
+.modal-footer {
+  > * {
+    margin-top: 0;
+    margin-bottom: 0;
+  }
+}
+
+.modal-footer-text:last-child {
+  font-size: $modal-footer-text-font-size;
+  margin-bottom: 0;
+}
+
+// Close
+.modal-close {
+  position: absolute;
+  top: $modal-top-cover-close-top-offset;
+  right: $modal-top-cover-close-right-offset;
+  z-index: $modal-top-cover-close-z-index;
+}

@@ -1,0 +1,666 @@
+<!DOCTYPE html>
+<html lang="@@languageDirection.lang" dir="@@if(languageDirection.isRTL){rtl}">
+  <head>
+    <!-- Required Meta Tags Always Come First -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Title -->
+    <title>Modern Portfolio | Space - Multipurpose Responsive Template</title>
+
+    <!-- Favicon -->
+    <link rel="shortcut icon" href="@@autopath/favicon.ico">
+
+    <!-- Font -->
+    <link href="@@vars.themeFont" rel="stylesheet">
+
+    <!-- CSS Implementing Plugins -->
+    <!-- bundlecss:vendor [@@autopath] -->
+    <link rel="stylesheet" href="@@autopath/node_modules/bootstrap-icons/font/bootstrap-icons.css">
+    <link rel="stylesheet" href="@@autopath/assets/vendor/hs-mega-menu/dist/hs-mega-menu.min.css">
+    <link rel="stylesheet" href="@@autopath/node_modules/swiper/swiper-bundle.min.css">
+
+    <!-- CSS Space Template -->
+    <!-- bundlecss:theme [@@autopath] @@vars.version -->
+    <link rel="stylesheet" href="@@autopath/assets/css/theme.css">
+  </head>
+
+  <body>
+    <!-- ========== HEADER ========== -->
+    @@include("@@autopath/partials/navbar/main.html", {
+      "category": "pages",
+      "link": "portfolio-modern.html"
+    })
+    <!-- ========== END HEADER ========== -->
+
+    <!-- ========== MAIN CONTENT ========== -->
+    <main id="content" role="main">
+      <!-- Hero -->
+      <div class="bg-soft-warning overflow-hidden">
+        <div class="container content-space-1 content-space-t-md-2">
+          <div class="w-lg-75 mx-lg-auto">
+            <!-- Heading -->
+            <div class="text-center">
+              <h1 class="display-4 text-primary">Creating unique brands - Space is a design agency that <span class="text-warning">inspires</span></h1>
+              <p class="lead">We are a full-service creative agency specialized in crafting human — centric digital experiences.</p>
+            </div>
+            <!-- End Heading -->
+          </div>
+        </div>
+
+        <div class="container-fluid position-relative px-lg-7">
+          <div class="mb-5">
+            <img class="img-fluid" src="@@autopath/assets/img/1920x1080/img1.jpg" alt="Image Description">
+          </div>
+
+          <!-- Background Shapes -->
+          <div class="position-absolute zi-n1" style="top: -6rem; left: -6rem;">
+            <img src="@@autopath/assets/svg/components/shape-1.svg" alt="SVG" width="500" style="width: 12rem;">
+          </div>
+          <div class="position-absolute zi-n1" style="bottom: -6rem; right: -7rem;">
+            <img src="@@autopath/assets/svg/components/shape-7.svg" alt="SVG" width="250">
+          </div>
+          <!-- End Background Shapes -->
+        </div>
+
+        <div class="container content-space-b-1 content-space-b-md-2">
+          <div class="row">
+            <div class="col py-3">
+              <img class="avatar avatar-xl avatar-4x3" src="@@autopath/assets/svg/brands/capsule-primary.svg" alt="Logo">
+            </div>
+            <!-- End Col -->
+
+            <div class="col py-3">
+              <img class="avatar avatar-xl avatar-4x3" src="@@autopath/assets/svg/brands/fitbit-primary.svg" alt="Logo">
+            </div>
+            <!-- End Col -->
+
+            <div class="col py-3">
+              <img class="avatar avatar-xl avatar-4x3" src="@@autopath/assets/svg/brands/vidados-primary.svg" alt="Logo">
+            </div>
+            <!-- End Col -->
+
+            <div class="col py-3">
+              <img class="avatar avatar-xl avatar-4x3" src="@@autopath/assets/svg/brands/mailchimp-primary.svg" alt="Logo">
+            </div>
+            <!-- End Col -->
+
+            <div class="col py-3">
+              <img class="avatar avatar-xl avatar-4x3" src="@@autopath/assets/svg/brands/layar-primary.svg" alt="Logo">
+            </div>
+            <!-- End Col -->
+          </div>
+          <!-- End Row -->
+        </div>
+      </div>
+      <!-- End Hero -->
+
+      <!-- Portfolio - Grid -->
+      <div id="sorting-container" class="container content-space-1 content-space-md-3">
+        <!-- Heading -->
+        <h3 class="mb-7">Case studies</h3>
+        <!-- End Heading -->
+
+        <div class="row">
+          <div class="col-md-4 mb-3 mb-md-0">
+            <!-- Navbar -->
+            <div class="navbar-expand-md">
+              <!-- Navbar Toggle -->
+              <div class="d-grid">
+                <button type="button" class="navbar-toggler btn btn-white mb-3" data-bs-toggle="collapse" data-bs-target="#navbarVerticalNavMenu" aria-label="Toggle navigation" aria-expanded="false" aria-controls="navbarVerticalNavMenu">
+                  <span class="d-flex justify-content-between align-items-center">
+                    <span class="h6 mb-0">Filter nav menu</span>
+
+                    <span class="navbar-toggler-default">
+                      <i class="bi-list"></i>
+                    </span>
+
+                    <span class="navbar-toggler-toggled">
+                      <i class="bi-x"></i>
+                    </span>
+                  </span>
+                </button>
+              </div>
+              <!-- End Navbar Toggle -->
+
+              <!-- Navbar Collapse -->
+              <div id="navbarVerticalNavMenu" class="collapse navbar-collapse">
+                <div class="js-sticky-block"
+                    data-hs-sticky-block-options='{
+                     "parentSelector": "#navbarVerticalNavMenu",
+                     "targetSelector": "#header",
+                     "breakpoint": "md",
+                     "startPoint": "#navbarVerticalNavMenu",
+                     "endPoint": "#stickyBlockEndPoint",
+                     "stickyOffsetTop": 20
+                   }'>
+                  <ul id="navbarSettings" class="js-filter-options nav nav-link-gray nav-vertical nav-tabs nav-lg mb-5" role="tablist">
+                    <li class="nav-item" role="presentation">
+                      <a class="nav-link active" href="javascript:;" data-group="all">All</a>
+                    </li>
+                    <li class="nav-item" role="presentation">
+                      <a class="nav-link" href="javascript:;" data-group="branding">Branding</a>
+                    </li>
+                    <li class="nav-item" role="presentation">
+                      <a class="nav-link" href="javascript:;" data-group="development">Development</a>
+                    </li>
+                    <li class="nav-item" role="presentation">
+                      <a class="nav-link" href="javascript:;" data-group="product-design">Product Design</a>
+                    </li>
+                  </ul>
+
+                  <a class="link" href="#">All our case studies <i class="bi-chevron-right small ms-1"></i></a>
+                </div>
+              </div>
+              <!-- End Navbar Collapse -->
+            </div>
+            <!-- End Navbar -->
+          </div>
+          <!-- End Col -->
+
+          <div class="col-md-8">
+            <div class="js-shuffle row row-cols-1 row-cols-md-2">
+              <div class="js-shuffle-item col-sm-6 mb-5" data-groups='["branding"]'>
+                <!-- Card -->
+                <a class="card card-flush card-transition" href="@@autopath/portfolio-case-study.html">
+                  <img class="card-img-top" src="@@autopath/assets/img/600x650/img1.jpg" alt="Image Description">
+                  <div class="card-body">
+                    <span class="card-subtitle text-body">Branding</span>
+                    <h5 class="card-title">Hondo Loggy</h5>
+                  </div>
+                </a>
+                <!-- End Card -->
+              </div>
+              <!-- End Col -->
+
+              <div class="js-shuffle-item col-sm-6 mb-5" data-groups='["development"]'>
+                <!-- Card -->
+                <a class="card card-flush card-transition" href="@@autopath/portfolio-case-study.html">
+                  <img class="card-img-top" src="@@autopath/assets/img/600x650/img2.jpg" alt="Image Description">
+                  <div class="card-body">
+                    <span class="card-subtitle text-body">Development</span>
+                    <h5 class="card-title">Wibbitz</h5>
+                  </div>
+                </a>
+                <!-- End Card -->
+              </div>
+              <!-- End Col -->
+
+              <div class="js-shuffle-item col-sm-6 mb-5" data-groups='["product-design"]'>
+                <!-- Card -->
+                <a class="card card-flush card-transition" href="@@autopath/portfolio-case-study.html">
+                  <img class="card-img-top" src="@@autopath/assets/img/600x650/img3.jpg" alt="Image Description">
+                  <div class="card-body">
+                    <span class="card-subtitle text-body">Product Design</span>
+                    <h5 class="card-title">The Hub</h5>
+                  </div>
+                </a>
+                <!-- End Card -->
+              </div>
+              <!-- End Col -->
+
+              <div class="js-shuffle-item col-sm-6 mb-5" data-groups='["product-design"]'>
+                <!-- Card -->
+                <a class="card card-flush card-transition" href="@@autopath/portfolio-case-study.html">
+                  <img class="card-img-top" src="@@autopath/assets/img/600x650/img4.jpg" alt="Image Description">
+                  <div class="card-body">
+                    <span class="card-subtitle text-body">Product Design</span>
+                    <h5 class="card-title">Starbucks</h5>
+                  </div>
+                </a>
+                <!-- End Card -->
+              </div>
+              <!-- End Col -->
+
+              <div class="js-shuffle-item col-sm-6 mb-5" data-groups='["product"]'>
+                <!-- Card -->
+                <a class="card card-flush card-transition" href="@@autopath/portfolio-case-study.html">
+                  <img class="card-img-top" src="@@autopath/assets/img/600x650/img5.jpg" alt="Image Description">
+                  <div class="card-body">
+                    <span class="card-subtitle text-body">Product Design</span>
+                    <h5 class="card-title">TATT</h5>
+                  </div>
+                </a>
+                <!-- End Card -->
+              </div>
+              <!-- End Col -->
+
+              <div class="js-shuffle-item col-sm-6 mb-5" data-groups='["branding"]'>
+                <!-- Card -->
+                <a class="card card-flush card-transition" href="@@autopath/portfolio-case-study.html">
+                  <img class="card-img-top" src="@@autopath/assets/img/600x650/img8.jpg" alt="Image Description">
+                  <div class="card-body">
+                    <span class="card-subtitle text-body">Branding</span>
+                    <h5 class="card-title">Slack Agency</h5>
+                  </div>
+                </a>
+                <!-- End Card -->
+              </div>
+              <!-- End Col -->
+            </div>
+            <!-- End Row -->
+
+            <!-- End Sticky End Point -->
+            <div id="stickyBlockEndPoint"></div>
+          </div>
+          <!-- End Col -->
+        </div>
+        <!-- End Row -->
+      </div>
+      <!-- End Portfolio - Grid -->
+
+      <!-- Testimonials -->
+      <div class="bg-soft-warning">
+        <div class="container content-space-1 content-space-md-3">
+          <!-- Swiper Slider -->
+          <div class="js-swiper swiper">
+            <div class="swiper-wrapper">
+              <!-- Slide -->
+              <div class="swiper-slide">
+                <div class="row">
+                  <div class="col-md-4 mb-5 mb-md-0">
+                    <img class="img-fluid" src="@@autopath/assets/img/900x700/img4.jpg" alt="Image Description">
+                  </div>
+                  <!-- End Col -->
+
+                  <div class="col-md-8">
+                    <!-- Blockquote -->
+                    <figure class="ps-md-5">
+                      <img class="avatar avatar-xl avatar-4x3 mb-5" src="@@autopath/assets/svg/brands/forbes-primary.svg" alt="Logo">
+
+                      <blockquote class="blockquote">“ Truly great template and great costumer support. Very precise documentation with many features well explained. ”</blockquote>
+
+                      <figcaption class="blockquote-footer">
+                        Matt Powers
+                        <span class="blockquote-footer-source">Director of Sales | Forbes</span>
+                      </figcaption>
+                    </figure>
+                    <!-- End Blockquote -->
+                  </div>
+                  <!-- End Col -->
+                </div>
+                <!-- End Row -->
+              </div>
+              <!-- End Slide -->
+
+              <!-- Slide -->
+              <div class="swiper-slide">
+                <div class="row">
+                  <div class="col-md-4 mb-5 mb-md-0">
+                    <img class="img-fluid" src="@@autopath/assets/img/900x700/img1.jpg" alt="Image Description">
+                  </div>
+                  <!-- End Col -->
+
+                  <div class="col-md-8">
+                    <!-- Blockquote -->
+                    <figure class="ps-md-5">
+                      <img class="avatar avatar-xl avatar-4x3 mb-5" src="@@autopath/assets/svg/brands/vidados-primary.svg" alt="Logo">
+
+                      <blockquote class="blockquote">“ This is a beautiful template with exciting components and endless features. ”</blockquote>
+
+                      <figcaption class="blockquote-footer">
+                        Christina Kray
+                        <span class="blockquote-footer-source">Product Designer | Vidados</span>
+                      </figcaption>
+                    </figure>
+                    <!-- End Blockquote -->
+                  </div>
+                  <!-- End Col -->
+                </div>
+                <!-- End Row -->
+              </div>
+              <!-- End Slide -->
+
+              <!-- Slide -->
+              <div class="swiper-slide">
+                <div class="row">
+                  <div class="col-md-4 mb-5 mb-md-0">
+                    <img class="img-fluid" src="@@autopath/assets/img/900x700/img3.jpg" alt="Image Description">
+                  </div>
+                  <!-- End Col -->
+
+                  <div class="col-md-8">
+                    <!-- Blockquote -->
+                    <figure class="ps-md-5">
+                      <img class="avatar avatar-xl avatar-4x3 mb-5" src="@@autopath/assets/svg/brands/capsule-primary.svg" alt="Logo">
+
+                      <blockquote class="blockquote">“ I plan to use Space in many more projects, and almost want to keep it to myself ”</blockquote>
+
+                      <figcaption class="blockquote-footer">
+                        Jeff Fisher
+                        <span class="blockquote-footer-source">HR Director | Capsule</span>
+                      </figcaption>
+                    </figure>
+                    <!-- End Blockquote -->
+                  </div>
+                  <!-- End Col -->
+                </div>
+                <!-- End Row -->
+              </div>
+              <!-- End Slide -->
+
+              <!-- Slide -->
+              <div class="swiper-slide">
+                <div class="row">
+                  <div class="col-md-4 mb-5 mb-md-0">
+                    <img class="img-fluid" src="@@autopath/assets/img/900x700/img5.jpg" alt="Image Description">
+                  </div>
+                  <!-- End Col -->
+
+                  <div class="col-md-8">
+                    <!-- Blockquote -->
+                    <figure class="ps-md-5">
+                      <img class="avatar avatar-xl avatar-4x3 mb-5" src="@@autopath/assets/svg/brands/mailchimp-primary.svg" alt="Logo">
+
+                      <blockquote class="blockquote">“ It has many landing page variations to choose from, which one is always a big advantage. ”</blockquote>
+
+                      <figcaption class="blockquote-footer">
+                        Lida Reidy
+                        <span class="blockquote-footer-source">Project Manager | MailChimp</span>
+                      </figcaption>
+                    </figure>
+                    <!-- End Blockquote -->
+                  </div>
+                  <!-- End Col -->
+                </div>
+                <!-- End Row -->
+              </div>
+              <!-- End Slide -->
+            </div>
+
+            <!-- Pagination -->
+            <div class="js-swiper-pagination swiper-pagination"></div>
+          </div>
+          <!-- End Swiper Slider -->
+        </div>
+      </div>
+      <!-- End Testimonials -->
+
+      <!-- FAQ -->
+      <div class="container content-space-1 content-space-md-3">
+        <!-- Heading -->
+        <div class="w-lg-65 text-center mx-lg-auto mb-7">
+          <h3>Frequently Asked Questions</h3>
+        </div>
+        <!-- End Heading -->
+
+        <div class="row justify-content-md-center">
+          <div class="col-md-8">
+            <!-- Accordion -->
+            <div class="accordion accordion-flush" id="accordionFAQ">
+              <!-- Accordion Item -->
+              <div class="accordion-item">
+                <div class="accordion-header" id="headingOne">
+                  <a class="accordion-button" role="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                    What methods of payments are supported?
+                  </a>
+                </div>
+                <div id="collapseOne" class="accordion-collapse collapse show" aria-labelledby="headingOne" data-bs-parent="#accordionFAQ">
+                  <div class="accordion-body">
+                    You can purchase the themes on Bootstrap Themes via any major credit/debit card (via Stripe) or with your Paypal account. We don't support cryptocurrencies or invoicing at this time.
+                  </div>
+                </div>
+              </div>
+              <!-- End Accordion Item -->
+
+              <!-- Accordion Item -->
+              <div class="accordion-item">
+                <div class="accordion-header" id="headingTwo">
+                  <a class="accordion-button collapsed" role="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                    Can I cancel at anytime?
+                  </a>
+                </div>
+                <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo" data-bs-parent="#accordionFAQ">
+                  <div class="accordion-body">
+                    If you'd like a refund please reach out to us at <a href="#">themes@getbootstrap.com</a>. If you need technical help with the theme before a refund please reach out to the seller first and they can get in touch with us if they're unable to resolve the issue.
+                  </div>
+                </div>
+              </div>
+              <!-- End Accordion Item -->
+
+              <!-- Accordion Item -->
+              <div class="accordion-item">
+                <div class="accordion-header" id="headingThree">
+                  <a class="accordion-button collapsed" role="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                    How do I get a receipt for my purchase?
+                  </a>
+                </div>
+                <div id="collapseThree" class="accordion-collapse collapse" aria-labelledby="headingThree" data-bs-parent="#accordionFAQ">
+                  <div class="accordion-body">
+                    You'll receive an email from Bootstrap themes once your purchase is complete.
+                  </div>
+                </div>
+              </div>
+              <!-- End Accordion Item -->
+
+              <!-- Accordion Item -->
+              <div class="accordion-item">
+                <div class="accordion-header" id="headingFour">
+                  <a class="accordion-button collapsed" role="button" data-bs-toggle="collapse" data-bs-target="#collapseFour" aria-expanded="false" aria-controls="collapseFour">
+                    Which license do I need?
+                  </a>
+                </div>
+                <div id="collapseFour" class="accordion-collapse collapse" aria-labelledby="headingFour" data-bs-parent="#accordionFAQ">
+                  <div class="accordion-body">
+                    There are three license types - <a href="#">Standard</a>, <a href="#">Multisite</a>, and <a href="#">Extended</a>. We've provided the table below for a quick look at the difference between the them, as well as a few examples of ways each license could be used. If you'd like more of the nitty-gritty details you can find them below and always feel free to reach out with any questions you have at <a href="#">themes@getbootstrap.com</a>.
+                  </div>
+                </div>
+              </div>
+              <!-- End Accordion Item -->
+
+              <!-- Accordion Item -->
+              <div class="accordion-item">
+                <div class="accordion-header" id="headingFive">
+                  <a class="accordion-button collapsed" role="button" data-bs-toggle="collapse" data-bs-target="#collapseFive" aria-expanded="false" aria-controls="collapseFive">
+                    How do I get access to a theme I purchased?
+                  </a>
+                </div>
+                <div id="collapseFive" class="accordion-collapse collapse" aria-labelledby="headingFive" data-bs-parent="#accordionFAQ">
+                  <div class="accordion-body">
+                    If you lose the link for a theme you purchased, don't panic! We've got you covered. You can login to your account, tap your avatar in the upper right corner, and tap Purchases. If you didn't create a login or can't remember the information, you can use our handy Redownload page, just remember to use the same email you originally made your purchases with.
+                  </div>
+                </div>
+              </div>
+              <!-- End Accordion Item -->
+
+              <!-- Accordion Item -->
+              <div class="accordion-item">
+                <div class="accordion-header" id="headingSix">
+                  <a class="accordion-button collapsed" role="button" data-bs-toggle="collapse" data-bs-target="#collapseSix" aria-expanded="false" aria-controls="collapseSix">
+                    Upgrade License Type
+                  </a>
+                </div>
+                <div id="collapseSix" class="accordion-collapse collapse" aria-labelledby="headingSix" data-bs-parent="#accordionFAQ">
+                  <div class="accordion-body">
+                    There may be times when you need to upgrade your license from the original type you purchased and we have a solution that ensures you can apply your original purchase cost to the new license purchase.
+                  </div>
+                </div>
+              </div>
+              <!-- End Accordion Item -->
+            </div>
+            <!-- End Accordion -->
+          </div>
+          <!-- End Col -->
+        </div>
+        <!-- End Row -->
+      </div>
+      <!-- End FAQ -->
+
+      <!-- CTA -->
+      <div class="bg-primary-dark overflow-hidden">
+        <div class="container position-relative content-space-1 content-space-md-3">
+          <!-- Heading -->
+          <div class="w-lg-65 text-center mx-lg-auto">
+            <div class="mb-7">
+              <h2 class="text-white">Have a project in mind?<br>Let’s get to work.</h2>
+            </div>
+            <a class="btn btn-primary" href="#">Start a project</a>
+          </div>
+          <!-- End Heading -->
+
+          <!-- Background Shapes -->
+          <div class="position-absolute" style="top: -6rem; left: -6rem;">
+            <img src="@@autopath/assets/svg/components/shape-1-soft-light.svg" alt="SVG" width="500" style="width: 12rem;">
+          </div>
+          <div class="position-absolute" style="bottom: -6rem; right: -7rem;">
+            <img src="@@autopath/assets/svg/components/shape-7-soft-light.svg" alt="SVG" width="250">
+          </div>
+          <!-- End Background Shapes -->
+        </div>
+      </div>
+      <!-- End CTA -->
+    </main>
+    <!-- ========== END MAIN CONTENT ========== -->
+
+    <!-- ========== FOOTER ========== -->
+    @@include("@@autopath/partials/footer/main.html")
+    <!-- ========== END FOOTER ========== -->
+
+    <!-- ========== SECONDARY CONTENTS ========== -->
+    <!-- Sign Up -->
+    @@include("@@autopath/partials/modal/signup.html")
+
+    <!-- Go To -->
+    @@include("@@autopath/partials/layouts-components/go-to.html")
+    <!-- ========== END SECONDARY CONTENTS ========== -->
+
+    <!-- JS Global Compulsory @@deleteLine:build -->
+    <script src="@@autopath/node_modules/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
+
+    <!-- JS Implementing Plugins -->
+    <!-- bundlejs:vendor [@@autopath] -->
+    <script src="@@autopath/assets/vendor/hs-mega-menu/dist/hs-mega-menu.min.js"></script>
+    <script src="@@autopath/assets/vendor/hs-show-animation/dist/hs-show-animation.min.js"></script>
+    <script src="@@autopath/assets/vendor/hs-go-to/dist/hs-go-to.min.js"></script>
+    <script src="@@autopath/node_modules/swiper/swiper-bundle.min.js"></script>
+    <script src="@@autopath/node_modules/fslightbox/index.js"></script>
+    <script src="@@autopath/assets/vendor/hs-sticky-block/dist/hs-sticky-block.min.js"></script>
+    <script src="@@autopath/node_modules/shufflejs/dist/shuffle.js"></script>
+
+    <!-- JS Space -->
+    <!-- bundlejs:theme [@@autopath] -->
+    <script src="@@autopath/assets/js/hs.core.js"></script>
+    <script src="@@autopath/assets/js/hs.bs-validation.js"></script>
+
+    <!-- JS Plugins Init. -->
+    <script>
+      (function() {
+        // INITIALIZATION OF MEGA MENU
+        // =======================================================
+        const megaMenu = new HSMegaMenu('.js-mega-menu', {
+          desktop: {
+            position: 'left'
+          }
+        })
+
+
+        // INITIALIZATION OF SHOW ANIMATIONS
+        // =======================================================
+        new HSShowAnimation('.js-animation-link')
+
+
+        // INITIALIZATION OF BOOTSTRAP VALIDATION
+        // =======================================================
+        HSBsValidation.init('.js-validate', {
+          onSubmit: data => {
+            data.event.preventDefault()
+            alert('Submited')
+          }
+        })
+
+
+        // INITIALIZATION OF GO TO
+        // =======================================================
+        new HSGoTo('.js-go-to')
+
+
+        // INITIALIZATION OF SWIPER
+        // =======================================================
+        var swiper = new Swiper('.js-swiper', {
+          pagination: {
+            el: '.js-swiper-pagination',
+            clickable: true,
+          },
+        });
+
+
+        // INITIALIZATION OF STICKY BLOCKS
+        // =======================================================
+        Promise.all(Array.from(document.images)
+          .filter(img => !img.complete)
+          .map(img => new Promise(resolve => {
+            img.onload = img.onerror = resolve
+          })))
+          .then(() => {
+            new HSStickyBlock('.js-sticky-block', {
+              targetSelector: document.getElementById('header').classList.contains('navbar-fixed') ? '#header' : null
+            })
+          })
+
+
+        // INITIALIZATION OF SHUFFLE
+        // =======================================================
+        class ShufflePorfolio {
+          constructor(element) {
+            this.element = element;
+            this.shuffle = new Shuffle(element, {
+              itemSelector: '.js-shuffle-item',
+              speed: 500
+            })
+
+            this.addFilterButtons()
+          }
+
+          addFilterButtons() {
+            const options = document.querySelector('.js-filter-options')
+            if (!options) {
+              return
+            }
+
+            const filterButtons = Array.from(options.children)
+            const onClick = this._handleFilterClick.bind(this)
+            filterButtons.forEach((button) => {
+              button.addEventListener('click', onClick, false)
+            });
+          }
+
+          _handleFilterClick(evt) {
+            const btn = evt.currentTarget.firstElementChild
+            const isActive = btn.classList.contains('active')
+            const btnGroup = btn.getAttribute('data-group')
+
+            this._removeActiveClassFromChildren(btn.parentNode.parentNode)
+
+            let filterGroup
+            if (isActive) {
+              btn.classList.remove('active')
+              filterGroup = Shuffle.ALL_ITEMS
+            } else {
+              btn.classList.add('active')
+              filterGroup = btnGroup
+            }
+
+            this.shuffle.filter(filterGroup)
+          }
+
+          _removeActiveClassFromChildren(parent) {
+            const { children } = parent
+            for (let i = children.length - 1; i >= 0; i--) {
+              children[i].firstElementChild.classList.remove('active')
+            }
+          }
+        }
+
+        new ShufflePorfolio(document.querySelector('.js-shuffle'))
+
+        // Added smooth scroll on sorting
+        const sortingContainer = document.getElementById('sorting-container')
+
+        document.getElementById('navbarSettings').querySelectorAll('.nav-link')
+                .forEach(item => item.addEventListener('click', () => sortingContainer.scrollIntoView({
+                  behavior: 'smooth'
+                })))
+      })()
+    </script>
+  </body>
+</html>
