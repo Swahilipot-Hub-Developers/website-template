@@ -1,5 +1,5 @@
 {
-  "name": "Space",
+  "name": "space",
   "version": "2.3.0",
   "description": "Space - Multipurpose Responsive Template",
   "main": "gulpfile.js",
@@ -31,7 +31,7 @@
     "wnumb": "^1.2.0"
   },
   "dependencies": {
-    "bootstrap": "^5.2.2",
+    "bootstrap": "^5.2.3",
     "bootstrap-icons": "^1.9.1",
     "countdown": "^2.6.0",
     "flag-icon-css": "^4.1.7",
