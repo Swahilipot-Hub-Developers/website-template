@@ -1,0 +1,48 @@
+name: Prevent Direct Merge to Main
+
+on:
+  pull_request:
+    types:
+      - synchronize
+      - opened
+      - reopened
+
+jobs:
+  preventDirectMerge:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Check if Direct Push
+        id: check_direct_push
+        run: |
+          if [[ "${{ github.event_name }}" == "pull_request" ]]; then
+            echo "::set-output name=is_direct_push::false"
+          else
+            echo "::set-output name=is_direct_push::true"
+          fi
+
+      - name: Check Branch Name
+        id: check_branch
+        run: |
+          if [[ "${{ github.ref }}" != "refs/heads/main" ]]; then
+            echo "::set-output name=branch_valid::true"
+          else
+            echo "::set-output name=branch_valid::false"
+          fi
+
+      - name: Comment on Pull Request
+        if: steps.check_direct_push.outputs.is_direct_push == 'true' && steps.check_branch.outputs.branch_valid == 'true'
+        uses: actions/github-script@v4
+        with:
+          script: |
+            const issueComment = `:warning: Direct pushes to the main branch are not allowed. Please create a pull request instead.`;
+            github.issues.createComment({
+              issue_number: context.issue.number,
+              owner: context.repo.owner,
+              repo: context.repo.repo,
+              body: issueComment
+            });
+
+      - name: Fail Workflow
+        if: steps.check_direct_push.outputs.is_direct_push == 'true' && steps.check_branch.outputs.branch_valid == 'true'
+        run: exit 1
