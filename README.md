@@ -1,35 +1,36 @@
-# First of all, we thank you for your purchase and willingness to use Space in your projects! #
-
-With incredibly beautiful, fully responsive, and mobile-first projects on the web – Space Multipurpose Responsive Template + UI Kit is the perfect starting point for any creative and professional sites. Get started with Space’s components and options for laying out your Space project, including powerful scripts, fully detailed documentation, and yet developer friendly code.
 
 
-### How to start with Space? ###
 
-It's simple and easy, just open `documentation/getting-started.html` and Space's documentation will guide you with detailed step by step information.
+Installation
+To install and run the HTML project, please ensure that you have the following prerequisites:
 
+Web browser (e.g., Google Chrome, Mozilla Firefox)
+Text editor or integrated development environment (IDE) for editing HTML files (e.g., Visual Studio Code, Sublime Text)
+Once you have the prerequisites in place, follow these steps to install the project:
 
-### Figma ###
+Clone the repository: Begin by cloning the project repository to your local machine using Git. Open your terminal or command prompt and run the following command:
+git clone https://github.com/your-username/-project.git
 
-The Figma file is NOT a core part of the Theme, but at the moment comes as a complimentary. Hence, we don't officially provide support for Figma. The license usage must be followed the terms of the original obtained license from https://themes.getbootstrap.com/product/space-multipurpose-responsive-template
+This will create a local copy of the project on your machine.
 
-Space was designed in Figma. Figma is a fast and powerful designing tool. Space utilizes all major Figma's features such as variables, auto layouts, reusable components and more.
+Navigate to the project folder: Use the cd command to change your current directory to the project folder:
+Open the project: Open the project folder in your preferred text editor or IDE. You will see the  files and any accompanying assets (such as CSS or JavaScript files).
+That's it! You have successfully installed the  project on your local machine.
+Usage
+The  project provides a set of  files that you can use and modify to create web pages. Here are the major concepts and steps to get started:
 
-Public Preview Link: https://www.figma.com/file/aQLhe1y2lvr0vlomoGVTUf/Space-Preview?node-id=0%3A1
+Open the  file: Choose the  file you want to work with and open it in your text editor or IDE.
 
-Download Link: https://www.dropbox.com/s/i4qtgy3bmydujda/Space.fig?dl=0
-Password for the Download Link: UsEuSe_SpA_c!e!FiGmaaa^0o0^-TodaYooo0o0!
+Edit the : Modify the  file to suit your needs. You can add, remove, or modify  tags, content, and attributes. Customize the page structure, headings, paragraphs, links, images, and more.
 
+Save the changes: After making your modifications, save the  file.
 
-### License ###
+Preview the web page: Open the  file in your web browser by double-clicking on it or right-clicking and selecting "Open with" and choosing your preferred browser. The browser will render the  and display the web page as per your modifications.
 
-Space is licensed under Bootstrap Themes and you can find more detailed information about it here: https://themes.getbootstrap.com/licenses
+Iterate and refine: Make further changes to the file as required. Save the file and refresh the web page in the browser to see the updated changes.
 
+Add styles and interactivity: If desired, you can enhance the web page by adding CSS styles or JavaScript functionality. Create separate CSS and JavaScript files and link them to your file using <link> and <script> tags.
 
-### Support & Updates ###
+Repeat the process: You can create multiple  files and link them together to create a website with multiple pages. Repeat the steps above for each  file you create.
 
-Space comes with 6 months of free support and lifetime updates for free. Need help? For any questions or concerns, reach us out at https://htmlstream.com/contact-us
-
-
-### Need Space Template customization? ###
-
-We offer affordable, professional and trendy customized design solutions, solely for your own projects! Space Template can be easily customized with cutting-edge components and features. However, if you feel you need any further customization please drop us a message at https://htmlstream.com/hire-us and our dedicated team will assist you with your inquiries.
+By following these steps, you can effectively use the HTML project to create and customize web pages according to your requirements.
