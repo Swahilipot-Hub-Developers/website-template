@@ -1,6 +1,3 @@
-
-
-
 Installation
 To install and run the HTML project, please ensure that you have the following prerequisites:
 
