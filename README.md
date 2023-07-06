@@ -1,33 +1,25 @@
-Installation
-To install and run the HTML project, please ensure that you have the following prerequisites:
+# First of all we want to express our gratitude for your purchase and your interest in using space for your projects! #
+Space Multipurpose Responsive Template + UI kit is a remarkable point for creating stunning, fully responsive and mobile-first web projects. It offers a wide range of components and layout options, along with powerful scripts, comprehensive documentation and developer-friendly code.
 
-Web browser (e.g., Google Chrome, Mozilla Firefox)
-Text editor or integrated development environment (IDE) for editing HTML files (e.g., Visual Studio Code, Sublime Text)
-Once you have the prerequisites in place, follow these steps to install the project:
 
-Clone the repository: Begin by cloning the project repository to your local machine using Git. Open your terminal or command prompt and run the following command:
-git clone https://github.com/your-username/-project.git
+### Getting started: ###
+To begin using the space simply open the "documentation/geting-started.html" file.Our detailed documentation will provide you with detailed step-by-step detailed instructions and guidance.
 
-This will create a local copy of the project on your machine.
 
-Navigate to the project folder: Use the cd command to change your current directory to the project folder:
-Open the project: Open the project folder in your preferred text editor or IDE. You will see the  files and any accompanying assets (such as CSS or JavaScript files).
-That's it! You have successfully installed the  project on your local machine.
-Usage
-The  project provides a set of  files that you can use and modify to create web pages. Here are the major concepts and steps to get started:
+### Figma: ###
+Although the figma file is not an essential part of the theme,we currently offer it as a complementary addition.Please not that we do not officially provide support for Figma the usage of the Figma file must adhere to the terms of the original liscense obtained from our website:https://themes.getbootstrap.com/product/space-multipurpose-responsive-template.
+Space Design in Figma:Space was designed using Figma, a powerul and efficient tool. It fully utilizes Figma's faetures ,including variables, outo layouts and reusable components among others.
+Public Preview Link:You can access the pblic preview of Space on Figma using the following 
+https://www.figma.com/file/aQLhe1y2lvr0vlomoGVTUf/Space-Preview?node-id=0%3A1
+Download Link:You can download the space Figma file from the following link
+https://www.dropbox.com/s/i4qtgy3bmydujda/Space.fig?dl=0
+Password for the download link:UsEuSe_SpA_c!e!FiGmaaa^0o0^-TodaYooo0o0!
+License:
+Space is liscenced under Bootstrap Themes.For more detailed information about the liscense, please visit:
+https://themes.getbootstrap.com/licenses
 
-Open the  file: Choose the  file you want to work with and open it in your text editor or IDE.
 
-Edit the : Modify the  file to suit your needs. You can add, remove, or modify  tags, content, and attributes. Customize the page structure, headings, paragraphs, links, images, and more.
-
-Save the changes: After making your modifications, save the  file.
-
-Preview the web page: Open the  file in your web browser by double-clicking on it or right-clicking and selecting "Open with" and choosing your preferred browser. The browser will render the  and display the web page as per your modifications.
-
-Iterate and refine: Make further changes to the file as required. Save the file and refresh the web page in the browser to see the updated changes.
-
-Add styles and interactivity: If desired, you can enhance the web page by adding CSS styles or JavaScript functionality. Create separate CSS and JavaScript files and link them to your file using <link> and <script> tags.
-
-Repeat the process: You can create multiple  files and link them together to create a website with multiple pages. Repeat the steps above for each  file you create.
-
-By following these steps, you can effectively use the HTML project to create and customize web pages according to your requirements.
+### Support and Updates: ###
+When yuo purchase Space, you receive 6 months of free support and lfetime updates at o additional cost. If you need assistance or have ay questiions,please reach out to us at https://htmlstream.com/contact-us
+Customization Services:
+If you require further customization of the space template for your specific objectives, we offer affordable, proffessional, and trendy design solutions. The space template is highly customizable, but if you need additional customzation, please contact our dedicated team at https://htmlstream.com/hire-us, and we will gladly assist you with your enquiries.
