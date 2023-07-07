@@ -2,21 +2,30 @@
 // Use this to overwrite Bootstrap and Space variables
 //
 
+@import "node_modules/bootstrap/scss/bootstrap";
 
+// @import "node_modules/bootstrap/scss/bootstrap";
 // Example of a variable override to change Space's primary color and font size
 // Remove the "//" to comment it in and see it in action!
-// $primary: red;
-// $font-size-base: 1rem;
+
+
+
+
+.bg-primary-dark {
+    background-color: var(--steel-blue)
+}
+    
 
 
 /* Coolors Exported Palette - https://coolors.co/000000-067fcb-1060b0-000000-000000 */
-:root{
-/* CSS HEX */
+:root { 
+    /* CSS HEX */
 --black: #000000ff;
 --steel-blue: #067FCBff;
 --green-blue: #1060B0ff;
 --black-2: #000000ff;
 --black-3: #000000ff;
+
 
 /* CSS HSL */
 --black: hsla(0, 0%, 0%, 1);
@@ -27,6 +36,8 @@
 }
 
 /* SCSS HEX */
+
+
 $black: #000000ff;
 $steel-blue: #067FCBff;
 $green-blue: #1060B0ff;
@@ -57,3 +68,6 @@ $gradient-bottom-right: linear-gradient(135deg, #000000ff, #067FCBff, #1060B0ff,
 $gradient-top-left: linear-gradient(225deg, #000000ff, #067FCBff, #1060B0ff, #000000ff, #000000ff);
 $gradient-bottom-left: linear-gradient(315deg, #000000ff, #067FCBff, #1060B0ff, #000000ff, #000000ff);
 $gradient-radial: radial-gradient(#000000ff, #067FCBff, #1060B0ff, #000000ff, #000000ff);
+
+
+
