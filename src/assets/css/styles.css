@@ -2982,7 +2982,7 @@ textarea.form-control-lg {
   .nav-pills .nav-link,
   .nav-pills .show > .nav-link {
     color: var(--bs-nav-pills-link-active-color);
-    background-color: var(--bs-nav-pills-link-active-bg); }
+    background-color: var(--bs-nav-pills-link-active-bg); }--bs-nav-pills-link-active-color
 
 .nav-fill > .nav-link,
 .nav-fill .nav-item {
