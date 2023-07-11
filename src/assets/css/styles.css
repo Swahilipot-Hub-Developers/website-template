@@ -2982,7 +2982,7 @@ textarea.form-control-lg {
   .nav-pills .nav-link,
   .nav-pills .show > .nav-link {
     color: var(--bs-nav-pills-link-active-color);
-    background-color: var(--bs-nav-pills-link-active-bg); }--bs-nav-pills-link-active-color
+    background-color: var(--bs-nav-pills-link-active-bg); }
 
 .nav-fill > .nav-link,
 .nav-fill .nav-item {
@@ -8390,11 +8390,13 @@ textarea.form-control-lg {
 /* Coolors Exported Palette - https://coolors.co/000000-067fcb-1060b0-000000-000000 */
 :root {
   /* CSS HEX */
+  --primary: blue;
   --black: #000000ff;
   --steel-blue: #067FCBff;
   --green-blue: #1060B0ff;
   --black-2: #000000ff;
   --black-3: #000000ff;
+  --bg-soft-warning:rgba(6,127,203,.1);
   /* CSS HSL */
   --black: hsla(0, 0%, 0%, 1);
   --steel-blue: hsla(203, 94%, 41%, 1);
