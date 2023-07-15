@@ -7,7 +7,9 @@ To begin using the space simply open the "documentation/geting-started.html" fil
 
 
 ### Figma: ###
-Although the figma file is not an essential part of the theme,we currently offer it as a complementary addition.Please not that we do not officially provide support for Figma the usage of the Figma file must adhere to the terms of the original liscense obtained from our website:https://themes.getbootstrap.com/product/space-multipurpose-responsive-template.
+Although the figma file is not an essential part of the theme,we currently offer it as a complementary addition.Please not that we do not officially provide support for Figma the usage of the Figma file must adhere to the terms of the original liscense obtained from our website:
+https://themes.getbootstrap.com/product/space-multipurpose-responsive-template.
+
 
 Space Design in Figma: Space was designed using Figma, a powerul and efficient tool. It fully utilizes Figma's faetures ,including variables, outo layouts and reusable components among others.
 
