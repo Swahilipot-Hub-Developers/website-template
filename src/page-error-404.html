@@ -6,10 +6,10 @@
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
     <!-- Title -->
-    <title>Error 404 | Space - Multipurpose Responsive Template</title>
+    <title>Error 404</title>
 
     <!-- Favicon -->
-    <link rel="shortcut icon" href="@@autopath/favicon.ico">
+    <link rel="shortcut icon" href="./favicon.ico" />
 
     <!-- Font -->
     <link href="@@vars.themeFont" rel="stylesheet">
@@ -20,15 +20,15 @@
 
     <!-- CSS Space Template -->
     <!-- bundlecss:theme [@@autopath] @@vars.version -->
-    <link rel="stylesheet" href="@@autopath/assets/css/theme.css">
+    <link rel="stylesheet" href="./assets/css/theme.css">
   </head>
 
   <body class="d-flex flex-column justify-content-center align-items-center h-100">
     <!-- ========== HEADER ========== -->
     <header id="header" class="navbar navbar-height navbar-light navbar-absolute-top bg-white mt-2">
       <div class="container">
-        <a class="navbar-brand mx-auto" href="@@autopath/index.html" aria-label="Space">
-          <img class="navbar-brand-logo" src="@@autopath/assets/svg/logos/logo.svg" alt="Image Description">
+        <a class="navbar-brand mx-auto" href="./index.html" aria-label="Space">
+          <img class="navbar-brand-logo" src="./assets/svg/logos/log.png" alt="Image Description">
         </a>
       </div>
     </header>
@@ -38,9 +38,9 @@
     <main id="content" role="main">
       <!-- Content -->
       <div class="container text-center">
-        <img class="img-fluid mb-5" src="@@autopath/assets/svg/illustrations/oc-error.svg" alt="Image Description" style="width: 30rem;">
+        <img class="img-fluid mb-5" src="./assets/svg/illustrations/oc-error.svg" alt="Image Description" style="width: 30rem;">
         <p>The page you are looking for does not exist!</p>
-        <a class="btn btn-primary" href="@@autopath/index.html">Go back home</a>
+        <a class="btn btn-primary" href="./index.html">Go back home</a>
       </div>
       <!-- End Content -->
     </main>
@@ -48,15 +48,48 @@
 
     <!-- ========== FOOTER ========== -->
     <div class="position-absolute bottom-0 start-0 end-0">
-      @@include("@@autopath/partials/footer/variant-1.html")
+      <footer class="container py-4">
+        <div class="row align-items-md-center text-center text-md-start">
+          <div class="col-md mb-3 mb-md-0">
+            <p class="mb-0">© Swahilipot June 2023.</p>
+          </div>
+      
+          <div class="col-md d-md-flex justify-content-md-end">
+            <!-- Socials -->
+            <ul class="list-inline mb-0">
+              <li class="list-inline-item">
+                <a class="btn btn-icon btn-sm btn-ghost-secondary rounded-circle" href="#">
+                  <i class="bi-facebook"></i>
+                </a>
+              </li>
+              <li class="list-inline-item">
+                <a class="btn btn-icon btn-sm btn-ghost-secondary rounded-circle" href="#">
+                  <i class="bi-twitter"></i>
+                </a>
+              </li>
+              <li class="list-inline-item">
+                <a class="btn btn-icon btn-sm btn-ghost-secondary rounded-circle" href="#">
+                  <i class="bi-github"></i>
+                </a>
+              </li>
+              <li class="list-inline-item">
+                <a class="btn btn-icon btn-sm btn-ghost-secondary rounded-circle" href="#">
+                  <i class="bi-slack"></i>
+                </a>
+              </li>
+            </ul>
+            <!-- End Socials -->
+          </div>
+        </div>
+      </footer>
     </div>
     <!-- ========== END FOOTER ========== -->
 
     <!-- JS Global Compulsory @@deleteLine:build -->
-    <script src="@@autopath/node_modules/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="./node_modules/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
 
     <!-- JS Space -->
     <!-- bundlejs:theme [@@autopath] -->
-    <script src="@@autopath/assets/js/hs.core.js"></script>
+    <script src="./assets/js/hs.core.js"></script>
   </body>
 </html>
